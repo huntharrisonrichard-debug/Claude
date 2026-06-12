@@ -61,11 +61,25 @@ these owner-side steps — they can't be done from inside the container:
    via `${...}`.
 3. **Container prereqs:** ensure the environment's setup script installs `uv` / Python
    3.10+ (needed to run `uvx webull-openapi-mcp`).
-4. **Network policy:** in the environment's **Custom** allowed domains, add
-   **`*.webullbroker.com`** (the live US OpenAPI + OAuth endpoints, e.g.
-   `us-openapi-alb.uat.webullbroker.com`) and **tick "Also include default list of common
-   package managers"** so `uvx` can install the server from PyPI. Note: `developer.webull.com`
-   is only the docs portal — the server does not connect there at runtime.
+4. **Network policy:** in the environment's **Custom** allowed domains, add the runtime
+   hosts below and **tick "Also include default list of common package managers"** so
+   `uvx` can install the server from PyPI. The egress proxy denies anything not listed
+   (`x-deny-reason: host_not_allowed`), and a single-level `*.webullbroker.com` does **not**
+   match the multi-level UAT host, so list these explicitly:
+   - `*.webullbroker.com`        (prod API/OAuth/quotes, e.g. `quotes-gw.webullbroker.com`)
+   - `*.uat.webullbroker.com`    (UAT API/OAuth, e.g. `us-openapi-alb.uat.webullbroker.com`)
+   - `*.webull.com`              (prod API host `api.webull.com`)
+
+   `developer.webull.com` is only the docs portal — the server never connects there at
+   runtime. **Allowlist changes only take effect in a new session** (the egress cache is
+   rebuilt at session start).
+
+5. **TLS interception:** all outbound HTTPS is MITM'd by Anthropic's egress proxy. The
+   Webull SDK uses its own `certifi` bundle, which rejects the proxy cert
+   (`CERTIFICATE_VERIFY_FAILED: self-signed certificate`). Fixed in `.mcp.json` via
+   `WEBULL_API_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt` (the system bundle, which
+   includes the proxy's `TLS Inspection CA`). The SDK reads this env var specifically;
+   `REQUESTS_CA_BUNDLE`/`SSL_CERT_FILE` are ignored by it.
 
 > **Secrets note:** Claude Code on the web has no dedicated secrets store yet — environment
 > variables are the only mechanism and are visible to anyone who can edit the environment.
