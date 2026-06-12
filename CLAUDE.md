@@ -31,7 +31,11 @@ These rules govern everything. A violation is a critical failure even if it make
    without that approval is forbidden.
 5. **Swing-trade, PDT-safe.** Hold positions across days. Keep to **≤ 3 day-trades per
    rolling 5 business days** (Pattern Day Trader rule; account is < $25k). Respect cash
-   settlement — do **not** re-spend proceeds that haven't settled.
+   settlement — do **not** re-spend proceeds that haven't settled. When **LIVE**, size buys
+   to the account's actual Webull **buying power** (settled cash), NOT the displayed cash
+   balance — a cash account rejects buys above buying power. When **PAPER**, you may simulate
+   against the full sleeve value, but note in the recap that live buying power may be lower
+   until cash settles.
 6. **7% stop-loss** on every sleeve position (see §2).
 7. **Log + notify.** Every order you place is written to `portfolio/sleeve-ledger.csv` and
    `portfolio/transactions.log`, and emailed to the owner.
@@ -135,17 +139,21 @@ The **close** check additionally writes the end-of-day roll-up and appends a row
 - **One source of truth.** `portfolio/holdings.csv` (with `bucket`) + `sleeve-ledger.csv`
   are the durable records. Reconcile against Webull every run when connected.
 
-## 7. Email alerts & the permission flow (Gmail via Zapier)
+## 7. Email recap & the permission flow (Gmail via Zapier)
 
-- **Trade & stop-loss alerts:** email the owner on every executed trade and every 7% stop —
-  subject like `[Trading Agent] BOUGHT 8 ABCD @ 12.40 (12% of sleeve)` or
-  `[Trading Agent] STOP-LOSS SELL: ABCD -7.3%`; body = ticker, shares, price, sleeve impact,
-  one-line rationale.
-- **Permission-to-exceed-15%:** when you want a larger position, email a concise case
-  (ticker, conviction, proposed size, why, risk) with subject
-  `[Trading Agent] PERMISSION REQUEST: oversize ABCD to N%` and **do not act until the owner
-  replies yes**. Default to ≤15% while waiting.
-- Don't email routine "nothing to do" checks.
+- **End-of-day recap (primary channel):** the **close check** sends ONE email per market
+  day to **hhunt@unreleaseparty.com** via the Gmail Zapier action `gmail_send_email`
+  (`execute_zapier_write_action`; params `to`, `subject`, `body`, `body_type`). Compose it
+  in the **Daily Upside voice** defined in `routines/email-recap.md` — concise, witty,
+  numeric: the day's trades + moves + reasoning, the sleeve scorecard, and what's on deck.
+  Send it **every** market day, even quiet ones (then keep it to a couple of lines). Always
+  label clearly whether trades were **PAPER (simulated)** or **LIVE**.
+- **Immediate alerts (safety-critical only):** send a separate email the moment you (a)
+  execute a 7% stop-loss sell, or (b) raise a **permission-to-exceed-15%** request
+  (ticker, conviction, proposed size, why, risk — subject
+  `[Trading Agent] PERMISSION REQUEST: oversize ABCD to N%`; **do not act until the owner
+  replies yes**, default ≤15% while waiting). Everything else waits for the EOD recap.
+- Don't send mid-day "nothing to do" emails — those roll into the recap.
 
 ## 8. Voice & discipline
 

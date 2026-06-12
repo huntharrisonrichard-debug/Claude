@@ -43,19 +43,28 @@ routines/                   The prompts you paste into the Routines feature
    KTOS and UNCY are seeded as `protected`; on Webull connect the agent snapshots all
    pre-existing holdings as `protected` and confirms the exact sleeve cash. The 7% stop and
    all trading apply only to `sleeve` rows.
-2. **Create the routines.** In the Routines feature, create scheduled runs that each use
-   the matching prompt file. Suggested schedule (U.S. Eastern, **market days only**):
+2. **Create the routines.** In the Routines feature, create 5 scheduled runs on the
+   **Webull-connected environment**, Mon–Fri (U.S. Eastern). Each prompt: `You are the
+   trading agent. Read CLAUDE.md, then run routines/<file> now.`
 
-   | Time (ET) | Routine prompt |
+   | Time (ET) | Routine file |
    |---|---|
-   | 09:35 | `routines/market-open.md` |
-   | 11:00 | `routines/intraday.md` |
-   | 12:45 | `routines/intraday.md` |
-   | 14:15 | `routines/intraday.md` |
-   | 15:50 | `routines/market-close.md` (runs the weekly review on Fridays) |
+   | 9:35 AM | `routines/market-open.md` |
+   | 11:00 AM | `routines/intraday.md` |
+   | 12:45 PM | `routines/intraday.md` |
+   | 2:15 PM | `routines/intraday.md` |
+   | 3:50 PM | `routines/market-close.md` (sends EOD email; runs weekly review on Fridays) |
 
-3. **(Optional) Email alerts.** Gmail is connected via Zapier. Turn alerts on by saying so
-   — the agent will email you on SELL FLAGs (see `CLAUDE.md` §7).
+   The agent skips market holidays itself; no separate weekly routine is needed.
+
+3. **Email recap.** The close check emails a once-daily **EOD recap** to
+   **hhunt@unreleaseparty.com** via Gmail (Zapier) — Daily Upside voice, every market day.
+   Safety-critical events (a 7% stop sell, a 15%-permission request) also send an immediate
+   email. Voice/structure live in `routines/email-recap.md`; behavior in `CLAUDE.md` §7.
+
+4. **Go live when ready.** The agent runs in **paper** mode (`portfolio/TRADING_MODE`) — it
+   simulates and emails but places no real orders. Set the file's first line to `live` to
+   enable real execution within the §0 mandate.
 
 ## Connecting Webull (optional, recommended)
 Right now the agent runs in **advisory mode**: it reads positions from `holdings.csv` and

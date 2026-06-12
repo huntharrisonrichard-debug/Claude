@@ -15,5 +15,7 @@ of the day** — run the full per-run workflow (CLAUDE.md §4), then close out t
 7. Update `research/RESEARCH.md` with the day's learnings.
 8. **If today is Friday** (or the last market day of the week), also run
    `routines/weekly-review.md`.
-9. Send the daily Gmail summary only if there's something worth reporting.
+9. **Send the EOD recap email** to hhunt@unreleaseparty.com — compose it in the Daily Upside
+   voice per `routines/email-recap.md` and send via the Gmail action `gmail_send_email`.
+   Send every market day (quiet days get a 2-line note). Label PAPER vs LIVE.
 10. Commit and push.
