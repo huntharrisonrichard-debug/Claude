@@ -1,0 +1,6 @@
+# Append-only log of every buy/sell — both PROPOSED (agent recommendation) and EXECUTED
+# (confirmed by you / placed via Webull). Newest at the bottom. Never rewrite history.
+# Format: ISO8601_ET | STATUS | SIDE | TICKER | SHARES | PRICE | RATIONALE
+# STATUS = PROPOSED | EXECUTED | CANCELED   SIDE = BUY | SELL
+# Example:
+# 2026-06-12T09:35:00-04:00 | PROPOSED | SELL | XYZ | 10 | 92.10 | 7% stop-loss hit (-7.9% vs cost basis 100.00)

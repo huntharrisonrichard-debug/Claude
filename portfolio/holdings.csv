@@ -1,0 +1,8 @@
+# Source of truth for current positions. The agent reads this every run and computes
+# the 7%-from-cost-basis stop-loss against it. Keep it accurate.
+# - Edit this when you buy/sell, OR let the agent reconcile it from Webull once connected.
+# - cost_basis = your average purchase price per share (what the 7% rule measures from).
+# - purchase_date = ISO date (YYYY-MM-DD); for averaged lots use the most recent add.
+# - Remove the example row below and add your real Webull positions.
+ticker,shares,cost_basis,purchase_date,notes
+# EXAMPLE,10,100.00,2026-06-01,delete this example row
