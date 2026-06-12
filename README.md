@@ -47,12 +47,26 @@ Right now the agent runs in **advisory mode**: it reads positions from `holdings
 gets quotes via web search. It does **not** have Webull access in this environment — your
 Webull "chat" link lives in Claude **Desktop**, not here.
 
-To give the *agent* live positions/quotes and (confirmation-gated) order capability, add
-the **[Webull OpenAPI MCP server](https://github.com/webull-inc/webull-openapi-mcp)** as a
-connector to whatever environment runs your routines, using your Webull OpenAPI App
-Key/Secret. Once its tools appear, the agent prefers them automatically and reconciles
-live positions back into `holdings.csv` (see `CLAUDE.md` §3). Order placement always
-stays **confirmation-required** — the agent proposes, you approve.
+To give the *agent* live positions/quotes and (confirmation-gated) order capability, the
+**[Webull OpenAPI MCP server](https://github.com/webull-inc/webull-openapi-mcp)** is wired
+up via the committed **`.mcp.json`** at the repo root (Claude Code auto-loads it every
+session). It runs as a local stdio process inside the container. To activate it, complete
+these owner-side steps — they can't be done from inside the container:
+
+1. **Credentials:** at developer.webull.com, create an app → copy `WEBULL_APP_KEY` and
+   `WEBULL_APP_SECRET`; enable a market-data subscription; register your device in the
+   Webull mobile app.
+2. **Secrets:** add `WEBULL_APP_KEY` and `WEBULL_APP_SECRET` as environment variables in
+   the **Claude Code web environment settings** (NOT the repo). `.mcp.json` references them
+   via `${...}`.
+3. **Container prereqs:** ensure the environment's setup script installs `uv` / Python
+   3.10+ (needed to run `uvx webull-openapi-mcp`).
+4. **Network policy:** allow outbound access to `developer.webull.com`.
+
+`.mcp.json` ships with `WEBULL_ENVIRONMENT=uat` (sandbox) — verify there first, then flip
+to `prod` for live trading. Once `mcp__webull__*` tools appear, the agent prefers them
+automatically and reconciles live positions back into `holdings.csv` (see `CLAUDE.md` §3).
+Order placement always stays **confirmation-required** — the agent proposes, you approve.
 
 ## Important
 This agent is a research and monitoring tool, not financial advice, and it does not place
