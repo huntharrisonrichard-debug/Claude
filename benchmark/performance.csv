@@ -1,6 +1,7 @@
-# Daily portfolio value vs S&P 500. The agent appends one row per market close.
+# Daily CASH-SLEEVE value vs S&P 500. The agent appends one row per market close.
+# Scored on the sleeve only (cash + agent-opened positions) — NOT the protected holdings.
 # The first row is the INCEPTION baseline; all returns are measured from it.
-# portfolio_return_pct and sp500_return_pct are cumulative since inception.
-# relative_pct = portfolio_return_pct - sp500_return_pct  (positive = beating the S&P 500).
-date,portfolio_value,sp500_level,portfolio_return_pct,sp500_return_pct,relative_pct,note
-2026-06-12,,7449,,0.0,,INCEPTION baseline (S&P 500 close); portfolio positions not yet loaded
+# sleeve_return_pct and sp500_return_pct are cumulative since inception.
+# relative_pct = sleeve_return_pct - sp500_return_pct  (positive = beating the S&P 500).
+date,sleeve_value,sp500_level,sleeve_return_pct,sp500_return_pct,relative_pct,note
+2026-06-12,800.00,7449,0.0,0.0,0.0,INCEPTION baseline. Sleeve ~$800 cash (confirm from Webull); S&P 500 close 7449. No trades yet.

@@ -1,33 +1,48 @@
 # 24/7 Trading Agent
 
-An autonomous trading **research & monitoring** agent that runs on market days via the
-Claude **Routines** feature. Its single objective: **outperform the S&P 500**, while
-enforcing the owner's core rule — **sell any holding that falls 7% below its purchase
-price**. It keeps a living research file, a daily journal, and a weekly scorecard.
+An **autonomous stock-trading** agent that runs on market days via the Claude **Routines**
+feature. It trades a **ring-fenced cash sleeve** in the owner's Webull account, aiming to
+**beat the S&P 500** with that sleeve, while keeping a living research file, a daily
+journal, and a weekly scorecard.
 
 The agent's full behavior is defined in **[`CLAUDE.md`](./CLAUDE.md)** — start there.
 
+## The trading mandate (hard rules — see `CLAUDE.md` §0)
+- **Trades the cash sleeve only** (~$800 + its own realized P/L). Never the rest of the account.
+- **Protected holdings are off-limits:** KTOS, UNCY, and all pre-existing positions are
+  never sold, trimmed, or added to.
+- **Stocks only, long only.** No options, no margin, no shorting.
+- **≤ 15% of the sleeve per position** — to exceed, the agent emails a case and waits for
+  the owner's yes.
+- **Swing-trade, PDT-safe** (≤3 day-trades / 5 business days; respects cash settlement).
+- **7% stop-loss** on every sleeve position (auto-executed).
+- **Fully autonomous within those limits**; every trade is logged and emailed.
+
 ## How it works
-On every check the agent reads its state, gets quotes for your holdings + watchlist + the
-S&P 500, runs the 7%-from-cost-basis stop-loss scan, journals what it saw, updates
-research, and commits — so the next (ephemeral) run picks up exactly where it left off.
+On every check the agent reconciles positions + cash from Webull, runs the 7% stop-loss
+scan on its sleeve positions, scans for buys that fit the limits, executes within the
+mandate, journals what it did, updates research, and commits — so the next (ephemeral) run
+picks up exactly where it left off.
 
 ## Layout
 ```
-CLAUDE.md              Operating manual (the agent's brain)
+CLAUDE.md                   Operating manual (the agent's brain; §0 is the mandate)
 portfolio/
-  holdings.csv         Your positions + cost basis — SOURCE OF TRUTH (edit this)
-  transactions.log     Append-only buy/sell log
-research/RESEARCH.md   Living research: macro, theses, watchlist, learnings
-journal/               Daily journal, one entry per check (journal/YYYY/MM/YYYY-MM-DD.md)
-reviews/               Weekly review vs the S&P 500
-benchmark/performance.csv   Daily portfolio vs S&P 500 tracking
-routines/              The prompts you paste into the Routines feature
+  holdings.csv              Positions tagged `protected` (off-limits) or `sleeve` (tradeable)
+  sleeve-ledger.csv         Cash-sleeve accounting: cash, positions value, realized P/L
+  transactions.log          Append-only buy/sell log
+research/RESEARCH.md        Living research: macro, theses, watchlist, learnings
+journal/                    Daily journal, one entry per check (journal/YYYY/MM/YYYY-MM-DD.md)
+reviews/                    Weekly review vs the S&P 500
+benchmark/performance.csv   Daily SLEEVE value vs S&P 500 tracking
+routines/                   The prompts you paste into the Routines feature
 ```
 
 ## Setup
-1. **Add your positions** to `portfolio/holdings.csv` (ticker, shares, cost_basis,
-   purchase_date). The 7% rule measures loss from `cost_basis`.
+1. **Positions** in `portfolio/holdings.csv` carry a `bucket` (`protected` | `sleeve`).
+   KTOS and UNCY are seeded as `protected`; on Webull connect the agent snapshots all
+   pre-existing holdings as `protected` and confirms the exact sleeve cash. The 7% stop and
+   all trading apply only to `sleeve` rows.
 2. **Create the routines.** In the Routines feature, create scheduled runs that each use
    the matching prompt file. Suggested schedule (U.S. Eastern, **market days only**):
 

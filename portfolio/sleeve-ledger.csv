@@ -1,0 +1,12 @@
+# Cash-sleeve accounting — the ONLY capital the agent trades. Append-only; newest at bottom.
+# Rules enforced by this sleeve (see CLAUDE.md §0):
+#   - initial_cash ~= $800 (confirm exact from Webull on connect)
+#   - sleeve_total = cash + value of agent-opened (sleeve) positions; never includes protected holdings
+#   - <=15% of sleeve_total per position (exceed only with emailed owner approval)
+#   - swing/PDT-safe: <=3 day-trades per rolling 5 business days; respect cash settlement
+#   - stocks only, long only; no options/margin/shorting
+#   - 7% stop-loss from cost basis on every sleeve position
+# action = INCEPTION | BUY | SELL | STOP_SELL | PAPER_BUY | PAPER_SELL | RECONCILE
+# realized_pnl = cumulative realized profit/loss from sleeve trades since inception.
+date,action,ticker,shares,price,cash_after,positions_value,sleeve_total,realized_pnl,note
+2026-06-12,INCEPTION,,,,800.00,0.00,800.00,0.00,Sleeve opened (~$800 cash; confirm exact balance from Webull on connect). No trades yet.
