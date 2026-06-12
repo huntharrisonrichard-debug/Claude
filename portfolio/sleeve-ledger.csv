@@ -9,4 +9,4 @@
 # action = INCEPTION | BUY | SELL | STOP_SELL | PAPER_BUY | PAPER_SELL | RECONCILE
 # realized_pnl = cumulative realized profit/loss from sleeve trades since inception.
 date,action,ticker,shares,price,cash_after,positions_value,sleeve_total,realized_pnl,note
-2026-06-12,INCEPTION,,,,800.00,0.00,800.00,0.00,Sleeve opened (~$800 cash; confirm exact balance from Webull on connect). No trades yet.
+2026-06-12,INCEPTION,,,,897.79,0.00,897.79,0.00,Sleeve = cash $897.79 (live Webull read). NOTE only $34.75 settled / $863.04 unsettled / buying power $0.00 -> no spendable cash yet. No agent positions; all 5 holdings are protected.

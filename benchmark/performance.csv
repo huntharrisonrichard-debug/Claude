@@ -4,4 +4,4 @@
 # sleeve_return_pct and sp500_return_pct are cumulative since inception.
 # relative_pct = sleeve_return_pct - sp500_return_pct  (positive = beating the S&P 500).
 date,sleeve_value,sp500_level,sleeve_return_pct,sp500_return_pct,relative_pct,note
-2026-06-12,800.00,7449,0.0,0.0,0.0,INCEPTION baseline. Sleeve ~$800 cash (confirm from Webull); S&P 500 close 7449. No trades yet.
+2026-06-12,897.79,7449,0.0,0.0,0.0,INCEPTION baseline. Sleeve = cash $897.79 (live Webull); S&P 500 close 7449. No agent trades yet.
