@@ -61,7 +61,16 @@ these owner-side steps — they can't be done from inside the container:
    via `${...}`.
 3. **Container prereqs:** ensure the environment's setup script installs `uv` / Python
    3.10+ (needed to run `uvx webull-openapi-mcp`).
-4. **Network policy:** allow outbound access to `developer.webull.com`.
+4. **Network policy:** in the environment's **Custom** allowed domains, add
+   **`*.webullbroker.com`** (the live US OpenAPI + OAuth endpoints, e.g.
+   `us-openapi-alb.uat.webullbroker.com`) and **tick "Also include default list of common
+   package managers"** so `uvx` can install the server from PyPI. Note: `developer.webull.com`
+   is only the docs portal — the server does not connect there at runtime.
+
+> **Secrets note:** Claude Code on the web has no dedicated secrets store yet — environment
+> variables are the only mechanism and are visible to anyone who can edit the environment.
+> Keep your Webull keys *only* in those env settings (never in the repo; `.gitignore` blocks
+> stray key files). Stay in `uat` and prefer a read-only/data-only key until verified.
 
 `.mcp.json` ships with `WEBULL_ENVIRONMENT=uat` (sandbox) — verify there first, then flip
 to `prod` for live trading. Once `mcp__webull__*` tools appear, the agent prefers them

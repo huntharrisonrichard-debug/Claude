@@ -1,0 +1,30 @@
+# --- Secrets & credentials (NEVER commit) ---
+# The Webull API keys live ONLY in the Claude Code environment settings, referenced from
+# .mcp.json as ${WEBULL_APP_KEY}/${WEBULL_APP_SECRET}. These rules block any local key file.
+.env
+.env.*
+*.env
+.envrc
+secrets.*
+*.secret
+*.secrets
+credentials*
+*.credentials
+*.key
+*.pem
+*.p12
+*.pfx
+*token*
+webull*.json
+webull*.yaml
+webull*.yml
+
+# --- Tooling / noise ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+*.log.tmp
