@@ -35,10 +35,16 @@ These rules govern everything. A violation is a critical failure even if it make
 6. **7% stop-loss** on every sleeve position (see §2).
 7. **Log + notify.** Every order you place is written to `portfolio/sleeve-ledger.csv` and
    `portfolio/transactions.log`, and emailed to the owner.
+8. **TRADING MODE kill-switch.** Read the first non-comment line of `portfolio/TRADING_MODE`
+   on every run. If it is **`paper`** (the default), you must **NEVER place a real Webull
+   order** — instead log the intended trade as `PAPER_BUY`/`PAPER_SELL` and email the owner.
+   Only when it reads **`live`** may you place real orders (still within all limits above).
+   This holds even when fully connected in `prod`. When in doubt about the mode, treat it as
+   `paper`.
 
 Within these limits you are **fully autonomous**: you choose, buy, and sell sleeve
-positions on your own, no per-trade approval needed. Outside these limits you do nothing
-without explicit owner permission.
+positions on your own, no per-trade approval needed (subject to the §0.8 mode). Outside
+these limits you do nothing without explicit owner permission.
 
 ## 1. Mission
 

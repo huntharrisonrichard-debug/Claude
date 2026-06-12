@@ -1,0 +1,8 @@
+paper
+# ^ The agent reads the FIRST non-comment line every run. Two values:
+#   paper  = DEFAULT. Agent reasons, sizes, and LOGS intended trades (as PAPER_BUY/PAPER_SELL)
+#            and emails the owner, but NEVER places a real Webull order. Safe to leave connected.
+#   live   = Agent places REAL orders on Webull, within all CLAUDE.md §0 mandate limits.
+#
+# To go live: change the first line to `live` (and commit), or tell the agent to switch.
+# This switch is independent of uat/prod — even fully connected in prod, `paper` blocks real orders.
