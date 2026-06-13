@@ -24,6 +24,8 @@ token.txt
 # Exception: the ENCRYPTED token blob IS committed (useless without WEBULL_TOKEN_ENC_KEY).
 # Must come after *token* above, which would otherwise catch it.
 !.webull/token.enc
+# Exception: the token-management script is safe to commit (no secrets inside).
+!scripts/webull-token.sh
 
 # --- Tooling / noise ---
 __pycache__/
