@@ -8,28 +8,22 @@ Status of the 24/7 trading agent. Check items off as you go.
 - [x] All 5 pre-existing positions recorded as **protected** (COHR, ALL, KTOS, UNCY, CTRI)
 - [x] Webull connected (prod) + account reconciled (sleeve = $897.79 cash, 0 agent positions)
 - [x] Paper/live kill-switch (`portfolio/TRADING_MODE`, default **paper**)
-- [x] EOD recap email (Daily Upside voice) wired into the close check → hhunt@unreleaseparty.com
+- [x] EOD recap email (Daily Upside voice) → hhunt@unreleaseparty.com AND hunt.harrisonrichard@gmail.com
 - [x] Gmail-send permission rule (`.claude/settings.json`)
-- [x] Encrypted token persistence built + SessionStart restore hook
 - [x] 5 routines created (you)
-- [x] `WEBULL_TOKEN_ENC_KEY` env secret set (you)
 
 ## ⚠️ Reality: Webull requires in-app 2FA on EVERY API session
-Webull forces a 2FA approval each new session, so token persistence alone won't avoid it.
-The agent handles this with a **connect handshake**: at the start of each run it posts a loud
-`🔔 ACTION NEEDED` alert, then makes the first Webull call — Webull's server **waits up to 5
-minutes** for you to tap approve in the app. Set phone alarms at the routine times; approve
-when the alert fires. If 5 min pass unapproved, that run falls back to paper/snapshot.
+The agent just makes the Webull call; the approval prompt appears in your app; you approve.
+Set phone alarms at the routine times and approve when a check runs. If it isn't approved,
+that run falls back to paper/snapshot. (No token caching — Webull forces fresh 2FA regardless.)
 
 ## ⬜ To do now (one-time, in fresh sessions)
 - [ ] **Verify the EOD email.** Fresh session: "Send a test EOD recap to
       hhunt@unreleaseparty.com and hunt.harrisonrichard@gmail.com per `routines/email-recap.md`."
       Confirm it arrives at both + the voice is right.
-- [ ] **Trial the connect handshake.** At a routine time (or trigger market-open manually) with
-      the app handy: confirm the agent posts the `🔔 ACTION NEEDED` alert, you approve in the
-      app, and it then reads the account, runs the 7% scan, journals, and commits.
-- [ ] **(Optional) bootstrap the encrypted token** anyway: app open → "pull balance, then run
-      `bash scripts/webull-token.sh save` and commit." Harmless; helps if Webull ever relaxes.
+- [ ] **Trial a run.** At a routine time (or trigger market-open manually) with the app handy:
+      approve the Webull 2FA when prompted, then confirm it reads the account, runs the 7% scan,
+      journals, and commits.
 
 ## 🔭 Watch / ongoing
 - [ ] **Settlement.** Right now $863 of the $897.79 is unsettled and buying power is $0 — even

@@ -82,24 +82,12 @@ pl_pct = (current_price - cost_basis) / cost_basis * 100
    level. In this mode you operate in **paper/advisory** — you cannot place real orders, so
    record proposed trades in the ledger as `PAPER` and email the owner instead of executing.
 
-**Webull auth — 2FA connect handshake (do this FIRST, before any other Webull call).**
-Webull enforces in-app 2FA on every new API session. So at the very start of each run, before
-reconciling or quoting:
-1. **Alert the owner loudly, up front**, with a message that stands alone in the session so
-   their Claude app pings them — e.g.:
-   `🔔 ACTION NEEDED NOW: open Webull and approve the API/2FA request. I'll wait up to ~5 min.`
-2. **Then make the first Webull call** (e.g., fetch account balance). The Webull server
-   **automatically polls for up to 5 minutes** (every 5s) for the approval — so once you tap
-   approve in the app, the call goes through and the session is authenticated for the rest of
-   the run.
-3. **If approved → proceed** (reconcile, scan, trade per mode). **If 5 minutes pass with no
-   approval → do NOT hang**: fall back to **paper/snapshot** mode for this run (use
-   `holdings.csv` + WebSearch), note "Webull not approved this run" in the journal, and say so
-   in the EOD recap. The next routine run will alert again.
-
-The encrypted token (`scripts/webull-token.sh restore`/`save`, §4.10) is still restored each
-run — if Webull ever accepts it silently, great; if it still demands 2FA, the handshake above
-covers it. Never invent prices: if neither Webull nor a quote is available, skip that ticker.
+**Webull auth.** Webull requires in-app 2FA each session. When you make the first Webull call,
+an approval request appears in the owner's Webull app; the owner approves it there and the
+session is authenticated for the rest of the run. Post a brief heads-up so the owner knows to
+approve. If Webull doesn't connect (not approved / unavailable), run the check in
+**paper/snapshot** mode (`holdings.csv` + WebSearch) and note it. Never invent prices — skip a
+ticker you can't quote.
 
 State in the journal which source you used and how fresh the prices are. Never invent a
 price — if you can't get a reliable quote, say so and skip the numeric call for that ticker.
@@ -110,11 +98,10 @@ price — if you can't get a reliable quote, say so and skip the numeric call fo
    `portfolio/holdings.csv`, `portfolio/sleeve-ledger.csv`. Create today's journal from
    `journal/TEMPLATE.md` if needed (U.S. Eastern date).
 2. **Market status:** open / closed / holiday (WebSearch if unsure). Note the time (ET).
-3. **Connect & reconcile:** run the Webull **2FA connect handshake (§3) FIRST** — alert the
-   owner, then make the first call (server waits ~5 min for approval). Once connected, pull
-   positions + cash; confirm protected positions are untouched and tagged `protected`; confirm
-   the sleeve cash + sleeve positions match the ledger; fix any drift, note it. If not approved
-   within 5 min, run this check in paper/snapshot mode.
+3. **Connect & reconcile:** make the first Webull call (approve the 2FA in the app when it
+   prompts — see §3). Once connected, pull positions + cash; confirm protected positions are
+   untouched and tagged `protected`; confirm sleeve cash + positions match the ledger; fix any
+   drift, note it. If Webull doesn't connect, run this check in paper/snapshot mode.
 4. **Quotes:** current prices for sleeve positions, watchlist names in `RESEARCH.md`, and
    the **S&P 500** (^GSPC / SPX, or SPY proxy).
 5. **Stop-loss scan:** compute `pl_pct` for each **sleeve** position → execute 7% sells,
@@ -128,9 +115,7 @@ price — if you can't get a reliable quote, say so and skip the numeric call fo
    Always add at least one **Learnings & Observations** line.
 9. **Ledger + alerts:** record every trade in `portfolio/sleeve-ledger.csv` and
    `portfolio/transactions.log`; email the owner on any trade or stop-loss (§7).
-10. **Persist:** if Webull was used this run, first run `bash scripts/webull-token.sh save`
-    to capture the refreshed token into `.webull/token.enc`. Then
-    `git add -A && git commit && git push -u origin claude/youthful-bardeen-cw6cs1`.
+10. **Persist:** `git add -A && git commit && git push -u origin claude/youthful-bardeen-cw6cs1`.
     The container is ephemeral — **uncommitted work is lost.** Commit every run.
 
 The **close** check additionally writes the end-of-day roll-up and appends a row to

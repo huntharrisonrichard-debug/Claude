@@ -6,18 +6,5 @@
     "allow": [
       "mcp__Zapier__execute_zapier_write_action"
     ]
-  },
-  "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash scripts/webull-token.sh restore",
-            "timeout": 30
-          }
-        ]
-      }
-    ]
   }
 }

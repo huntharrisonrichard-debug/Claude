@@ -8,8 +8,7 @@
         "WEBULL_APP_SECRET": "${WEBULL_APP_SECRET}",
         "WEBULL_REGION_ID": "us",
         "WEBULL_ENVIRONMENT": "prod",
-        "WEBULL_API_CA_BUNDLE": "/etc/ssl/certs/ca-certificates.crt",
-        "WEBULL_OPENAPI_TOKEN_DIR": "/home/user/Claude/.webull"
+        "WEBULL_API_CA_BUNDLE": "/etc/ssl/certs/ca-certificates.crt"
       }
     }
   }
