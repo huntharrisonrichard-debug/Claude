@@ -38,4 +38,4 @@ that run falls back to paper/snapshot. (No token caching — Webull forces fresh
 ## Reference
 - Routine schedule (ET, Mon–Fri): 9:35 open · 11:00 / 12:45 / 2:15 intraday · 3:50 close (+ Fri weekly review)
 - Modes: `portfolio/TRADING_MODE` = `paper` (simulate) | `live` (real orders)
-- Webull auth details: `docs/webull-auth.md`
+- Webull auth: in-app 2FA each session (approve in the app; else the run uses paper/snapshot)
