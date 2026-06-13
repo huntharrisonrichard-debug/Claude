@@ -82,12 +82,21 @@ pl_pct = (current_price - cost_basis) / cost_basis * 100
    level. In this mode you operate in **paper/advisory** — you cannot place real orders, so
    record proposed trades in the ledger as `PAPER` and email the owner instead of executing.
 
-**Webull auth.** Webull requires in-app 2FA each session. When you make the first Webull call,
-an approval request appears in the owner's Webull app; the owner approves it there and the
-session is authenticated for the rest of the run. Post a brief heads-up so the owner knows to
-approve. If Webull doesn't connect (not approved / unavailable), run the check in
-**paper/snapshot** mode (`holdings.csv` + WebSearch) and note it. Never invent prices — skip a
-ticker you can't quote.
+**Webull auth — GIVE THE OWNER TIME TO APPROVE (do not bail instantly).** Webull requires
+in-app 2FA each session. The connect sequence, before anything else:
+1. **Announce first**, as a standalone line so the owner's app pings them:
+   `🔔 Approve the Webull 2FA in your app now — connecting...`
+2. **Attempt to connect** (e.g., fetch balance). If it returns not-authenticated / PENDING /
+   error, **wait and retry** — `sleep 15` between attempts, **up to ~6 attempts (~90 seconds
+   total)** — re-checking each time. The instant a call succeeds you're connected; proceed.
+   This gives the owner a comfortable window (far more than a few seconds) to tap approve.
+3. **Only after the full ~90s window** with no approval: fall back to `holdings.csv` +
+   WebSearch for this run, and label that data clearly as **STALE / unconfirmed**.
+
+**NEVER place a trade on stale/snapshot data.** A real order requires a **fresh, live Webull
+connection and live buying power**. If you could not connect this run, place **no orders** —
+just journal "Webull not connected; no trades" and move on. A skipped check is safe; trading
+on stale data is not. Never invent prices — skip a ticker you can't quote.
 
 State in the journal which source you used and how fresh the prices are. Never invent a
 price — if you can't get a reliable quote, say so and skip the numeric call for that ticker.
