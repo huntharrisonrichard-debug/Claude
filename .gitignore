@@ -18,8 +18,12 @@ credentials*
 webull*.json
 webull*.yaml
 webull*.yml
-.webull/
+.webull/token.txt
+.webull/*.tmp
 token.txt
+# Exception: the ENCRYPTED token blob IS committed (useless without WEBULL_TOKEN_ENC_KEY).
+# Must come after *token* above, which would otherwise catch it.
+!.webull/token.enc
 
 # --- Tooling / noise ---
 __pycache__/

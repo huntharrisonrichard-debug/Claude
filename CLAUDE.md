@@ -82,6 +82,14 @@ pl_pct = (current_price - cost_basis) / cost_basis * 100
    level. In this mode you operate in **paper/advisory** — you cannot place real orders, so
    record proposed trades in the ledger as `PAPER` and email the owner instead of executing.
 
+**Webull auth / token persistence.** The Webull login token (`~15-day` life) is restored
+automatically at session start by the SessionStart hook (`scripts/webull-token.sh restore`,
+decrypting `.webull/token.enc`). You **save it each run** in the persist step (§4.10). If a
+Webull call fails with an auth/PENDING/EXPIRED error, the token has expired: **fall back to
+paper/snapshot mode for this run and email the owner** — subject
+`[Trading Agent] ACTION: re-approve Webull in the app` — asking them to open one session
+with the app open so a fresh token can be minted. Do not hang waiting on 2FA.
+
 State in the journal which source you used and how fresh the prices are. Never invent a
 price — if you can't get a reliable quote, say so and skip the numeric call for that ticker.
 
@@ -107,7 +115,9 @@ price — if you can't get a reliable quote, say so and skip the numeric call fo
    Always add at least one **Learnings & Observations** line.
 9. **Ledger + alerts:** record every trade in `portfolio/sleeve-ledger.csv` and
    `portfolio/transactions.log`; email the owner on any trade or stop-loss (§7).
-10. **Persist:** `git add -A && git commit && git push -u origin claude/youthful-bardeen-cw6cs1`.
+10. **Persist:** if Webull was used this run, first run `bash scripts/webull-token.sh save`
+    to capture the refreshed token into `.webull/token.enc`. Then
+    `git add -A && git commit && git push -u origin claude/youthful-bardeen-cw6cs1`.
     The container is ephemeral — **uncommitted work is lost.** Commit every run.
 
 The **close** check additionally writes the end-of-day roll-up and appends a row to
