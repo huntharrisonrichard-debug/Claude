@@ -4,6 +4,7 @@
   "inputNeededNotifEnabled": true,
   "permissions": {
     "allow": [
+      "mcp__webull",
       "mcp__Zapier__execute_zapier_write_action"
     ]
   }
