@@ -1,5 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "agentPushNotifEnabled": true,
+  "inputNeededNotifEnabled": true,
   "permissions": {
     "allow": [
       "mcp__Zapier__execute_zapier_write_action"

@@ -14,17 +14,22 @@ Status of the 24/7 trading agent. Check items off as you go.
 - [x] 5 routines created (you)
 - [x] `WEBULL_TOKEN_ENC_KEY` env secret set (you)
 
+## ⚠️ Reality: Webull requires in-app 2FA on EVERY API session
+Webull forces a 2FA approval each new session, so token persistence alone won't avoid it.
+The agent handles this with a **connect handshake**: at the start of each run it posts a loud
+`🔔 ACTION NEEDED` alert, then makes the first Webull call — Webull's server **waits up to 5
+minutes** for you to tap approve in the app. Set phone alarms at the routine times; approve
+when the alert fires. If 5 min pass unapproved, that run falls back to paper/snapshot.
+
 ## ⬜ To do now (one-time, in fresh sessions)
-- [ ] **Bootstrap the token.** Fresh session, **Webull app open**: "Pull my Webull balance
-      (I'll approve the 2FA), then run `bash scripts/webull-token.sh save` and commit + push."
-      → creates the first `.webull/token.enc`.
-- [ ] **Verify persistence.** A *second* fresh session, **app closed**: "Pull my Webull
-      balance." Success with **no 2FA** = persistence works end-to-end.
 - [ ] **Verify the EOD email.** Fresh session: "Send a test EOD recap to
-      hhunt@unreleaseparty.com per `routines/email-recap.md`." Confirm it arrives + the voice
-      is right. (The send permission now applies in fresh sessions.)
-- [ ] **Watch the first scheduled routine run** (or trigger market-open manually) to confirm
-      the full pipeline: restore token → read account → 7% scan → journal entry → commit.
+      hhunt@unreleaseparty.com and hunt.harrisonrichard@gmail.com per `routines/email-recap.md`."
+      Confirm it arrives at both + the voice is right.
+- [ ] **Trial the connect handshake.** At a routine time (or trigger market-open manually) with
+      the app handy: confirm the agent posts the `🔔 ACTION NEEDED` alert, you approve in the
+      app, and it then reads the account, runs the 7% scan, journals, and commits.
+- [ ] **(Optional) bootstrap the encrypted token** anyway: app open → "pull balance, then run
+      `bash scripts/webull-token.sh save` and commit." Harmless; helps if Webull ever relaxes.
 
 ## 🔭 Watch / ongoing
 - [ ] **Settlement.** Right now $863 of the $897.79 is unsettled and buying power is $0 — even

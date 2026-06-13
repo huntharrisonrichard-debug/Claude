@@ -3,10 +3,11 @@
 The **close check** composes the day's recap using this guide and sends it via the Gmail
 Zapier action. One email per market day.
 
-- **Send to:** `hhunt@unreleaseparty.com`
+- **Send to:** `hhunt@unreleaseparty.com` **and** `hunt.harrisonrichard@gmail.com` (both)
 - **Action:** `gmail_send_email` (`execute_zapier_write_action`, selected_api `GoogleMailV2CLIAPI`)
-- **Params:** `to=hhunt@unreleaseparty.com`, `subject=<below>`, `body=<below>`,
-  `body_type=html` (use simple HTML: `<b>`, `<br>`, `<ul><li>`). Plain is fine as a fallback.
+- **Params:** `to=["hhunt@unreleaseparty.com","hunt.harrisonrichard@gmail.com"]`,
+  `subject=<below>`, `body=<below>`, `body_type=html` (simple HTML: `<b>`, `<br>`, `<ul><li>`).
+  Plain is fine as a fallback.
 
 ## Voice (model on *The Daily Upside*)
 Smart, brisk, lightly witty financial-newsletter tone. Lead with a sharp observation, back

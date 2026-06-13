@@ -82,13 +82,24 @@ pl_pct = (current_price - cost_basis) / cost_basis * 100
    level. In this mode you operate in **paper/advisory** — you cannot place real orders, so
    record proposed trades in the ledger as `PAPER` and email the owner instead of executing.
 
-**Webull auth / token persistence.** The Webull login token (`~15-day` life) is restored
-automatically at session start by the SessionStart hook (`scripts/webull-token.sh restore`,
-decrypting `.webull/token.enc`). You **save it each run** in the persist step (§4.10). If a
-Webull call fails with an auth/PENDING/EXPIRED error, the token has expired: **fall back to
-paper/snapshot mode for this run and email the owner** — subject
-`[Trading Agent] ACTION: re-approve Webull in the app` — asking them to open one session
-with the app open so a fresh token can be minted. Do not hang waiting on 2FA.
+**Webull auth — 2FA connect handshake (do this FIRST, before any other Webull call).**
+Webull enforces in-app 2FA on every new API session. So at the very start of each run, before
+reconciling or quoting:
+1. **Alert the owner loudly, up front**, with a message that stands alone in the session so
+   their Claude app pings them — e.g.:
+   `🔔 ACTION NEEDED NOW: open Webull and approve the API/2FA request. I'll wait up to ~5 min.`
+2. **Then make the first Webull call** (e.g., fetch account balance). The Webull server
+   **automatically polls for up to 5 minutes** (every 5s) for the approval — so once you tap
+   approve in the app, the call goes through and the session is authenticated for the rest of
+   the run.
+3. **If approved → proceed** (reconcile, scan, trade per mode). **If 5 minutes pass with no
+   approval → do NOT hang**: fall back to **paper/snapshot** mode for this run (use
+   `holdings.csv` + WebSearch), note "Webull not approved this run" in the journal, and say so
+   in the EOD recap. The next routine run will alert again.
+
+The encrypted token (`scripts/webull-token.sh restore`/`save`, §4.10) is still restored each
+run — if Webull ever accepts it silently, great; if it still demands 2FA, the handshake above
+covers it. Never invent prices: if neither Webull nor a quote is available, skip that ticker.
 
 State in the journal which source you used and how fresh the prices are. Never invent a
 price — if you can't get a reliable quote, say so and skip the numeric call for that ticker.
@@ -99,9 +110,11 @@ price — if you can't get a reliable quote, say so and skip the numeric call fo
    `portfolio/holdings.csv`, `portfolio/sleeve-ledger.csv`. Create today's journal from
    `journal/TEMPLATE.md` if needed (U.S. Eastern date).
 2. **Market status:** open / closed / holiday (WebSearch if unsure). Note the time (ET).
-3. **Reconcile (if Webull live):** pull positions + cash. Confirm protected positions are
-   untouched and tagged `protected`; confirm the sleeve cash + sleeve positions match the
-   ledger. Fix any drift, note it.
+3. **Connect & reconcile:** run the Webull **2FA connect handshake (§3) FIRST** — alert the
+   owner, then make the first call (server waits ~5 min for approval). Once connected, pull
+   positions + cash; confirm protected positions are untouched and tagged `protected`; confirm
+   the sleeve cash + sleeve positions match the ledger; fix any drift, note it. If not approved
+   within 5 min, run this check in paper/snapshot mode.
 4. **Quotes:** current prices for sleeve positions, watchlist names in `RESEARCH.md`, and
    the **S&P 500** (^GSPC / SPX, or SPY proxy).
 5. **Stop-loss scan:** compute `pl_pct` for each **sleeve** position → execute 7% sells,
@@ -152,8 +165,9 @@ The **close** check additionally writes the end-of-day roll-up and appends a row
 ## 7. Email recap & the permission flow (Gmail via Zapier)
 
 - **End-of-day recap (primary channel):** the **close check** sends ONE email per market
-  day to **hhunt@unreleaseparty.com** via the Gmail Zapier action `gmail_send_email`
-  (`execute_zapier_write_action`; params `to`, `subject`, `body`, `body_type`). Compose it
+  day to **hhunt@unreleaseparty.com AND hunt.harrisonrichard@gmail.com** via the Gmail Zapier
+  action `gmail_send_email` (`execute_zapier_write_action`; params `to` (both addresses,
+  comma-separated or as a list), `subject`, `body`, `body_type`). Compose it
   in the **Daily Upside voice** defined in `routines/email-recap.md` — concise, witty,
   numeric: the day's trades + moves + reasoning, the sleeve scorecard, and what's on deck.
   Send it **every** market day, even quiet ones (then keep it to a couple of lines). Always
