@@ -18,6 +18,8 @@ credentials*
 webull*.json
 webull*.yaml
 webull*.yml
+.webull/
+token.txt
 
 # --- Tooling / noise ---
 __pycache__/
