@@ -48,3 +48,10 @@ didn't, and any hypothesis to test._
 - 2026-06-12 — Agent initialized. Operating in advisory mode (no Webull connector in this
   environment; quotes via web search, positions from holdings.csv). Awaiting real
   positions to be populated.
+- 2026-06-15 (Mid-2, 15:18 ET) — Webull MCP connected fine at midday but did NOT surface any
+  tools on the Mid-2 run (full ~90s window, no connection). Reinforces that connection is
+  per-run and not guaranteed; the safe default holds — no live read → no orders. S&P ~7,527,
+  ≈+1.05% since inception. Macro: US–Iran peace deal → risk-on, defense premiums compress
+  (KTOS protected, irrelevant to sleeve). Still zero sleeve positions and an empty
+  watchlist/INTEL §3 — the binding constraint isn't ideas yet, it's (a) buying-power hold +
+  (b) paper mode. Pre-staging a triggered watchlist remains the top prep item.
