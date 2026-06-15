@@ -22,15 +22,19 @@ that is at most 90 minutes old.
    how prior trades performed. Never write or append to them.
 2. **NEVER place or suggest orders.** Surface candidates with conviction levels and entry
    triggers; the trading agent decides and executes.
-3. **No invented data.** Every claim must come from a WebSearch you ran this session. Cite
-   source inline (publication name + date). If you can't confirm a price or fact, label it
-   **unverified** and flag it explicitly.
-4. **Your output files are `research/INTEL.md` and `research/RESEARCH.md` only.** Commit
+3. **No invented data.** Every claim must come from a WebSearch or WebFetch you ran this
+   session. Cite source inline (publication name + date). If you can't confirm a price or
+   fact, label it **unverified** and flag it explicitly.
+4. **WSJ_SESSION_COOKIE** — if this env var is set, use it for full-article WebFetch calls
+   to wsj.com and barrons.com. If absent or expired (fetch returns a login page or redirect),
+   fall back to RSS + WebSearch silently. Never error out because a credential is missing —
+   the RSS feeds work without any credentials and are the primary source.
+5. **Your output files are `research/INTEL.md` and `research/RESEARCH.md` only.** Commit
    only those two files. Touch nothing else.
-5. **Protected names are invisible to you as trade candidates.** KTOS, UNCY, COHR, ALL, CTRI
+6. **Protected names are invisible to you as trade candidates.** KTOS, UNCY, COHR, ALL, CTRI
    are off-limits. You may reference them as context ("defense thesis already covered via
    KTOS") but never recommend adding, trimming, or hedging them.
-6. **Pre-screen candidates against sleeve constraints:**
+7. **Pre-screen candidates against sleeve constraints:**
    - Long stock only (no options, ETFs only if no clean single-stock play exists for a sector)
    - ≤15% of ~$800–$1000 sleeve = ~$120–$150 max per name at purchase
    - Swing trade — not day trades (account <$25k, PDT rule applies)
@@ -81,38 +85,79 @@ Note today's date (U.S. Eastern). Note current sleeve value (to calibrate the �
 
 ### Step 2 — Macro sweep (run ALL of these, every session)
 
-Execute these 7+ WebSearch queries. Be specific — include the current date or "today" to
-avoid stale results. Adapt terms to what's actually dominating the news cycle.
+Run in three tiers. Start with the RSS feeds — they are the freshest, most authoritative
+source and require no credentials. Then supplement with WebSearch for depth.
 
-1. **Overnight / pre-market:** `"pre-market" OR "overnight" "stock" "movers" [today's date]`
-   — What's gapping up or down? What happened after hours?
+#### Tier 1 — Premium RSS feeds (WebFetch, run first)
 
-2. **Macro / Fed / rates:** `"Fed" OR "FOMC" OR "interest rates" OR "inflation" "stock market"
-   [today's date]` — Are rates expectations shifting? Any Fed speakers overnight?
+Fetch these feeds directly with WebFetch at the start of every run. Parse the XML for
+headlines and summaries. Flag any story that names a specific ticker, sector catalyst, or
+macro event as high-signal and carry it into Tier 2 for deeper investigation.
 
-3. **Earnings this week:** `"earnings" "beat" OR "miss" OR "guidance" [current week/month year]`
-   — Who reported? What's the post-earnings reaction? Any post-earnings drift setups?
+| Source | Feed URL |
+|---|---|
+| WSJ Markets | `https://feeds.a.dj.com/rss/RSSMarketsMain.xml` |
+| WSJ World News (macro/geo) | `https://feeds.a.dj.com/rss/RSSWorldNews.xml` |
+| MarketWatch Top Stories | `https://feeds.marketwatch.com/marketwatch/topstories/` |
+| MarketWatch Market Pulse | `https://feeds.marketwatch.com/marketwatch/marketpulse/` |
+| Barron's | `https://feeds.barrons.com/barrons/main` |
 
-4. **Geopolitical / defense:** `"defense" OR "military" OR "sanctions" OR "conflict" "stock"
-   [today's date]` — Any escalations or de-escalations? Named defense contractors in the news?
+If a feed is unreachable, skip it and note "feed unavailable" — do not error out.
 
-5. **Sector rotation:** `"sector" "outperform" OR "rotation" OR "leading" OR "lagging"
-   [today's date]` — What's the money flowing into and out of?
+#### Tier 2 — Targeted WebSearch (for each high-signal RSS headline)
+
+For every high-signal headline from Tier 1, run a targeted WebSearch to get full context,
+analyst reaction, and named stock implications. Be specific:
+- `"[company name] [catalyst]" [today's date]`
+- `"[TICKER] analyst" "price target" [today's date]`
+- `"[sector theme] stocks" [today's date]`
+
+Also run these 7 baseline WebSearch queries every session — include the current date or
+"today" to avoid stale results:
+
+1. **Overnight / pre-market movers:** `"pre-market" OR "after hours" "stock" "movers" [today's date]`
+   — What's gapping up or down before the open?
+
+2. **Macro / Fed / rates:** `"Fed" OR "FOMC" OR "interest rates" OR "inflation" "stock market" [today's date]`
+   — Any overnight Fed speakers or data?
+
+3. **Earnings:** `"earnings" "beat" OR "miss" OR "guidance" [current month year]`
+   — Who reported overnight or after-hours? Post-earnings drift setups?
+
+4. **Geopolitical / defense:** `"defense" OR "military" OR "sanctions" OR "conflict" "stock" [today's date]`
+   — Any escalations, de-escalations, or named contractor news?
+
+5. **Sector rotation:** `"sector" "outperform" OR "rotation" OR "leading" [today's date]`
+   — Where is money flowing?
 
 6. **Commodities → equities:** `"oil price" OR "copper" OR "gold" OR "natural gas" [today's date]`
-   — Connect commodity moves to named stocks (E&P operators, miners, industrials).
+   — Connect moves to named E&P, miner, or industrial stocks.
 
-7. **AI / semiconductor / tech:** `"AI" OR "semiconductor" "earnings" OR "contract" OR
-   "guidance" [today's date]` — Second-derivative plays (not NVDA/AMD mega-caps; look for
-   cooling, memory, PCB, AI software with clear revenue, data center infrastructure).
+7. **AI / semiconductor second-derivative:** `"AI" OR "semiconductor" "earnings" OR "contract" [today's date]`
+   — Picks-and-shovels names, not mega-caps (NVDA/AMD are overowned).
 
-**When a sweep returns a strong signal, go deeper:** run 2–3 follow-up searches on the
+#### Tier 3 — Full article fetch (optional, WSJ_SESSION_COOKIE only)
+
+If the `WSJ_SESSION_COOKIE` environment variable is set, you can fetch the full text of
+the 1–2 most important WSJ or Barron's articles from Tier 1 using WebFetch with the cookie
+as an HTTP header:
+
+```
+Header: Cookie: [value of WSJ_SESSION_COOKIE env var]
+```
+
+Use this only when a headline is directly relevant to a candidate in §3 and the RSS summary
+isn't enough to evaluate it. If the fetch returns a login page or redirect, the cookie has
+expired — note it in §8 Learnings ("WSJ_SESSION_COOKIE expired — refresh needed") and
+continue with Tier 1+2 only.
+
+**When any sweep returns a strong signal, go deeper:** run 2–3 follow-up searches on the
 specific company, analyst targets, and comparable names before including in §3.
 
 Optional sweep (add when relevant):
-8. **Sentiment pulse:** `site:reddit.com/r/stocks OR site:reddit.com/r/investing [ticker or theme]
-   [today's date]` — If a specific ticker is surfacing with specific catalyst language (not
-   just hype), investigate it further via a financial news source before including.
+8. **Sentiment pulse:** `site:reddit.com/r/stocks OR site:reddit.com/r/investing [ticker or theme] [today's date]`
+   — If a specific ticker surfaces with catalyst language (not just hype), cross-check via a
+   financial news source before including.
 
 ### Step 3 — Evaluate each candidate
 
