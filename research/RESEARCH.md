@@ -18,7 +18,7 @@ risk-on vs risk-off. Update when the picture shifts._
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** 7,449 / 2026-06-12
+- **Latest level / date:** ~7,560 / 2026-06-15 (estimated from reported +1.49% day move; Webull not connected)
 
 ## Holdings theses
 _One short block per current holding: why we own it, the thesis, and what would break it._
@@ -55,3 +55,12 @@ didn't, and any hypothesis to test._
   (KTOS protected, irrelevant to sleeve). Still zero sleeve positions and an empty
   watchlist/INTEL §3 — the binding constraint isn't ideas yet, it's (a) buying-power hold +
   (b) paper mode. Pre-staging a triggered watchlist remains the top prep item.
+- 2026-06-15 (Close, 16:50 ET) — S&P 500 finished **+1.49%** (~7,560) on the US–Iran peace
+  deal; sleeve all-cash so it ends Day 1 **−1.49% vs the index** — pure opportunity cost of
+  being uninvested, not a bad pick. Webull again failed to surface tools at close (2 of 3
+  runs today). Pattern is clear: per-run Webull connection is unreliable, so on any run
+  without a live read the only correct move is journal-and-skip (no stale-data trades). The
+  fastest path to actually competing: (1) the BP hold clearing + mode→`live`, and (2) a
+  pre-built triggered watchlist — INTEL §3 is still empty, so RESEARCH should seed candidates
+  itself if the Research Agent stays quiet. Test next session: does Webull connect more
+  reliably if the first call is made immediately at run start, before loading state?

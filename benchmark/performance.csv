@@ -5,3 +5,4 @@
 # relative_pct = sleeve_return_pct - sp500_return_pct  (positive = beating the S&P 500).
 date,sleeve_value,sp500_level,sleeve_return_pct,sp500_return_pct,relative_pct,note
 2026-06-12,897.79,7449,0.0,0.0,0.0,INCEPTION baseline. Sleeve = cash $897.79 (live Webull); S&P 500 close 7449. No agent trades yet.
+2026-06-15,897.79,7560,0.0,1.49,-1.49,Close. Sleeve all-cash (no positions; Webull BP $0 + paper mode). S&P ~7560 (+1.49% day on US-Iran peace deal); level estimated from reported +1.49% move vs 7449 inception (Webull not connected this run). Sleeve lags S&P 1.49% by being uninvested.
