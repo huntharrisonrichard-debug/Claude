@@ -18,7 +18,7 @@ risk-on vs risk-off. Update when the picture shifts._
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** 7,449 / 2026-06-12
+- **Latest level / date:** ~7,527 / 2026-06-15 12:05 ET (intraday, +1.05% since inception)
 
 ## Holdings theses
 _One short block per current holding: why we own it, the thesis, and what would break it._
@@ -48,3 +48,10 @@ didn't, and any hypothesis to test._
 - 2026-06-12 — Agent initialized. Operating in advisory mode (no Webull connector in this
   environment; quotes via web search, positions from holdings.csv). Awaiting real
   positions to be populated.
+- 2026-06-15 (Midday) — Webull connected live (2FA approved 1st try). Cash now **fully
+  settled** ($897.81), but broker **Buying Power still $0.00** — the blocker shifted from
+  cash settlement to an account-side BP hold. Until BP > $0, nothing is deployable
+  regardless of paper/live mode. Sleeve still 0 positions; protected names all reconcile.
+  Webull market-data snapshots need a paid quote subscription (use position last-price +
+  WebSearch for indices). **Action item:** build a researched watchlist with concrete entry
+  triggers so we can act immediately once BP frees up — currently empty = nothing teed up.

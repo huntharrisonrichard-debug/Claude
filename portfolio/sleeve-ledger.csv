@@ -10,3 +10,4 @@
 # realized_pnl = cumulative realized profit/loss from sleeve trades since inception.
 date,action,ticker,shares,price,cash_after,positions_value,sleeve_total,realized_pnl,note
 2026-06-12,INCEPTION,,,,897.79,0.00,897.79,0.00,Sleeve = cash $897.79 (live Webull read). NOTE only $34.75 settled / $863.04 unsettled / buying power $0.00 -> no spendable cash yet. No agent positions; all 5 holdings are protected.
+2026-06-15,RECONCILE,,,,897.81,0.00,897.81,0.00,Midday live Webull read: cash fully SETTLED $897.81 (was $863 unsettled). But buying power still $0.00 (account BP hold) -> no deployable cash. 0 sleeve positions; 5 protected reconcile. Paper mode. +$0.02 drift vs inception (interest/rounding).
