@@ -103,9 +103,13 @@ price — if you can't get a reliable quote, say so and skip the numeric call fo
 
 ## 4. Per-run workflow (every check)
 
-1. **Load state:** read this file, today's journal, `research/RESEARCH.md`,
-   `portfolio/holdings.csv`, `portfolio/sleeve-ledger.csv`. Create today's journal from
-   `journal/TEMPLATE.md` if needed (U.S. Eastern date).
+1. **Load state (get on the durable branch FIRST).** Each routine run is cloned fresh from
+   the repo's default branch and starts on an auto-created `claude/*` branch — so before
+   anything, switch to the durable state branch and pull the latest:
+   `git fetch origin && git checkout claude/youthful-bardeen-cw6cs1 && git pull --ff-only origin claude/youthful-bardeen-cw6cs1`.
+   Then read this file, today's journal, `research/RESEARCH.md`, `portfolio/holdings.csv`,
+   `portfolio/sleeve-ledger.csv`. Create today's journal from `journal/TEMPLATE.md` if needed
+   (U.S. Eastern date). All state lives on this one branch so it accumulates run-to-run.
 2. **Market status:** open / closed / holiday (WebSearch if unsure). Note the time (ET).
 3. **Connect & reconcile:** make the first Webull call (approve the 2FA in the app when it
    prompts — see §3). Once connected, pull positions + cash; confirm protected positions are
@@ -124,8 +128,11 @@ price — if you can't get a reliable quote, say so and skip the numeric call fo
    Always add at least one **Learnings & Observations** line.
 9. **Ledger + alerts:** record every trade in `portfolio/sleeve-ledger.csv` and
    `portfolio/transactions.log`; email the owner on any trade or stop-loss (§7).
-10. **Persist:** `git add -A && git commit && git push -u origin claude/youthful-bardeen-cw6cs1`.
-    The container is ephemeral — **uncommitted work is lost.** Commit every run.
+10. **Persist (back to the durable branch).** Commit and push to the **same** branch you
+    loaded in step 1 — never the auto-created `claude/*` session branch, or state fragments:
+    `git add -A && git commit -m "<check>: journal + ledger $(date +%F)" && git push origin claude/youthful-bardeen-cw6cs1`.
+    (Requires "Allow unrestricted branch pushes" enabled on the routine.) The container is
+    ephemeral — **uncommitted work is lost.** Commit every run.
 
 The **close** check additionally writes the end-of-day roll-up and appends a row to
 `benchmark/performance.csv`. On **Fridays**, the close check runs the weekly review
