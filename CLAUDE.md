@@ -57,6 +57,12 @@ in `benchmark/performance.csv`. You are scored on the **sleeve's** return vs the
 not the whole account (the protected positions aren't yours to manage). Outperformance =
 `sleeve_return_pct - sp500_return_pct`.
 
+**Be aggressively opportunistic.** The Research Agent surfaces pre-screened candidates in
+`research/INTEL.md` every morning — act on them. Pursue a mix of momentum plays (days to
+weeks) and thesis-driven plays (weeks to months); the horizon is a guideline, not a rule —
+let the catalyst and price action govern the actual hold. When a good setup is in front of
+you and the mandate allows it, buy it.
+
 ## 2. The 7% stop-loss (non-negotiable)
 
 For every **sleeve** position:
@@ -107,9 +113,12 @@ price — if you can't get a reliable quote, say so and skip the numeric call fo
    the repo's default branch and starts on an auto-created `claude/*` branch — so before
    anything, switch to the durable state branch and pull the latest:
    `git fetch origin && git checkout claude/youthful-bardeen-cw6cs1 && git pull --ff-only origin claude/youthful-bardeen-cw6cs1`.
-   Then read this file, today's journal, `research/RESEARCH.md`, `portfolio/holdings.csv`,
-   `portfolio/sleeve-ledger.csv`. Create today's journal from `journal/TEMPLATE.md` if needed
-   (U.S. Eastern date). All state lives on this one branch so it accumulates run-to-run.
+   Then read: this file, today's journal, **`research/INTEL.md`** (Research Agent's latest
+   intel — check the timestamp at the top; if >24h old treat as background context only;
+   read §3 candidates and §1 breaking news first), `research/RESEARCH.md`,
+   `portfolio/holdings.csv`, `portfolio/sleeve-ledger.csv`. Create today's journal from
+   `journal/TEMPLATE.md` if needed (U.S. Eastern date). All state lives on this one branch
+   so it accumulates run-to-run.
 2. **Market status:** open / closed / holiday (WebSearch if unsure). Note the time (ET).
 3. **Connect & reconcile:** make the first Webull call (approve the 2FA in the app when it
    prompts — see §3). Once connected, pull positions + cash; confirm protected positions are
@@ -120,8 +129,12 @@ price — if you can't get a reliable quote, say so and skip the numeric call fo
 5. **Stop-loss scan:** compute `pl_pct` for each **sleeve** position → execute 7% sells,
    note WATCHes. (Never scan/sell protected names.)
 6. **Opportunity scan:** evaluate the watchlist and market for buys that fit the thesis and
-   the limits (≤15% sizing, PDT-safe, settled cash available). If a buy qualifies, size it,
-   place it (or PAPER it if no Webull), log + email.
+   the limits (≤15% sizing, PDT-safe, settled cash available). **Start with `research/INTEL.md`
+   §3 candidates** — the Research Agent pre-screened these for sleeve fit; they are the
+   highest-priority leads. Also check §5 (geo/event plays) and §1 (breaking news that may
+   create a same-day catalyst). Candidates with a short estimated horizon lose urgency after
+   ~2 trading days — if they're older than that, verify the catalyst is still live before
+   acting. If a buy qualifies, size it, place it (or PAPER it if no Webull), log + email.
 7. **Journal:** append a **timestamped entry** — check name, sleeve value & cash, positions
    with P/L, any trades executed/proposed, flags, reasoning, observations.
 8. **Research:** update `research/RESEARCH.md` when a thesis/watchlist/macro view changes.
@@ -195,6 +208,7 @@ The **close** check additionally writes the end-of-day roll-up and appends a row
 | `portfolio/holdings.csv` | Positions + cost basis, tagged `protected` (off-limits) or `sleeve` (tradeable) |
 | `portfolio/sleeve-ledger.csv` | Cash-sleeve accounting: cash, positions value, realized P/L |
 | `portfolio/transactions.log` | Append-only buy/sell log (PAPER + executed) |
+| `research/INTEL.md` | Research Agent's nightly intel: breaking news, macro, NEW stock candidates, geo plays |
 | `research/RESEARCH.md` | Living research: macro, theses, watchlist, learnings |
 | `journal/YYYY/MM/YYYY-MM-DD.md` | Daily journal, one entry per check |
 | `reviews/YYYY-Www.md` | Weekly review vs S&P 500 |

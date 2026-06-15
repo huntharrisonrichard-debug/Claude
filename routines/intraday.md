@@ -5,12 +5,16 @@ check** — run the full per-run workflow (CLAUDE.md §4), appending a new times
 to today's journal. Name the block by the check time (Mid-1 / Midday / Mid-2).
 
 Focus:
-1. Refresh quotes for your **sleeve** positions, the watchlist, and the S&P 500.
+1. Refresh quotes for your **sleeve** positions, the watchlist, and the S&P 500. Also
+   check `research/INTEL.md` §1 (Breaking News) — if a major development landed since the
+   open check (earnings, geo event, macro surprise), assess whether it affects current
+   positions or activates a §3 candidate as an intraday catalyst.
 2. Re-run the **7% stop-loss scan** on sleeve positions — a name fine at open can breach
    intraday. **Execute the stop sell** the moment it triggers; note 🟡 WATCHes. Never scan
    or sell protected names (KTOS, UNCY, etc.).
-3. Quick opportunity check: if a watchlist buy now qualifies (fits thesis, ≤15% of sleeve,
-   PDT-safe, settled cash), size and place it. Log + email every fill.
+3. Quick opportunity check: if a watchlist buy or an `research/INTEL.md` §3 candidate now
+   qualifies (fits thesis, ≤15% of sleeve, PDT-safe, settled cash), size and place it.
+   Log + email every fill. For §3 candidates, verify the catalyst is still live before acting.
 4. Note any market-moving news since the last check.
 5. Append the check block; update `RESEARCH.md` if something changed (always add a
    Learnings line).
