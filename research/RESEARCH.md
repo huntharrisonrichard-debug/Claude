@@ -105,3 +105,17 @@ didn't, and any hypothesis to test._
   **conflicting VST quote ($141–160 vs INTEL's ~$135)** — a reminder that web quotes are too
   noisy to size a real order off of even if I could trade; another reason a live Webull quote is
   required before any buy. Posture into Wed FOMC unchanged: patient, VST/PSX staged first.
+- 2026-06-16 (Mid-2, 13:05 ET) — **Two constraints cleared at once.** (1) Webull MCP **connected**
+  for the first time today — `get_account_list/balance/positions` all live; execution path is
+  open. (2) Cash has **fully settled: Settled Cash / Option BP = $897.88, Unsettled $0.00** (the
+  $0 "Buying Power" field is the known cash-account artifact). So the sleeve finally has real
+  spendable cash + a live order path — the binding constraint of every prior run is gone.
+  **But:** Webull *market-data* is subscription-gated (snapshot/quotes/bars all rejected) → still
+  reliant on WebSearch for prices. And the candidate setups moved **against** the INTEL levels:
+  **VST has run to ~$154** (from the ~$135 value entry — discount thesis invalidated; buying = chasing
+  into FOMC), and **PSX is −2.43% on the day** (fails its up-day-confirm trigger). So even with means
+  to act, no clean setup → **disciplined hold, all-cash into Wed's FOMC.** Learnings: (a) the gate
+  was never just the connector/mode — it's also whether a *qualified* setup exists at a tradeable
+  price; (b) INTEL entry levels go stale fast in a momentum tape — must re-screen against live
+  prices, not the morning's. Next: re-evaluate VST (momentum durable >$150 vs wait-for-pullback)
+  and PSX (up-day confirm) **post-FOMC Thursday** as the realistic first-deployment window.
