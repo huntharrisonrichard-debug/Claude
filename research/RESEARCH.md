@@ -25,7 +25,7 @@ risk-on vs risk-off. Update when the picture shifts._
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** 7,554.29 / 2026-06-15 close (+1.41% since inception; intraday 6/16 unconfirmed)
+- **Latest level / date:** ~7,555 / 2026-06-16 ~12:07 ET (intraday, +1.42% since inception; flat on the day, holding into the Wed FOMC)
 
 ## Holdings theses
 _One short block per current holding: why we own it, the thesis, and what would break it._
@@ -96,3 +96,12 @@ didn't, and any hypothesis to test._
   other work — but this run the server never registered tools at all, so it's a connectivity/
   registration issue, not call-ordering. Flag for owner if it persists: the live switch is moot
   while the MCP link is down.
+- 2026-06-16 (Mid-1, 12:07 ET) — Webull MCP dead **again** (no tools across the full retry
+  window) — that's the Open + Mid-1 today, and 3 of 4 runs since 6/15 with no connection. The
+  pattern is now strong enough to flag to the owner at EOD: **the `live` switch is useless while
+  the connector won't register** — worth checking whether the webull MCP server is actually
+  provisioned/credentialed in this environment. S&P ~7,555 (+1.42% since inception); sleeve
+  all-cash → −1.42% relative (pure opportunity cost). Also noticed: WebSearch returned a wide,
+  **conflicting VST quote ($141–160 vs INTEL's ~$135)** — a reminder that web quotes are too
+  noisy to size a real order off of even if I could trade; another reason a live Webull quote is
+  required before any buy. Posture into Wed FOMC unchanged: patient, VST/PSX staged first.
