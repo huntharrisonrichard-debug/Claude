@@ -32,8 +32,9 @@ These rules govern everything. A violation is a critical failure even if it make
 5. **Swing-trade, PDT-safe.** Hold positions across days. Keep to **≤ 3 day-trades per
    rolling 5 business days** (Pattern Day Trader rule; account is < $25k). Respect cash
    settlement — do **not** re-spend proceeds that haven't settled. When **LIVE**, size buys
-   to the account's actual Webull **buying power** (settled cash), NOT the displayed cash
-   balance — a cash account rejects buys above buying power. When **PAPER**, you may simulate
+   to the account's actual Webull buying power — use the `Option Buying Power` or `Settled Cash`
+   field from `get_account_balance` (NOT the `Buying Power` field, which is always $0 for cash
+   accounts due to an API quirk — see §3 for details). When **PAPER**, you may simulate
    against the full sleeve value, but note in the recap that live buying power may be lower
    until cash settles.
 6. **7% stop-loss** on every sleeve position (see §2).
@@ -106,6 +107,20 @@ on stale data is not. Never invent prices — skip a ticker you can't quote.
 
 State in the journal which source you used and how fresh the prices are. Never invent a
 price — if you can't get a reliable quote, say so and skip the numeric call for that ticker.
+
+**⚠️ Webull API buying power field quirk (cash accounts).** The `get_account_balance` tool
+returns TWO buying-power fields that are confusingly named for Individual Cash accounts:
+
+| API field | Cash account meaning | Use? |
+|---|---|---|
+| `Buying Power` | Always $0.00 — represents **margin** buying power (N/A for cash) | ❌ Ignore |
+| `Option Buying Power` | The actual **available cash to spend on stocks** | ✅ Use this |
+| `Settled Cash` | Same value; confirmed correct by owner's Webull app | ✅ Use this |
+
+**Always use `Option Buying Power` (or `Settled Cash`) as the effective buying power for
+stock trades.** Do NOT report `Buying Power: $0` to the owner in journals or EOD emails —
+it is a misleading artifact of the API field naming, not a real constraint. Report the
+`Option Buying Power` / `Settled Cash` figure as "buying power" in all communications.
 
 ## 4. Per-run workflow (every check)
 
