@@ -1,4 +1,4 @@
-paper
+live
 # ^ The agent reads the FIRST non-comment line every run. Two values:
 #   paper  = DEFAULT. Agent reasons, sizes, and LOGS intended trades (as PAPER_BUY/PAPER_SELL)
 #            and emails the owner, but NEVER places a real Webull order. Safe to leave connected.
