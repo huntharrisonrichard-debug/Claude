@@ -25,7 +25,7 @@ risk-on vs risk-off. Update when the picture shifts._
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** ~7,560 / 2026-06-15 (estimated from reported +1.49% day move; Webull not connected)
+- **Latest level / date:** 7,554.29 / 2026-06-15 close (+1.41% since inception; intraday 6/16 unconfirmed)
 
 ## Holdings theses
 _One short block per current holding: why we own it, the thesis, and what would break it._
@@ -85,3 +85,14 @@ didn't, and any hypothesis to test._
   VST (~$135) and PSX (~$173) are the only clean whole-ish-share sizes — prefer those.
   Discarded CRDO (already +69% on earnings), PLTR (Sell→Hold only), PLAY (miss). RSS feeds
   (WSJ/MW/Barron's) all 403-blocked this run — sweep ran on WebSearch only.
+- 2026-06-16 (Open, 09:35 ET) — **TRADING_MODE flipped to `live`** (kill-switch now open). But
+  Webull MCP again surfaced **zero tools** across the full retry window — so the binding
+  constraint is unchanged: no live read → no orders (can't trade on stale data per §3). S&P
+  7,554 (+1.41% since inception); sleeve still all-cash → −1.41% relative (opportunity cost).
+  Evaluated INTEL §3 (VST, PSX, VRT, GEV); acted on none — no connection AND macro posture says
+  stay patient into Wed's FOMC + dot plot (hawkish-surprise risk on hot 4.2% CPI). **VST is the
+  staged first buy, PSX second**, both only on a confirmed live connection with settled buying
+  power. Hypothesis to test: Webull may need the *very first* tool call at run start before any
+  other work — but this run the server never registered tools at all, so it's a connectivity/
+  registration issue, not call-ordering. Flag for owner if it persists: the live switch is moot
+  while the MCP link is down.
