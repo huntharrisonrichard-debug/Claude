@@ -25,7 +25,7 @@ risk-on vs risk-off. Update when the picture shifts._
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** ~7,555 / 2026-06-16 ~12:07 ET (intraday, +1.42% since inception; flat on the day, holding into the Wed FOMC)
+- **Latest level / date:** ~7,509 / 2026-06-16 close (−0.6% on the day off Jun15 actual 7,554.29; **+0.81% since inception**). Dow hit a record but S&P/Nasdaq slipped as Hormuz-reopening hopes faded and the tape de-risked into the Wed FOMC.
 
 ## Holdings theses
 _One short block per current holding: why we own it, the thesis, and what would break it._
@@ -119,3 +119,12 @@ didn't, and any hypothesis to test._
   price; (b) INTEL entry levels go stale fast in a momentum tape — must re-screen against live
   prices, not the morning's. Next: re-evaluate VST (momentum durable >$150 vs wait-for-pullback)
   and PSX (up-day confirm) **post-FOMC Thursday** as the realistic first-deployment window.
+- 2026-06-16 (Close, 16:05 ET) — Day 3 ends **all-cash**; the tape de-risked into the Fed exactly as
+  the macro posture warned: **Dow record but S&P −0.6% (~7,509), Nasdaq −1.1%**, Hormuz "swift
+  reopening" hopes fading. **The disciplined hold paid a small relative dividend:** sleeve flat while
+  the index fell → relative gap **narrowed −1.49% → −0.80%** since inception. Webull MCP **failed to
+  register tools again** (live only 1 of 4 runs today — Mid-2), so no execution path at close anyway.
+  Two durable takeaways: (a) the connector is unreliable run-to-run — worth flagging to the owner that
+  the `live` switch is moot without a registered connection; (b) being uninvested is only "behind" on
+  up days — into a known binary risk (FOMC/dot-plot) cash is a *position*. Plan unchanged: hold through
+  Wed's print, first deployment **post-FOMC Thursday**, re-screening VST/PSX against fresh live levels.
