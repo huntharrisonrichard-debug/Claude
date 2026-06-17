@@ -176,3 +176,13 @@ didn't, and any hypothesis to test._
   the `live` switch is moot without a registered connection; (b) being uninvested is only "behind" on
   up days — into a known binary risk (FOMC/dot-plot) cash is a *position*. Plan unchanged: hold through
   Wed's print, first deployment **post-FOMC Thursday**, re-screening VST/PSX against fresh live levels.
+- 2026-06-17 (Mid-1, 09:53 ET) — **Connector is LIVE today** (connected first attempt) — the operational
+  positive we've been waiting for; if it persists past the 2:30pm presser we can actually *execute* the
+  post-FOMC deployment instead of journaling another all-cash day. Live reconcile clean: Settled/Option BP
+  $897.88, all 5 protected names confirmed untouched, zero sleeve, no ledger drift. **CEG has run +2.2% to
+  ~$268** — now ~8% ABOVE its $240–250 entry zone, so the cleanest value entry got pricier; a hawkish FOMC
+  that knocks rate-sensitive names back toward the $250s would *improve* the setup. Held all 4 candidates
+  pre-print (still rate-sensitive into 2pm). §0.9 floor not binding intraday but **will be enforceable at
+  Close** now that Webull's up — target ≥4 names to ≥50% into the post-2:30pm window. Learning: a live
+  connector + a pricier-CEG both argue the *same* way today — wait for the print; patience is cheap when
+  the catalyst is hours away and the entry has already moved against you.

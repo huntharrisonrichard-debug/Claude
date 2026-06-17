@@ -11,3 +11,4 @@
 date,action,ticker,shares,price,cash_after,positions_value,sleeve_total,realized_pnl,note
 2026-06-12,INCEPTION,,,,897.79,0.00,897.79,0.00,Sleeve = cash $897.79 (live Webull read). NOTE only $34.75 settled / $863.04 unsettled / buying power $0.00 -> no spendable cash yet. No agent positions; all 5 holdings are protected.
 2026-06-16,RECONCILE,,,,897.88,0.00,897.88,0.00,Mid-2 live Webull read. Cash now FULLY SETTLED: Settled Cash $897.88 / Option Buying Power $897.88 / Unsettled $0.00. +$0.09 vs inception (interest/rounding). Buying power constraint resolved. Protected COHR/ALL/KTOS/UNCY/CTRI reconciled & untouched. No sleeve positions; no trades.
+2026-06-17,RECONCILE,,,,897.88,0.00,897.88,0.00,Mid-1 live Webull read (connector UP). Settled Cash / Option BP $897.88 / Unsettled $0.00. No drift vs 6/16. Protected COHR/ALL/KTOS/UNCY/CTRI confirmed & untouched. No sleeve positions; pre-FOMC, no trades (rate-sensitive candidates held into 2pm decision).
