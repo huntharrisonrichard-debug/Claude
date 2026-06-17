@@ -28,7 +28,7 @@ risk-on vs risk-off. Update when the picture shifts._
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** ~7,509 / 2026-06-16 close (−0.6% on the day off Jun15 actual 7,554.29; **+0.81% since inception**). Dow hit a record but S&P/Nasdaq slipped as Hormuz-reopening hopes faded and the tape de-risked into the Wed FOMC.
+- **Latest level / date:** ~7,519 / 2026-06-17 close (+0.10% on the day off Jun16's 7,511.35; **+0.94% since inception**). Fed held 3.50–3.75% w/ a hawkish dot plot (~87% odds of ≥1 2026 hike, 2-yr +11bp); index shrugged, small-caps (Russell −0.87%) took the rate-hike hit.
 
 ## Holdings theses
 _One short block per current holding: why we own it, the thesis, and what would break it._
@@ -184,6 +184,19 @@ didn't, and any hypothesis to test._
   Wed's print, first deployment **post-FOMC Thursday**, re-screening VST/PSX against fresh live levels.
 - 2026-06-17 (Mid-2, 14:05 ET) — **FIRST LIVE TRADE EXECUTED: BUY SPY 0.15sh @ $750.01 = $112.50** (Order A2JGT08VQIHH7FP5OFIVT0PO98, filled in 105ms). Webull MCP order execution confirmed end-to-end. Owner flagged two issues: (1) Research Agent too narrow — 4 candidates, same names for days, no sector breadth; (2) trading agent wrongly used FOMC as all-cash justification, violating §0.9 explicitly. Both fixed: INTEL.md standing instructions updated to require 10–15 names across multiple sectors per run, plus mandatory coverage of owner-requested tickers IBM / IONQ / RGTI every run. SPY deployed as §0.9 floor-holder (12.5% of sleeve); sleeve still only 12.5% deployed — Close check must push toward 50% with additional names. Alert email sent to both addresses.
 - 2026-06-17 (Mid-3, 15:24 ET) — **FIRST REAL DEPLOYMENT: sleeve 0% → 51.5%.** Post-FOMC (Fed held 3.50–3.75%, hawkish dots: ~87% odds of ≥1 2026 hike, 2-yr +11bp; index shrugged, small-caps −0.87%). Bought a 4-name defensive basket — **IBM 0.47@264.08, JNJ 0.49@232.85, XOM 0.80@140.92, SPY 0.15@743.09** (each ~12–14%, all <15% cap). CEG (top §3) stayed a PASS — $268, +2.15%, never fell to its $240–250 entry even on hawkish dots, so it'd have been chasing; fell back to Defensive Deployment Candidates instead (exactly the §0.9 design). **Three durable learnings:** (1) **Reconciliation caught two owner-initiated changes** the prior journal missed/mislabeled — owner sold protected COHR (0.7@382.56, NOT an agent action) and round-tripped the morning SPY (the "Mid-2 14:03 ET post-FOMC" entry was actually a *10:03 ET morning* execution test — prior times were UTC mislabeled as ET). Always cross-check order history + use ET. (2) **Webull rejects fractional qty >1** (`INVALID PARAMETER` on KO 1.38) — for sub-$135 names use whole shares or a sub-1 fraction, or verify the notional-dollar order path before relying on it; I substituted SPY rather than gamble the notional API with real money. (3) **WebSearch quotes are stale/noisy** (IBM showed $278 vs $264 live fill) — size with margin under the cap and trust the live market fill, not the web quote. Connector was reliable all 4 runs today — the operational unlock. Owner's COHR proceeds (~$268) sit in account cash but are NOT sleeve capital; sleeve won't spend them.
+- 2026-06-17 (Close, 16:51 ET) — **Day 4 ends FULLY DEPLOYED at 51.5%** — first day the sleeve has skin
+  in the game (IBM/JNJ/XOM/SPY, each 12–14%). Webull connector live **4/4 runs today** — the operational
+  unlock. Close reconcile clean: sleeve $897.79 (cash 435.49 + positions 462.30 at live last-prices),
+  all 4 protected names live-confirmed untouched, no stop-loss breaches (all positions within ±0.5% of
+  cost). **Key learning — the cost of deploying late:** the basket went on at ~3:21pm post-FOMC, so it
+  barely moved while the index added +0.10% → relative gap *widened* −0.80% → **−0.94%**. Being uninvested
+  hurts on up days; being deployed-but-late captures none of the day's move either. The lesson reinforces
+  §0.9's logic: deploy *earlier* in the session once a setup + live connector exist, rather than waiting for
+  a "perfect" post-event window — the floor isn't just downside protection, it's participation. From
+  tomorrow the basket participates fully. Carry-over: CEG never offered its $240–250 entry (~$268 all day);
+  re-screen sub-$250. Next market-hours run with freed-up settled cash: evaluate a 5th name (clean §3 setup
+  or owner-requested IONQ/RGTI, small sizing). Market-data quotes still subscription-gated — used the live
+  positions read for sleeve last-prices (real fills/marks), WebSearch only for the index level.
 - 2026-06-17 (Mid-1, 09:53 ET) — **Connector is LIVE today** (connected first attempt) — the operational
   positive we've been waiting for; if it persists past the 2:30pm presser we can actually *execute* the
   post-FOMC deployment instead of journaling another all-cash day. Live reconcile clean: Settled/Option BP
