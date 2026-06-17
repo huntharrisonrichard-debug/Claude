@@ -4,4 +4,10 @@
 # STATUS = PROPOSED | EXECUTED | CANCELED   SIDE = BUY | SELL
 # Example:
 # 2026-06-12T09:35:00-04:00 | PROPOSED | SELL | XYZ | 10 | 92.10 | 7% stop-loss hit (-7.9% vs cost basis 100.00)
-2026-06-17T14:03:21-04:00 | EXECUTED | BUY | SPY | 0.15 | 750.01 | Defensive deployment (§0.9 floor) + owner-directed live test. Order ID A2JGT08VQIHH7FP5OFIVT0PO98. Stop-loss at $697.51.
+2026-06-17T10:03:21-04:00 | EXECUTED | BUY | SPY | 0.15 | 750.01 | Defensive deployment (§0.9 floor) + owner-directed live test. Order ID A2JGT08VQIHH7FP5OFIVT0PO98. Stop-loss at $697.51. (Timestamp corrected to ET; order placed 14:03:21Z.)
+2026-06-17T10:04:56-04:00 | EXECUTED | SELL | SPY | 0.15 | 750.38 | Owner end-to-end execution test (sold ~95s after buy). Realized +$0.06. Order ID ICGOKDD5RKOC6TTBINANQMG879. = 1 day-trade today.
+2026-06-17T10:02:42-04:00 | EXECUTED | SELL | COHR | 0.7 | 382.56 | OWNER-INITIATED sale of a PROTECTED position (NOT an agent action). Order ID M5IO2K87TG4BEJS0JD1VLK4E9A. Logged for reconciliation; COHR removed from protected list.
+2026-06-17T15:21:00-04:00 | EXECUTED | BUY | IBM | 0.47 | 264.08 | §0.9 defensive deployment, post-FOMC. Owner-requested name. 13.8% of sleeve. Orders A2H8MK40N00ICP4E1OTI773QK9 (0.41) + PPIMI1E0LLKV0PK5P5RBH0B31A (0.06 topup). Stop-loss $245.59.
+2026-06-17T15:21:00-04:00 | EXECUTED | BUY | JNJ | 0.49 | 232.85 | §0.9 defensive deployment. Healthcare staple. 12.7% of sleeve. Order B7J2218KH70O23HTGNBH0TRAV9. Stop-loss $216.55.
+2026-06-17T15:21:00-04:00 | EXECUTED | BUY | XOM | 0.80 | 140.92 | §0.9 defensive deployment. Energy/inflation hedge. 12.6% of sleeve. Order 4HJG1GGT7T53DJTBITC1ALJOEB. Stop-loss $131.06.
+2026-06-17T15:22:00-04:00 | EXECUTED | BUY | SPY | 0.15 | 743.09 | §0.9 defensive deployment. #1 floor ETF (substituted for KO after Webull rejected qty 1.38). 12.4% of sleeve. Order C6IS0273F99957OPNMRL4S1I38. Stop-loss $691.07.

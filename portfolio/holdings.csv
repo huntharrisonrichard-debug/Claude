@@ -4,11 +4,15 @@
 # Protected rows below are the owner's existing holdings (Webull snapshot 2026-06-12);
 # the agent reconciles shares/cost from live Webull each run. cost_basis = avg price/share.
 bucket,ticker,shares,cost_basis,purchase_date,notes
-protected,COHR,0.7,403.04,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12
+# COHR removed 2026-06-17: OWNER sold 0.7sh @ $382.56 (~10:02 ET, order M5IO2K87…). Agent did NOT touch it (protected). No longer held.
 protected,ALL,0.05,215.76,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12
 protected,KTOS,9.5,58.17,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12
 protected,UNCY,115,7.60,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12
 protected,CTRI,5,34.54,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12 (down ~12% but PROTECTED — agent will NOT sell)
 # sleeve rows are appended by the agent as it opens positions, e.g.:
 # sleeve,ABCD,8,12.40,2026-06-15,opened at 12% of sleeve
-sleeve,SPY,0.15,750.01,2026-06-17,LIVE BUY order A2JGT08VQIHH7FP5OFIVT0PO98; 12.5% of sleeve; stop-loss at $697.51
+# Morning SPY (0.15@750.01) was SOLD by owner same day @750.38 (execution test); position closed, realized +$0.06. Re-opened below as a held swing.
+sleeve,IBM,0.47,264.08,2026-06-17,LIVE BUY A2H8MK40… + PPIMI1E0… (topup); 13.8% of sleeve; owner-requested; stop-loss $245.59
+sleeve,JNJ,0.49,232.85,2026-06-17,LIVE BUY B7J2218KH7…; 12.7% of sleeve; healthcare defensive; stop-loss $216.55
+sleeve,XOM,0.80,140.92,2026-06-17,LIVE BUY 4HJG1GGT7T…; 12.6% of sleeve; energy/inflation hedge; stop-loss $131.06
+sleeve,SPY,0.15,743.09,2026-06-17,LIVE BUY C6IS0273F9…; 12.4% of sleeve; #1 defensive floor ETF; stop-loss $691.07
