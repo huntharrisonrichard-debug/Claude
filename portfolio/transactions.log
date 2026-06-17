@@ -4,3 +4,4 @@
 # STATUS = PROPOSED | EXECUTED | CANCELED   SIDE = BUY | SELL
 # Example:
 # 2026-06-12T09:35:00-04:00 | PROPOSED | SELL | XYZ | 10 | 92.10 | 7% stop-loss hit (-7.9% vs cost basis 100.00)
+2026-06-17T14:03:21-04:00 | EXECUTED | BUY | SPY | 0.15 | 750.01 | Defensive deployment (§0.9 floor) + owner-directed live test. Order ID A2JGT08VQIHH7FP5OFIVT0PO98. Stop-loss at $697.51.

@@ -11,3 +11,4 @@ protected,UNCY,115,7.60,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12
 protected,CTRI,5,34.54,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12 (down ~12% but PROTECTED — agent will NOT sell)
 # sleeve rows are appended by the agent as it opens positions, e.g.:
 # sleeve,ABCD,8,12.40,2026-06-15,opened at 12% of sleeve
+sleeve,SPY,0.15,750.01,2026-06-17,LIVE BUY order A2JGT08VQIHH7FP5OFIVT0PO98; 12.5% of sleeve; stop-loss at $697.51
