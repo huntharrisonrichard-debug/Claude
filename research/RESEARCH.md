@@ -10,18 +10,21 @@ the Learnings & Observations log each run. Keep it tight and decision-relevant.
 _One-paragraph read on the current environment: trend, rates/Fed, inflation, volatility,
 risk-on vs risk-off. Update when the picture shifts._
 
-- **As of:** 2026-06-16 (Research Agent)
-- **Regime:** Risk-on but stalling at record highs into the **June FOMC (decision Wed 6/17)** —
-  Warsh's first meeting as Chair with a new dot plot. ~97% priced for no change, so the dot
-  plot is the pivot: **May CPI 4.2% (hottest since Apr '23, energy-driven)** makes a *hawkish*
-  signal the live risk (fewer/zero 2026 cuts). Backdrop favors value/energy/industrials over
-  long-duration growth this week (2026 rotation: energy +22% YTD leading, tech/financials
-  lagging). US–Iran peace deal is deflating the energy premium on the headline, but the slow
-  Hormuz ramp (months) keeps oil structurally bid. **Posture: don't chase extended high-multiple
-  names into the FOMC; favor cleanly-priced beaten-down quality (AI power) or value/energy tilt.**
-- **Key dates ahead:** Wed 6/17 FOMC decision + dot plot + Warsh presser; 6/17 JBL/KMX,
-  6/18 ACN/KR/DRI earnings; Fri 6/19 promised Hormuz "full reopening" (watch for slippage);
-  late-June PCE.
+- **As of:** 2026-06-17 (Research Agent)
+- **Regime:** **FOMC day** — decision **2:00pm ET**, Warsh's first presser 2:30pm (corrected
+  from prior 1:30pm note). ~97% priced for a hold, so the **dot plot is the whole event**:
+  consensus erases March's lone 2026 cut, BofA sees ≥3 members dotting 2026 *hikes*, ~70% odds
+  of ≥1 hike by year-end — a *hawkish* tail on hot 4.2% May CPI. Backdrop favors value/energy/
+  industrials over long-duration growth (2026 rotation: energy +22% YTD leads, tech faltering;
+  yesterday S&P −0.6%, Nasdaq −1.1%, Dow record). **New crosscurrent: oil cratered to 3-month
+  lows (~$79 Brent, down 4 straight)** as the US–Iran interim deal (signing Fri 6/19, Iranian
+  exports resume) unwinds the conflict premium — weakens energy momentum, mixed for refiners.
+  **Posture: stay patient into 2pm; first clean deployment window is *post-FOMC* (this afternoon
+  or Thursday). Favor beaten-down AI-power quality (CEG) over extended momentum (VST has run);
+  energy entries (PSX) need an up-day confirm the oil bleed has stopped.**
+- **Key dates ahead:** **TODAY Wed 6/17 FOMC decision (2pm) + dot plot + Warsh presser (2:30pm)**;
+  6/17 JBL/KMX, 6/18 ACN/KR/DRI earnings; **Fri 6/19 US–Iran deal signing + Hormuz reopening**
+  (watch for slippage); **Mon 6/30 CEG Calpine-lockup share release** (supply overhang); late-June PCE.
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
@@ -41,10 +44,11 @@ _Names we're considering, with the condition that would make us buy._
 
 | Ticker | Why watching | Entry trigger / target | Notes |
 |---|---|---|---|
-| VST | AI data-center power + nuclear scarcity; PPAs w/ Meta & AWS; beaten down to ~$135 (near 52-wk low) despite Q1 beat | Buy ~$133–138; add >$140. Street PT ~$220. Stop −7%. | M-H. Cleanest small-account size (~0.87 sh ≈ $118). See INTEL §3. |
-| PSX | Refiner; energy is 2026 sector leader; refining margins hedge a crude pullback; sold off −3.45% to ~$173 on peace headline | Buy on stabilization $168–174 (wait for up-day). Stop −7%. | M. Evercore Outperform init. Contrarian dip. See INTEL §3. |
+| CEG | ⭐NEW. Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. **Beaten down −32.6% YTD to ~$247** = the value entry VST no longer offers. | Wait for FOMC, then buy ~$240–250 on up-day confirm. Stop −7%. | M-H. Risk: Jun 30 Calpine lockup release + $281 secondary = supply overhang. ~0.50 sh ≈ $124. See INTEL §3. |
+| VST | AI data-center power + nuclear scarcity; PPAs w/ Meta & AWS. **Value thesis invalidated — ran +12% to ~$154.** MS PT raised to $212/OW. Now momentum, not a discount. | Wait: pullback to ~$135–140, OR post-FOMC reclaim/hold >$160. Stop −7%. | M (re-rated to momentum). ~0.80 sh ≈ $123. See INTEL §3. |
+| PSX | Refiner; energy is 2026 sector leader; refining margins hedge a crude pullback. **Oil now at 3-mo lows — momentum against it.** | Buy on stabilization $168–175 + **up-day confirm** (trigger NOT met). Stop −7%. | M (weakened). Evercore Outperform init. See INTEL §3. |
 | VRT | Best-in-class AI data-center power/thermal; FY26 guide raised | **Don't chase (+84% YTD ~$312).** Entry on pullback to high-$270s/$280s or post-FOMC. Stop −7%. | M (quality, wait for price). Fractional sizing. |
-| GEV | Electrification/grid + gas + nuclear; data centers 25% of mix; guide raised | Entry on weakness / post-FOMC (~$941, fractional only). Stop −7%. | M. Theme strong, sizing awkward for this sleeve. |
+| GEV | Electrification/grid + gas + nuclear; data centers 25% of mix; guide raised | Entry on weakness / post-FOMC (~$941, fractional only). Stop −7%. | M. Theme strong, sizing awkward ($941/sh) for this sleeve — off active §3 list. |
 
 ## Defensive Deployment Candidates
 _Pre-approved fallback names for the §0.9 deployment floor. Use these when no INTEL.md §3
@@ -97,6 +101,17 @@ didn't, and any hypothesis to test._
   pre-built triggered watchlist — INTEL §3 is still empty, so RESEARCH should seed candidates
   itself if the Research Agent stays quiet. Test next session: does Webull connect more
   reliably if the first call is made immediately at run start, before loading state?
+- 2026-06-17 (Research Agent, 08:05 ET) — **FOMC day.** Three material shifts vs yesterday:
+  (1) corrected FOMC time to **2:00pm ET / presser 2:30pm**; (2) **oil cratered to 3-mo lows
+  (~$79 Brent, down 4 straight)** on the imminent US–Iran deal (signing Fri 6/19) → PSX
+  energy-momentum leg weakened, trigger not met; (3) **VST ran +12% to ~$154 — its ~$135 value
+  thesis is dead** (MS PT→$212/OW, now momentum), demoted to wait-for-pullback/post-FOMC reclaim.
+  **Surfaced CEG as the new top beaten-down AI-power value lead** — largest US nuclear op (~55 GW),
+  MSFT/Meta PPAs, EPS $11–12, PT ~$404, but −32.6% YTD on a *technical* supply overhang (Jun 30
+  Calpine lockup + $281 secondary), not a thesis break. Dropped GEV from active §3 ($941/sh
+  awkward for sleeve; kept on watchlist). All candidates rate-sensitive → first deployment is
+  **post-FOMC** (today after 2:30 or Thursday), priority CEG > PSX ≈ VST. Binding constraint
+  remains the unreliable Webull connector (live only 1 of 4 runs 6/16). RSS feeds still blocked.
 - 2026-06-16 (Research Agent, 08:12 ET) — First full live sweep; INTEL §3 now seeded with 4
   candidates (VST, PSX, VRT, GEV). **Dominant near-term factor: Warsh's first FOMC Wed 6/17 +
   a new dot plot, landing one day after a hot May CPI (4.2%, energy-driven)** → hawkish-surprise
