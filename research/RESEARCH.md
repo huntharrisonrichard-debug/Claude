@@ -46,9 +46,32 @@ _Names we're considering, with the condition that would make us buy._
 | VRT | Best-in-class AI data-center power/thermal; FY26 guide raised | **Don't chase (+84% YTD ~$312).** Entry on pullback to high-$270s/$280s or post-FOMC. Stop −7%. | M (quality, wait for price). Fractional sizing. |
 | GEV | Electrification/grid + gas + nuclear; data centers 25% of mix; guide raised | Entry on weakness / post-FOMC (~$941, fractional only). Stop −7%. | M. Theme strong, sizing awkward for this sleeve. |
 
+## Defensive Deployment Candidates
+_Pre-approved fallback names for the §0.9 deployment floor. Use these when no INTEL.md §3
+candidate qualifies at current prices. Goal: keep ≥50% of sleeve deployed at all times.
+Pick the most attractive available; diversify across names (≤15% each). Refresh this list
+as the macro regime shifts._
+
+| Ticker | Type | Why it qualifies | Notes |
+|---|---|---|---|
+| SPY | ETF | S&P 500 index; default floor position when no better idea exists | Lowest-conviction fallback; captures market beta |
+| QQQ | ETF | Nasdaq-100; use when tech/growth regime intact | Slightly higher beta than SPY |
+| VTI | ETF | Total US market; broadest diversification | Interchangeable with SPY as a floor hold |
+| XOM | Dividend / Energy | Energy is 2026 sector leader (+22% YTD); dividend provides downside cushion | Watch crude direction; also a regime hedge |
+| CVX | Dividend / Energy | Same thesis as XOM; diversify energy exposure | Pair with XOM or use alone |
+| JNJ | Dividend / Defensive | Consumer/healthcare staple; very low beta; dividend yield | Classic defensive; holds in rate-scare environments |
+| PG | Dividend / Defensive | Consumer staples; pricing power; near-zero correlation to Fed surprises | Very slow growth but capital-preserving |
+| KO | Dividend / Defensive | Beverage staple; high dividend; textbook inflation-resilient | Ultra-low volatility; appropriate in risk-off weeks |
+
+> **Sizing reminder:** ≤15% per name (hard cap from §0.4). Hitting the 50% floor requires
+> deploying into **at least 4 names** at ~12–13% each. Spread across different types
+> (e.g., 1 ETF + 1 energy + 1 staple + 1 INTEL candidate) to avoid concentration risk.
+
 ## Strategy notes
 - **Core rule:** sell any holding down ≥7% from purchase price (cost basis).
 - **Objective:** beat the S&P 500 total return since inception.
+- **Deployment floor:** ≥50% of sleeve must be invested at all times (§0.9). Use
+  Defensive Deployment Candidates above when no opportunistic play is available.
 - _Add refinements here as they're learned — sizing, sector limits, re-entry rules, etc._
 
 ## Learnings & Observations (running log)

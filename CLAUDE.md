@@ -46,6 +46,22 @@ These rules govern everything. A violation is a critical failure even if it make
    Only when it reads **`live`** may you place real orders (still within all limits above).
    This holds even when fully connected in `prod`. When in doubt about the mode, treat it as
    `paper`.
+9. **MINIMUM DEPLOYMENT FLOOR — keep ≥ 50% of sleeve invested.** Idle cash is a
+   performance drag. At every **Close check**, compute `positions_value / sleeve_total`. If
+   the result is **< 0.50**, you **must** deploy cash before end of session — even if the
+   only available ideas are defensive/slow-growth names. Priority order for deployment:
+   (a) qualifying INTEL.md §3 candidates at current prices, (b) names from the
+   **Defensive Deployment Candidates** list in `research/RESEARCH.md`. Size each position
+   at **≤ 15% of sleeve** (the hard per-name cap still applies). Since a single name is
+   capped at 15%, hitting 50% requires **at minimum 4 positions** (4 × ~12.5%). Deploy
+   across multiple names until the floor is met or buying power is exhausted.
+   **This floor is suspended only when:** (a) TRADING_MODE is `paper`, (b) Webull is
+   not connected this run (no stale-data orders — see §3), or (c) the market is
+   closed/holiday. On those days note "deployment floor suspended: [reason]" in the
+   journal. **Do not use an upcoming macro event (Fed meeting, earnings, etc.) as a
+   standing excuse to stay all-cash** — deploy into defensive names instead. The floor
+   overrides vague macro caution; only a confirmed no-Webull-connection or paper mode
+   blocks execution.
 
 Within these limits you are **fully autonomous**: you choose, buy, and sell sleeve
 positions on your own, no per-trade approval needed (subject to the §0.8 mode). Outside
@@ -143,13 +159,20 @@ it is a misleading artifact of the API field naming, not a real constraint. Repo
    the **S&P 500** (^GSPC / SPX, or SPY proxy).
 5. **Stop-loss scan:** compute `pl_pct` for each **sleeve** position → execute 7% sells,
    note WATCHes. (Never scan/sell protected names.)
-6. **Opportunity scan:** evaluate the watchlist and market for buys that fit the thesis and
-   the limits (≤15% sizing, PDT-safe, settled cash available). **Start with `research/INTEL.md`
-   §3 candidates** — the Research Agent pre-screened these for sleeve fit; they are the
-   highest-priority leads. Also check §5 (geo/event plays) and §1 (breaking news that may
-   create a same-day catalyst). Candidates with a short estimated horizon lose urgency after
-   ~2 trading days — if they're older than that, verify the catalyst is still live before
-   acting. If a buy qualifies, size it, place it (or PAPER it if no Webull), log + email.
+6. **Opportunity scan + deployment floor check:** evaluate the watchlist and market for buys
+   that fit the thesis and the limits (≤15% sizing, PDT-safe, settled cash available).
+   **Start with `research/INTEL.md` §3 candidates** — the Research Agent pre-screened these
+   for sleeve fit; they are the highest-priority leads. Also check §5 (geo/event plays) and
+   §1 (breaking news that may create a same-day catalyst). Candidates with a short estimated
+   horizon lose urgency after ~2 trading days — if they're older than that, verify the
+   catalyst is still live before acting. If a buy qualifies, size it, place it (or PAPER it
+   if no Webull), log + email.
+   **Then check the deployment floor (§0.9):** compute `positions_value / sleeve_total`. If
+   < 50% and TRADING_MODE=`live` and Webull is connected with buying power > 0, treat
+   reaching the 50% floor as a **mandatory trade**, not optional. If no INTEL.md candidate
+   qualifies at current prices, fall back to the **Defensive Deployment Candidates** in
+   `research/RESEARCH.md` and deploy into the most attractive available names until the
+   floor is met. Log each deployment trade in the ledger and include in the EOD email.
 7. **Journal:** append a **timestamped entry** — check name, sleeve value & cash, positions
    with P/L, any trades executed/proposed, flags, reasoning, observations.
 8. **Research:** update `research/RESEARCH.md` when a thesis/watchlist/macro view changes.
