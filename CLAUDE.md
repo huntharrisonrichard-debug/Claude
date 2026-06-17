@@ -167,6 +167,26 @@ it is a misleading artifact of the API field naming, not a real constraint. Repo
    horizon lose urgency after ~2 trading days — if they're older than that, verify the
    catalyst is still live before acting. If a buy qualifies, size it, place it (or PAPER it
    if no Webull), log + email.
+
+   **🔍 IF NO INTEL.md CANDIDATE IS ACTIONABLE — DO NOT STOP. SEARCH FOR MORE.**
+   Lack of actionable candidates is a trigger for more research, not an excuse to go idle.
+   During every market-hours run where Webull is connected and buying power > 0, if all
+   §3 names PASS (no buy), you **must** run an active live search before concluding:
+   a. **WebSearch for today's top movers, sector news, and fresh catalysts** — scan gainers,
+      losers, and sector rotation; look for names that just got an analyst upgrade, a
+      earnings beat/guidance raise, a macro tailwind, or a technical breakout. Cover sectors
+      not already represented in the INTEL list (healthcare, financials, consumer, industrials,
+      materials, etc.).
+   b. **Always evaluate the owner-requested tickers** (IBM, IONQ, RGTI) with a live price
+      check — these are mandatory every run, even if they were not in that morning's INTEL.
+   c. **Find at least 1 actionable name.** Size it within mandate limits and place the order
+      (or PAPER it). If after a genuine search the only thing that qualifies is a Defensive
+      Deployment Candidate (SPY/QQQ/XOM/etc.), deploy into that. "Nothing qualifies" is only
+      acceptable when TRADING_MODE=`paper`, Webull is not connected, or the market is closed —
+      in all other cases, keep searching until you find something to buy.
+   d. **Update `research/INTEL.md` §3** with any new names found during the live search,
+      so the Research Agent sees them on its next morning run.
+
    **Then check the deployment floor (§0.9):** compute `positions_value / sleeve_total`. If
    < 50% and TRADING_MODE=`live` and Webull is connected with buying power > 0, treat
    reaching the 50% floor as a **mandatory trade**, not optional. If no INTEL.md candidate
