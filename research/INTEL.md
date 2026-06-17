@@ -7,7 +7,12 @@ _Next scheduled run: next market day ~8:00 AM ET_
 > Horizon labels are *estimates* — let the thesis and price action determine the actual hold.
 > Always verify price and catalyst freshness before acting. Check the timestamp above — if older than 24 hours, treat as background context, not fresh signals.
 > **Prices below are Jun 16 close / Jun 17 pre-market via WebSearch — confirm a live quote before sizing.** Premium RSS feeds (WSJ/MarketWatch/Barron's) again returned blocked/unfetchable this run; sweep ran on WebSearch only. WSJ_SESSION_COOKIE not set.
-> **⏰ TODAY IS FOMC DAY** — decision **2:00pm ET**, Warsh presser **2:30pm ET** (NOTE: corrected from the 1:30pm in prior intel — sources confirm 2:00pm). Don't deploy into rate-sensitive names *before* the print.
+>
+> **📋 RESEARCH AGENT STANDING INSTRUCTIONS (updated 2026-06-17 by owner):**
+> 1. **Broaden the §3 candidate sweep to 10–15 names across multiple sectors.** Do NOT anchor to the same 3–4 AI-power/energy names every day. Each run must survey at minimum: tech/AI, healthcare, consumer staples, industrials, financials, and any sector with active momentum or a fresh catalyst. Discard stale names; replace with fresh ones.
+> 2. **Owner-requested tickers — always evaluate these in §3 every run:** IBM, IONQ, RGTI. For each: current price, analyst rating/PT, recent news, entry trigger, conviction, and recommended sleeve sizing. These are mandatory coverage items until the owner removes them.
+> 3. **§3 must have at least 8 names.** If fewer than 8 qualify, fill out the table with the next-best watchlist names flagged as "WATCH / not yet actionable" with clear entry triggers.
+> 4. **Do not use macro events (FOMC, earnings, geopolitical) as a blanket reason to list zero buys.** If the macro argues for caution, note it per-name with a specific trigger. The deployment floor (§0.9) means idle cash is always a cost — there must always be a ranked list of what to buy if the setup arrives.
 
 ---
 

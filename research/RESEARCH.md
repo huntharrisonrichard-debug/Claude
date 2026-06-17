@@ -35,7 +35,7 @@ _One short block per current holding: why we own it, the thesis, and what would 
 
 | Ticker | Thesis (why own) | Invalidation (what breaks it) | Cost basis | 7% stop price |
 |---|---|---|---|---|
-| _(populate from holdings.csv)_ | | | | |
+| SPY | Defensive deployment per §0.9 floor; S&P 500 index beta while seeking better opportunistic entries (CEG, IBM, etc.). First live sleeve trade — confirms Webull order execution works. | Thesis breaks if used as a permanent hold rather than a bridge. Swap out as better ideas qualify. | $750.01 | $697.51 |
 
 > 7% stop price = `cost_basis * 0.93`. The agent computes and flags automatically.
 
@@ -49,6 +49,9 @@ _Names we're considering, with the condition that would make us buy._
 | PSX | Refiner; energy is 2026 sector leader; refining margins hedge a crude pullback. **Oil now at 3-mo lows — momentum against it.** | Buy on stabilization $168–175 + **up-day confirm** (trigger NOT met). Stop −7%. | M (weakened). Evercore Outperform init. See INTEL §3. |
 | VRT | Best-in-class AI data-center power/thermal; FY26 guide raised | **Don't chase (+84% YTD ~$312).** Entry on pullback to high-$270s/$280s or post-FOMC. Stop −7%. | M (quality, wait for price). Fractional sizing. |
 | GEV | Electrification/grid + gas + nuclear; data centers 25% of mix; guide raised | Entry on weakness / post-FOMC (~$941, fractional only). Stop −7%. | M. Theme strong, sizing awkward ($941/sh) for this sleeve — off active §3 list. |
+| **IBM** | ⭐ OWNER-REQUESTED. Enterprise AI/hybrid cloud; $6.4B Red Hat + watsonx portfolio; consistent dividend (~4.5% yield); defensive cash-flow floor. Beats on AI-infra tailwind without high-multiple risk. | Evaluate entry on any pullback; confirm price + analyst setup before buying. Stop −7%. | Research: check current price, EPS, PT, analyst ratings next run. |
+| **IONQ** | ⭐ OWNER-REQUESTED. Pure-play quantum computing (trapped-ion); contracts w/ US Air Force + commercial cloud partners; only publicly traded quantum hardware co. High-risk / high-reward; speculative. | Small sizing only (≤8% of sleeve given volatility). Entry on dips; confirm momentum/catalyst. Stop −7%. | Research: volatile name — check recent price action, short interest, and any contract news next run. |
+| **RGTI** | ⭐ OWNER-REQUESTED. Rigetti Computing; superconducting quantum processor; AWS/Microsoft cloud partnerships. Earlier-stage than IONQ, higher volatility, lower liquidity. | Small sizing only (≤8% of sleeve). Entry only with a clear catalyst or sector momentum. Stop −7%. | Research: check price, float, dilution risk next run. Pair with IONQ for quantum basket sizing. |
 
 ## Defensive Deployment Candidates
 _Pre-approved fallback names for the §0.9 deployment floor. Use these when no INTEL.md §3
@@ -176,6 +179,7 @@ didn't, and any hypothesis to test._
   the `live` switch is moot without a registered connection; (b) being uninvested is only "behind" on
   up days — into a known binary risk (FOMC/dot-plot) cash is a *position*. Plan unchanged: hold through
   Wed's print, first deployment **post-FOMC Thursday**, re-screening VST/PSX against fresh live levels.
+- 2026-06-17 (Mid-2, 14:05 ET) — **FIRST LIVE TRADE EXECUTED: BUY SPY 0.15sh @ $750.01 = $112.50** (Order A2JGT08VQIHH7FP5OFIVT0PO98, filled in 105ms). Webull MCP order execution confirmed end-to-end. Owner flagged two issues: (1) Research Agent too narrow — 4 candidates, same names for days, no sector breadth; (2) trading agent wrongly used FOMC as all-cash justification, violating §0.9 explicitly. Both fixed: INTEL.md standing instructions updated to require 10–15 names across multiple sectors per run, plus mandatory coverage of owner-requested tickers IBM / IONQ / RGTI every run. SPY deployed as §0.9 floor-holder (12.5% of sleeve); sleeve still only 12.5% deployed — Close check must push toward 50% with additional names. Alert email sent to both addresses.
 - 2026-06-17 (Mid-1, 09:53 ET) — **Connector is LIVE today** (connected first attempt) — the operational
   positive we've been waiting for; if it persists past the 2:30pm presser we can actually *execute* the
   post-FOMC deployment instead of journaling another all-cash day. Live reconcile clean: Settled/Option BP
