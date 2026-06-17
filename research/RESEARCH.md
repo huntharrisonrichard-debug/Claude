@@ -157,6 +157,16 @@ didn't, and any hypothesis to test._
   price; (b) INTEL entry levels go stale fast in a momentum tape — must re-screen against live
   prices, not the morning's. Next: re-evaluate VST (momentum durable >$150 vs wait-for-pullback)
   and PSX (up-day confirm) **post-FOMC Thursday** as the realistic first-deployment window.
+- 2026-06-17 (Open, 09:40 ET) — **FOMC day, market-open check.** Webull MCP **failed to register tools
+  again** across the full retry window → no live read, **no orders** (can't trade on stale data, §3); §0.9
+  deployment floor **suspended** (condition b). S&P ~7,519–7,536 this morning (~+1.05% since inception,
+  sources split; index +0.33% pre-noon). Evaluated all four INTEL §3 candidates (CEG/VST/PSX/VRT) — **all
+  PASS pre-FOMC**: CEG (top lead) and VST are rate-sensitive (wait for 2pm print), PSX's up-day-confirm
+  trigger isn't met (oil still bleeding), VRT extended. Disciplined call holds: first deployment is the
+  **post-FOMC window (after 2:30pm today, or Thursday)**, re-screened against fresh live levels, priority
+  **CEG > PSX ≈ VST** — and only on a confirmed live Webull connection. Into a known binary (dot plot +
+  Warsh presser, hawkish tail on 4.2% CPI), all-cash is a deliberate position. Connector remains THE
+  binding constraint — flag to owner at EOD if it stays dark all day.
 - 2026-06-16 (Close, 16:05 ET) — Day 3 ends **all-cash**; the tape de-risked into the Fed exactly as
   the macro posture warned: **Dow record but S&P −0.6% (~7,509), Nasdaq −1.1%**, Hormuz "swift
   reopening" hopes fading. **The disciplined hold paid a small relative dividend:** sleeve flat while
