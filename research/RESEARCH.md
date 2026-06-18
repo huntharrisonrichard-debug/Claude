@@ -288,3 +288,12 @@ didn't, and any hypothesis to test._
   Carry-over for Close: confirm official S&P print (WebSearch gated/noisy today), re-scan IBM's stop
   (−6.28%, ~0.8% cushion), and consider the ABBV add (~$204, cheaper than the INTEL print) if settled
   cash frees (the $117 WMT proceeds are unsettled) or IBM stops out and opens a slot.
+- 2026-06-18 (Mid-2, 15:16 ET) — Post-rotation pulse: the aggressive AI/power book (CEG/NVDA/
+  IONQ + WMT/BAC) is ~flat intraday (unrealized -$5.04); the sleeve's -1.94% since-inception
+  is almost entirely the **realized -$12.41 booked cutting JNJ/XOM/IBM** at 12:30. Lesson: a
+  conviction rotation pays its full cost up front (locked losses on the names sold) and only
+  earns it back if the new book out-compounds the old over weeks — judge it on horizon, not the
+  same-day mark. Also: **settlement, not idea generation, is now the binding constraint** —
+  account Settled Cash went negative (-$187.77) after using Option-BP basis for NVDA/CEG, so VST
+  (the clear next add) waits for the $567.46 to settle 6/19 rather than forcing a buy into
+  unsettled funds (§0.5 good-faith risk). Floor at 87.3%, so no pressure to force it.
