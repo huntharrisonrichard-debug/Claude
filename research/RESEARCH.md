@@ -245,6 +245,23 @@ didn't, and any hypothesis to test._
   rally's leaders (tech) but to keep buying the regime-fit defensives at valid entries — participation without
   abandoning the thesis. Sleeve −1.58% since inception vs S&P +0.75% (≈2.3% behind today), the expected low-beta
   drag on an up day. Market-data snapshots still subscription-gated; used live position marks + WebSearch.
+- 2026-06-18 (Strategy change, ~13:30 ET) — **OWNER-DIRECTED AGGRESSIVE PIVOT.** Owner removed
+  the 7% stop-loss and the 15% diversification cap (kept no-margin/no-options/no-shorting);
+  directive: be aggressive, make probability-weighted bets on geopolitics + industry change,
+  back defensible bull cases, maximize absolute returns. **Amended CLAUDE.md durably** so future
+  runs don't revert. New posture: concentrate into highest-conviction names, exit on thesis-break
+  not a price line. **Aggressive thesis ranking (probability-weighted):** (1) **AI-power/nuclear**
+  — most defensible bull case in the market: hyperscaler 2026 capex guided $710B+, power is the
+  binding constraint, baseload generation is scarce/non-replicable; **CEG** (Strong Buy, PT ~$363,
+  ~35% up; MSFT/Meta PPAs) and **VST** (Strong Buy, PT ~$225, ~44% up; KKR $10B AI deal). (2)
+  **AI semis — NVDA** (Strong Buy, PT ~$299, ~46% up; CUDA moat, ~80% AI-accelerator share) — the
+  single most defensible large-cap AI bet. (3) **Quantum — IONQ** (Buy, PT ~$70) / **RGTI** —
+  asymmetric, binary, owner-requested; size smaller. **Rotation plan:** cut the pure defensives
+  with no aggressive thesis (JNJ/SPY/XOM — all bought 6/17 so NOT day-trades) and redeploy into
+  the AI complex; keep BAC (real mid-July Q2-bank catalyst). **Could not execute — Webull MCP was
+  disconnected (5 retries)**; no stale-data orders. Executes on next live connect. Learning:
+  removing the mechanical stop makes *me* the risk control — every run must re-test each thesis,
+  and binary names (quantum) must be sized smaller precisely because there's no stop to catch them.
 - 2026-06-17 (Mid-1, 09:53 ET) — **Connector is LIVE today** (connected first attempt) — the operational
   positive we've been waiting for; if it persists past the 2:30pm presser we can actually *execute* the
   post-FOMC deployment instead of journaling another all-cash day. Live reconcile clean: Settled/Option BP
