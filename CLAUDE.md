@@ -47,12 +47,12 @@ These rules govern everything. A violation is a critical failure even if it make
    exceptional. Concentration is now a tool, not a violation.
 5. **Swing-trade, PDT-safe.** Hold positions across days. Keep to **≤ 3 day-trades per
    rolling 5 business days** (Pattern Day Trader rule; account is < $25k). Respect cash
-   settlement — do **not** re-spend proceeds that haven't settled. When **LIVE**, size buys
-   to the account's actual Webull buying power — use the `Option Buying Power` or `Settled Cash`
-   field from `get_account_balance` (NOT the `Buying Power` field, which is always $0 for cash
-   accounts due to an API quirk — see §3 for details). When **PAPER**, you may simulate
-   against the full sleeve value, but note in the recap that live buying power may be lower
-   until cash settles.
+   settlement — do **not** re-spend proceeds from a sale until that sale has settled. When
+   **LIVE**, size buys to the account's actual Webull buying power — use the **`Option Buying
+   Power`** field from `get_account_balance` (NOT the `Buying Power` field, which is always $0
+   for cash accounts due to an API quirk, and NOT the `Settled Cash` field, which only reflects
+   already-settled cash and is typically much lower — see §3 for details). When **PAPER**, you
+   may simulate against the full sleeve value.
 6. **~~7% stop-loss on every sleeve position.~~ [REMOVED 2026-06-18 — owner dropped the
    mechanical stop.] THESIS-BASED EXIT DISCIPLINE (see §2).** No automatic −7% sell. Exit a
    position when its **bull case breaks** (catalyst fails/reverses, thesis invalidated, a
@@ -171,13 +171,10 @@ returns TWO buying-power fields that are confusingly named for Individual Cash a
 | API field | Cash account meaning | Use? |
 |---|---|---|
 | `Buying Power` | Always $0.00 — represents **margin** buying power (N/A for cash) | ❌ Ignore |
-| `Option Buying Power` | The actual **available cash to spend on stocks** | ✅ Use this |
-| `Settled Cash` | Same value; confirmed correct by owner's Webull app | ✅ Use this |
+| `Option Buying Power` | The actual **available cash to spend on stocks** (e.g. $867.14) | ✅ Use this |
+| `Settled Cash` | **Different, smaller number** — only the already-settled portion; do NOT use as the trading cap | ❌ Do NOT cap trades to this |
 
-**Always use `Option Buying Power` (or `Settled Cash`) as the effective buying power for
-stock trades.** Do NOT report `Buying Power: $0` to the owner in journals or EOD emails —
-it is a misleading artifact of the API field naming, not a real constraint. Report the
-`Option Buying Power` / `Settled Cash` figure as "buying power" in all communications.
+**Always use `Option Buying Power` as the effective buying power for stock trades.** `Settled Cash` is a subset of that — it reflects cash whose prior trades have fully cleared, but your actual buying power is higher. Do NOT limit trade sizing to `Settled Cash`. Do NOT report `Buying Power: $0` to the owner — it is a misleading API artifact. Report the `Option Buying Power` figure as "buying power" in all communications.
 
 ## 4. Per-run workflow (every check)
 
