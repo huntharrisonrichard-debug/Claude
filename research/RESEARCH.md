@@ -10,25 +10,31 @@ the Learnings & Observations log each run. Keep it tight and decision-relevant.
 _One-paragraph read on the current environment: trend, rates/Fed, inflation, volatility,
 risk-on vs risk-off. Update when the picture shifts._
 
-- **As of:** 2026-06-17 (Research Agent)
-- **Regime:** **FOMC day** — decision **2:00pm ET**, Warsh's first presser 2:30pm (corrected
-  from prior 1:30pm note). ~97% priced for a hold, so the **dot plot is the whole event**:
-  consensus erases March's lone 2026 cut, BofA sees ≥3 members dotting 2026 *hikes*, ~70% odds
-  of ≥1 hike by year-end — a *hawkish* tail on hot 4.2% May CPI. Backdrop favors value/energy/
-  industrials over long-duration growth (2026 rotation: energy +22% YTD leads, tech faltering;
-  yesterday S&P −0.6%, Nasdaq −1.1%, Dow record). **New crosscurrent: oil cratered to 3-month
-  lows (~$79 Brent, down 4 straight)** as the US–Iran interim deal (signing Fri 6/19, Iranian
-  exports resume) unwinds the conflict premium — weakens energy momentum, mixed for refiners.
-  **Posture: stay patient into 2pm; first clean deployment window is *post-FOMC* (this afternoon
-  or Thursday). Favor beaten-down AI-power quality (CEG) over extended momentum (VST has run);
-  energy entries (PSX) need an up-day confirm the oil bleed has stopped.**
-- **Key dates ahead:** **TODAY Wed 6/17 FOMC decision (2pm) + dot plot + Warsh presser (2:30pm)**;
-  6/17 JBL/KMX, 6/18 ACN/KR/DRI earnings; **Fri 6/19 US–Iran deal signing + Hormuz reopening**
-  (watch for slippage); **Mon 6/30 CEG Calpine-lockup share release** (supply overhang); late-June PCE.
+- **As of:** 2026-06-18 (Research Agent)
+- **Regime:** **The hawkish binary resolved.** Warsh's first FOMC HELD 3.50–3.75% on 6/17 but the
+  new dot plot moved the **2026 year-end median to 3.8% (from 3.4%), with 9 officials dotting ≥1
+  hike** — on hot 4.2% May CPI, the Fed is signaling it may *raise*. The tape repriced hard:
+  **S&P −1.21% to 7,420.10, Nasdaq −1.34%, Dow −0.98%; all 11 sectors red, mega-cap tech worst.**
+  This confirms the 2026 regime: **long-duration growth de-rates; value/defensive/energy/industrials
+  lead — and now add FINANCIALS** (higher-for-longer restores the bank spread model; GS +3%, KBWB
+  +1.5% on 6/17). Crosscurrent: the **US–Iran peace MOU was SIGNED 6/17** (ahead of the rumored 6/19),
+  Hormuz reopening promptly → **oil sliding (WTI ~$76, Brent ~$78)**; energy stays YTD leader but the
+  momentum leg is cooling. **Posture: the 6/17 defensive deployment (IBM/JNJ/XOM/SPY) fits this regime
+  — keep it. The freshest unexploited edge is FINANCIALS (BAC), plus defensive healthcare (ABBV) and
+  staples (WMT). AVOID adding rate-sensitive AI-power (CEG ~$270/VST ~$160) at extended levels into a
+  higher-for-longer print.**
+- **Key dates ahead:** **Fri 6/19** US–Iran deal follow-through / Hormuz reopening (watch slippage →
+  re-bids oil/XOM); late-June **PCE** (hot print hardens the hike bias); **Mon 6/30 CEG Calpine-lockup
+  release** (a sub-$250 dip would finally arm the CEG entry); mid-July Q2 bank earnings (JPM/BAC/GS).
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** ~7,519 / 2026-06-17 close (+0.10% on the day off Jun16's 7,511.35; **+0.94% since inception**). Fed held 3.50–3.75% w/ a hawkish dot plot (~87% odds of ≥1 2026 hike, 2-yr +11bp); index shrugged, small-caps (Russell −0.87%) took the rate-hike hit.
+- **Latest level / date:** **7,420.10 / 2026-06-17 close (−1.21% on the day; −0.39% since inception).**
+  ⚠️ **CORRECTION:** the prior entry logged ~7,519 (+0.94%) — that was WRONG. Multiple sources (TheStreet,
+  CNBC, 6/17) confirm the S&P **fell 1.21% to 7,420.10** on the hawkish dot plot (2026 median to 3.8%, 9
+  officials dot a hike; all 11 sectors red, mega-cap tech worst). **The index is now BELOW inception (−0.39%),
+  so the sleeve (≈$897.79, ~flat) is roughly +0.4% AHEAD of the S&P, not ~1% behind.** Trading agent: please
+  reconcile `benchmark/performance.csv` against 7,420.10.
 
 ## Holdings theses
 _One short block per current holding: why we own it, the thesis, and what would break it._
@@ -47,9 +53,12 @@ _Names we're considering, with the condition that would make us buy._
 
 | Ticker | Why watching | Entry trigger / target | Notes |
 |---|---|---|---|
-| CEG | ⭐NEW. Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. **Beaten down −32.6% YTD to ~$247** = the value entry VST no longer offers. | Wait for FOMC, then buy ~$240–250 on up-day confirm. Stop −7%. | M-H. Risk: Jun 30 Calpine lockup release + $281 secondary = supply overhang. ~0.50 sh ≈ $124. See INTEL §3. |
-| VST | AI data-center power + nuclear scarcity; PPAs w/ Meta & AWS. **Value thesis invalidated — ran +12% to ~$154.** MS PT raised to $212/OW. Now momentum, not a discount. | Wait: pullback to ~$135–140, OR post-FOMC reclaim/hold >$160. Stop −7%. | M (re-rated to momentum). ~0.80 sh ≈ $123. See INTEL §3. |
-| PSX | Refiner; energy is 2026 sector leader; refining margins hedge a crude pullback. **Oil now at 3-mo lows — momentum against it.** | Buy on stabilization $168–175 + **up-day confirm** (trigger NOT met). Stop −7%. | M (weakened). Evercore Outperform init. See INTEL §3. |
+| **BAC** | ⭐NEW LEAD. Cleanest sleeve-fit on **higher-for-longer = bank NII**; a 3.5–3.75% floor restores the spread model. Strong Buy (24 analysts), PT ~$62–63. Whole-share fit (~$57). | Buy on a hold of ~$55–57; trigger ~met now. Stop −7% (~$52.9). | M-H. Freshest regime edge post-hawkish-FOMC (GS +3%, KBWB +1.5%). 2 sh ≈ $113.70. See INTEL §3. |
+| **WMT** | ⭐NEW. Defensive staple evolving growth-y (ad +37%, GMV +50%, e-comm +25%); +9% YTD beats S&P. Low-beta ballast for a growth-punishing tape. PT ~$138–140. | Buy on a hold of ~$116–119 (1 whole share). Stop −7% (~$109.9). | M. Consumer-defensive rotation (sector +13% YTD). 1 sh ≈ $118.15. See INTEL §3. |
+| **ABBV** | ⭐NEW. Defensive pharma, 3.1% div, Skyrizi/Rinvoq immunology; diversifies the sleeve's JNJ healthcare exposure. Buy, PT ~$253 (Piper $298/OW). | Buy on a hold of ~$218–223 (~0.55 sh). Stop −7% (~$206.9). | M. Rate-scare hedge. ~0.55 sh ≈ $122. See INTEL §3. |
+| CEG | Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. Still the *value* AI-power name **on a dip only**. | **WATCH — entry NOT met (~$270).** Buy ~$240–250 on a hold; the 6/30 Calpine lockup could create the dip. Stop −7%. | M-H on a dip. Hawkish dots did NOT knock it down. ~0.50 sh ≈ $124. See INTEL §3. |
+| VST | AI data-center power + nuclear scarcity; **newly named preferred power provider for a $10B KKR AI-infra venture**; PPAs w/ Meta & AWS. Momentum (ran to ~$160), not a discount. MS PT $212/OW. | Wait: pullback to ~$140–145, OR a decisive hold above ~$160. Stop −7%. | M (momentum). ~0.80 sh ≈ $128. See INTEL §3. |
+| ~~PSX~~ | **DISCARDED 2026-06-18** — up-day-confirm trigger never met; Iran deal signed → crude lower (WTI ~$76). Re-examine only if crude stabilizes AND crack spreads widen on an up day. | — | Moved to INTEL §6 Discarded. |
 | VRT | Best-in-class AI data-center power/thermal; FY26 guide raised | **Don't chase (+84% YTD ~$312).** Entry on pullback to high-$270s/$280s or post-FOMC. Stop −7%. | M (quality, wait for price). Fractional sizing. |
 | GEV | Electrification/grid + gas + nuclear; data centers 25% of mix; guide raised | Entry on weakness / post-FOMC (~$941, fractional only). Stop −7%. | M. Theme strong, sizing awkward ($941/sh) for this sleeve — off active §3 list. |
 | **IBM** | ⭐ OWNER-REQUESTED. Enterprise AI/hybrid cloud; $6.4B Red Hat + watsonx portfolio; consistent dividend (~4.5% yield); defensive cash-flow floor. Beats on AI-infra tailwind without high-multiple risk. | Evaluate entry on any pullback; confirm price + analyst setup before buying. Stop −7%. | Research: check current price, EPS, PT, analyst ratings next run. |
@@ -197,6 +206,19 @@ didn't, and any hypothesis to test._
   re-screen sub-$250. Next market-hours run with freed-up settled cash: evaluate a 5th name (clean §3 setup
   or owner-requested IONQ/RGTI, small sizing). Market-data quotes still subscription-gated — used the live
   positions read for sleeve last-prices (real fills/marks), WebSearch only for the index level.
+- 2026-06-18 (Research Agent, 08:07 ET) — **Hawkish FOMC resolved; sweep broadened per owner.** (1) The
+  dot-plot risk materialized: 2026 median to 3.8% (9 dot a hike), **S&P −1.21% to 7,420.10**, all 11 sectors
+  red, mega-cap tech worst. (2) **Caught a benchmark error** — the 6/17 log had the S&P at ~7,519 (+0.94%);
+  the **real close was 7,420.10 (−0.39% since inception)**, which flips the sleeve from ~1% *behind* to ~0.4%
+  *ahead* of the index (the 6/17 defensive deployment + the index's drop = staying low-beta paid). Flagged for
+  performance.csv reconcile. (3) **US–Iran MOU signed 6/17** (early) → oil sliding (WTI ~$76); PSX discarded
+  (oil signed-deal lower), ACN discarded (soft consulting guide). (4) **New theme — financials:** higher-for-
+  longer restores the bank spread model (GS +3%, KBWB +1.5%); **BAC** surfaced as the cleanest sleeve-fit
+  whole-share play and the freshest edge. (5) Broadened INTEL §3 to **9 names** across financials/staples/
+  healthcare/AI-power/quantum/industrials/tech: added BAC/WMT/ABBV; carried CEG (still ~$270, entry not met)
+  + VST (KKR $10B deal, momentum); owner names IBM (held, no add), IONQ (~$55, ≤8%, wait), RGTI (~$21, +59%/wk,
+  ≤8%, wait); CAT flagged sizing-blocked (~$972). Sleeve at 51.5% (floor met) — regime upgrade priority BAC >
+  WMT ≈ ABBV over the SPY floor-holder. RSS still 403-blocked; WSJ_SESSION_COOKIE unset.
 - 2026-06-17 (Mid-1, 09:53 ET) — **Connector is LIVE today** (connected first attempt) — the operational
   positive we've been waiting for; if it persists past the 2:30pm presser we can actually *execute* the
   post-FOMC deployment instead of journaling another all-cash day. Live reconcile clean: Settled/Option BP
