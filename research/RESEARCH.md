@@ -255,3 +255,19 @@ didn't, and any hypothesis to test._
   Close** now that Webull's up — target ≥4 names to ≥50% into the post-2:30pm window. Learning: a live
   connector + a pricier-CEG both argue the *same* way today — wait for the print; patience is cheap when
   the catalyst is hours away and the entry has already moved against you.
+- 2026-06-18 (Midday/concurrency, 12:12 ET) — **🐛 CONCURRENCY DOUBLE-BUY (WMT) — caught & fixed.**
+  Two routine runs (Mid-1 ~13:05 label and "Midday" 12:06) fired in parallel, both cloned the same
+  base, both independently bought **WMT 1 sh** (orders L5HS0JH9… @117.51 and FJIG8TQA… @117.54). The
+  durable branch serializes *commits* but not live *orders*, so the account briefly held **2 WMT
+  ≈ 26.6% of sleeve — a §0.4 15%-cap breach.** Surfaced on the git rebase conflict; confirmed via live
+  `get_account_positions` (WMT qty 2); **corrected immediately by selling 1 WMT @117.35** (order
+  5PIA1K9ODU4…) → net 1 WMT @ avg 117.52 (13.3%). Realized cost −$0.17 (cumulative realized now −$0.11).
+  Learnings: (a) **routine runs are NOT mutually exclusive** — branch state prevents duplicate commits,
+  not duplicate trades; before placing any order, check live open positions/recent orders for the same
+  name and skip if already established this session. (b) The git-rebase conflict was the *only* signal
+  the collision happened — a buy that doesn't conflict on a file could go unnoticed; **a pre-trade live
+  position read is the real guard.** (c) Damage was trivial here ($0.17) but a volatile name + a fast
+  adverse move could be material — recommend the owner serialize trading runs or add a dedupe guard.
+  Carry-over for Close: confirm official S&P print (WebSearch gated/noisy today), re-scan IBM's stop
+  (−6.28%, ~0.8% cushion), and consider the ABBV add (~$204, cheaper than the INTEL print) if settled
+  cash frees (the $117 WMT proceeds are unsettled) or IBM stops out and opens a slot.
