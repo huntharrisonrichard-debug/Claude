@@ -45,6 +45,7 @@ _One short block per current holding: why we own it, the thesis, and what would 
 | JNJ | Defensive healthcare staple; low beta, dividend; classic rate-scare hedge that holds when the dot plot turns hawkish. | Litigation/pipeline shock; broad defensive de-rating; stop $216.55. | $232.85 | $216.55 |
 | XOM | Energy/inflation hedge — energy is 2026's sector leader (+22% YTD); dividend cushion; already −10% MTD on the oil-down move (entry near a pullback). Regime hedge vs sticky-inflation/higher-for-longer. | Crude keeps cratering post-Iran-deal AND product demand softens; stop $131.06. | $140.92 | $131.06 |
 | SPY | Defensive deployment per §0.9 floor; S&P 500 index beta (#1 fallback). Re-opened as a held swing after the morning owner-test round-trip. | Used as a permanent hold rather than a bridge — swap out as better ideas (CEG sub-$250, etc.) qualify. | $743.09 | $691.07 |
+| BAC | ⭐NEW 6/18. Cleanest sleeve-fit on **higher-for-longer = bank NII**; a 3.5–3.75% rate floor restores the spread model. Strong Buy (22 buys/0 sells), PT ~$63 (~10% upside). The freshest regime-winner the sleeve lacked (financials). | Dovish pivot / rate-cut repricing kills the NII thesis; a credit/loan-loss scare; close below ~$53.17 stop. | $57.17 | $53.17 |
 
 > 7% stop price = `cost_basis * 0.93`. The agent computes and flags automatically.
 
@@ -53,7 +54,7 @@ _Names we're considering, with the condition that would make us buy._
 
 | Ticker | Why watching | Entry trigger / target | Notes |
 |---|---|---|---|
-| **BAC** | ⭐NEW LEAD. Cleanest sleeve-fit on **higher-for-longer = bank NII**; a 3.5–3.75% floor restores the spread model. Strong Buy (24 analysts), PT ~$62–63. Whole-share fit (~$57). | Buy on a hold of ~$55–57; trigger ~met now. Stop −7% (~$52.9). | M-H. Freshest regime edge post-hawkish-FOMC (GS +3%, KBWB +1.5%). 2 sh ≈ $113.70. See INTEL §3. |
+| ~~BAC~~ | **✅ BOUGHT 6/18 — 2 sh @ $57.17 (12.9% of sleeve).** Now in the holdings-theses table above; stop $53.17. Was the cleanest sleeve-fit on higher-for-longer = bank NII; Strong Buy, PT ~$63. | — held — | Moved from watchlist to holding. Q2 earnings 7/14 is the next catalyst. |
 | **WMT** | ⭐NEW. Defensive staple evolving growth-y (ad +37%, GMV +50%, e-comm +25%); +9% YTD beats S&P. Low-beta ballast for a growth-punishing tape. PT ~$138–140. | Buy on a hold of ~$116–119 (1 whole share). Stop −7% (~$109.9). | M. Consumer-defensive rotation (sector +13% YTD). 1 sh ≈ $118.15. See INTEL §3. |
 | **ABBV** | ⭐NEW. Defensive pharma, 3.1% div, Skyrizi/Rinvoq immunology; diversifies the sleeve's JNJ healthcare exposure. Buy, PT ~$253 (Piper $298/OW). | Buy on a hold of ~$218–223 (~0.55 sh). Stop −7% (~$206.9). | M. Rate-scare hedge. ~0.55 sh ≈ $122. See INTEL §3. |
 | CEG | Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. Still the *value* AI-power name **on a dip only**. | **WATCH — entry NOT met (~$270).** Buy ~$240–250 on a hold; the 6/30 Calpine lockup could create the dip. Stop −7%. | M-H on a dip. Hawkish dots did NOT knock it down. ~0.50 sh ≈ $124. See INTEL §3. |
@@ -219,6 +220,20 @@ didn't, and any hypothesis to test._
   + VST (KKR $10B deal, momentum); owner names IBM (held, no add), IONQ (~$55, ≤8%, wait), RGTI (~$21, +59%/wk,
   ≤8%, wait); CAT flagged sizing-blocked (~$972). Sleeve at 51.5% (floor met) — regime upgrade priority BAC >
   WMT ≈ ABBV over the SPY floor-holder. RSS still 403-blocked; WSJ_SESSION_COOKIE unset.
+- 2026-06-18 (Open, 09:40 ET) — **Day 5 open: connector live first-attempt again (5 runs running), 5th name added.**
+  (1) **BOUGHT BAC 2 sh @ $57.17 = 12.9% of sleeve** — INTEL §3 #1 lead, the freshest regime-fit edge
+  (financials on higher-for-longer NII; Strong Buy, PT ~$63). Filled at the top of the day range ($57.17 vs
+  ~$56.53 pre-mkt) on the +1.15% risk-on open; acceptable slippage on a liquid large-cap. Deployment floor was
+  already met (50.9%) → this is an **opportunistic upgrade**, putting now-fully-settled SPY proceeds to work and
+  diversifying into the one regime winner the sleeve lacked. Sleeve now 5 names at 63.8% deployed.
+  (2) **IBM is the position to watch — −5.97% from cost** ($248.32 vs $264.08), ~1% above its $245.59 stop;
+  it's the basket's main drag (−$7.41 unrealized). Mechanical 7% rule sells it if it trades ≤ $245.59; WMT/ABBV
+  are next in line to redeploy. (3) **Applied the benchmark correction** — fixed the 6/17 perf row to the real
+  S&P close **7,420.10 (−0.39% since inception)**; the prior 7,519 was wrong. As of 6/17 close the sleeve (~flat)
+  was +0.4% AHEAD, not behind. (4) **Defensive tilt lags a risk-on up day** — sleeve −1.19% since inception
+  while the index rallied +1.15% intraday today; expected cost of low beta on a tech-led bounce (it earns its
+  keep on down days, e.g. 6/17). Hypothesis: the basket should outperform on red/choppy tape and lag on sharp
+  up days; net edge depends on the regime staying choppy/higher-for-longer, which the dots support.
 - 2026-06-17 (Mid-1, 09:53 ET) — **Connector is LIVE today** (connected first attempt) — the operational
   positive we've been waiting for; if it persists past the 2:30pm presser we can actually *execute* the
   post-FOMC deployment instead of journaling another all-cash day. Live reconcile clean: Settled/Option BP
