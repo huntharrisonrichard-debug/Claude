@@ -297,3 +297,17 @@ didn't, and any hypothesis to test._
   account Settled Cash went negative (-$187.77) after using Option-BP basis for NVDA/CEG, so VST
   (the clear next add) waits for the $567.46 to settle 6/19 rather than forcing a buy into
   unsettled funds (§0.5 good-faith risk). Floor at 87.3%, so no pressure to force it.
+- 2026-06-18 (Close, 16:05 ET) — **Day closed: sleeve $882.66, −1.69% since inception; S&P
+  +1.21% to ~7,510 (+0.82% since inception) → relative −2.51%.** The whole gap is the realized
+  −$12.41 from the aggressive rotation; the new book (CEG 31%/NVDA 24%/WMT 13%/BAC 13%/IONQ 6%)
+  is essentially flat (unrealized −$2.71), with IONQ the only green (+3.82%). All 5 theses
+  reviewed **intact** — no thesis-based exit triggered. No buy: deployment 87.3% (floor met) and
+  the account is **settlement-constrained** (Settled Cash −$391.08; $567.46 unsettled until 6/19),
+  so any add would spend unsettled cash. Learnings: (a) **the rotation's full cost is now on the
+  books and the index had its best up-day of the week** — worst-case timing for a low-beta→high-beta
+  pivot's first mark; the bet earns out only if AI/power out-compounds over weeks, so don't
+  over-read the −2.51%. (b) **An owner action hit a protected name today:** owner added 30 sh UNCY
+  (115→145 @ ~$6.78, ~$203 from owner cash) — a reminder to reconcile *protected* share counts
+  from live Webull every run, not just the sleeve; the account-cash delta ($379.69→$176.38) was
+  100% explained by it, not sleeve drift. (c) **Tomorrow (Fri 6/19): $567.46 settles → deploy VST
+  (~$167) as the AI-power 3rd leg + re-scan ABBV (~$204); it's also the weekly-review day.**
