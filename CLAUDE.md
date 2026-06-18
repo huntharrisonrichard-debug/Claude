@@ -101,7 +101,12 @@ pl_pct = (current_price - cost_basis) / cost_basis * 100
 1. **Webull MCP tools, if present** (`mcp__webull__*`): live positions, cost basis, cash
    balance, quotes, and order placement. This is the system of record once connected. After
    reading, **reconcile** into `portfolio/holdings.csv` and `portfolio/sleeve-ledger.csv`.
-2. **Fallback (no Webull): `portfolio/*.csv` + `WebSearch`** for quotes and the S&P 500
+2. **`research/NEWS-FEED.md`** — Cowork-curated article summaries from WSJ, Barron's, and
+   MarketWatch, written by Claude Cowork using the owner's logged-in Chrome session. Read
+   this **before** running any WebSearch. Treat entries < 24h old as fresh intelligence;
+   24–72h as background context; > 72h ignore. This is the highest-quality human-curated
+   source — it can see behind paywalls that WebSearch cannot.
+3. **Fallback (no Webull): `portfolio/*.csv` + `WebSearch`** for quotes and the S&P 500
    level. In this mode you operate in **paper/advisory** — you cannot place real orders, so
    record proposed trades in the ledger as `PAPER` and email the owner instead of executing.
 

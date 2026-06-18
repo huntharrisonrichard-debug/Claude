@@ -83,6 +83,25 @@ Read (in order):
 
 Note today's date (U.S. Eastern). Note current sleeve value (to calibrate the ≤15% sizing).
 
+### Step 1b — Cowork News Feed (read before any web search)
+
+Read `research/NEWS-FEED.md`. This file is written by Claude Cowork on the owner's local
+machine using their logged-in Chrome session — it contains full-article summaries from WSJ,
+Barron's, and MarketWatch that the RSS feeds and WebSearch cannot fully reproduce.
+
+For each entry dated within the **past 72 hours**:
+- `Action hint: BUY candidate` → add ticker to the §3 candidate evaluation queue; note
+  source as "Cowork/[publication]" and quote the summary
+- `Action hint: WATCH` → add to §4 sector themes or §7 earnings radar as appropriate
+- `Conviction: HIGH` + time-sensitive → elevate headline into §1 Breaking News
+- `Action hint: MACRO context only` → fold into §2 macro environment read
+- All other entries → background context; skip §3 unless they corroborate another candidate
+
+Log every Tier 0 entry you used in §8 Learnings with its timestamp and source.
+
+If `research/NEWS-FEED.md` is empty or has no entries from the past 72 hours, note
+"Cowork feed: no fresh entries" and proceed directly to Step 2.
+
 ### Step 2 — Macro sweep (run ALL of these, every session)
 
 Run in three tiers. Start with the RSS feeds — they are the freshest, most authoritative
