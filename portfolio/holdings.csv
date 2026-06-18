@@ -12,9 +12,11 @@ protected,CTRI,5,34.54,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12 (dow
 # sleeve rows are appended by the agent as it opens positions, e.g.:
 # sleeve,ABCD,8,12.40,2026-06-15,opened at 12% of sleeve
 # Morning SPY (0.15@750.01) was SOLD by owner same day @750.38 (execution test); position closed, realized +$0.06. Re-opened below as a held swing.
-sleeve,IBM,0.47,264.08,2026-06-17,LIVE BUY A2H8MK40… + PPIMI1E0… (topup); 13.8% of sleeve; owner-requested; stop-loss $245.59
-sleeve,JNJ,0.49,232.85,2026-06-17,LIVE BUY B7J2218KH7…; 12.7% of sleeve; healthcare defensive; stop-loss $216.55
-sleeve,XOM,0.80,140.92,2026-06-17,LIVE BUY 4HJG1GGT7T…; 12.6% of sleeve; energy/inflation hedge; stop-loss $131.06
-sleeve,SPY,0.15,743.09,2026-06-17,LIVE BUY C6IS0273F9…; 12.4% of sleeve; #1 defensive floor ETF; stop-loss $691.07
-sleeve,BAC,2,57.17,2026-06-18,LIVE BUY HHJ09J3FBN1O0J4ME6QI24S718; 12.9% of sleeve; financials/higher-for-longer NII (INTEL §3 #1); stop-loss $53.17
-sleeve,WMT,1,117.52,2026-06-18,NET 1 sh after concurrency dup corrected: BUY L5HS0JH9FAJVFPL3ECJ7L3GHB9 (@117.51 other run) + BUY FJIG8TQAO4GP4P8LLQ3P6FCCSA (@117.54 this run) then SELL 1 5PIA1K9ODU4VB6G7OU32MNAKEB (@117.35) to restore <=15% cap; Webull avg cost 117.52; 13.3% of sleeve; consumer-staples defensive (INTEL §3 #2); stop-loss $109.29
+sleeve,BAC,2,57.17,2026-06-18,LIVE BUY HHJ09J3FBN1O0J4ME6QI24S718; financials/higher-for-longer NII (INTEL §3 #1); thesis: Q2 bank earnings mid-July catalyst + NII expansion; exits on thesis break
+sleeve,WMT,1,117.52,2026-06-18,NET 1 sh after concurrency dup corrected; consumer-staples (INTEL §3 #2); thesis: ad-rev +37% / GMV +50% / e-comm +25% secular growth; exits on thesis break
+# IBM SOLD 2026-06-18 @249.04 (order 4VIQNLRTUPEK8O9K7F434G4HK8) — rotation out of low-conviction defensive; realized -$7.07
+# JNJ SOLD 2026-06-18 @227.94 (order GBJEATP4KH52DAFE6IJFJINLFA) — rotation out of low-conviction defensive; realized -$2.41
+# XOM SOLD 2026-06-18 @136.73 (order BHJOT53OFDT59DB609CV2ENTB9) — rotation out of low-conviction defensive (Iran MOU = oil headwind); realized -$3.35
+# SPY SOLD 2026-06-18 @746.59 (order DBHCPAF65PN42G6VPRQFCD5LVA) — rotation out of broad-ETF hedge; realized +$0.53
+sleeve,IONQ,1,54.15,2026-06-18,LIVE BUY 95JIN6T6V3715GVFH4RSI0Q1B9; AI/quantum (owner-requested); thesis: trapped-ion leader, asymmetric upside on quantum-supremacy milestones; small conviction-weighted size (~6%) due to binary outcome; exits on thesis break
+# NVDA / CEG / VST — queued for next run (6/19) when T+1 proceeds settle (~$567.46)
