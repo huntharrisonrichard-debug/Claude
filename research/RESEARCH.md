@@ -234,6 +234,17 @@ didn't, and any hypothesis to test._
   while the index rallied +1.15% intraday today; expected cost of low beta on a tech-led bounce (it earns its
   keep on down days, e.g. 6/17). Hypothesis: the basket should outperform on red/choppy tape and lag on sharp
   up days; net edge depends on the regime staying choppy/higher-for-longer, which the dots support.
+- 2026-06-18 (Mid-1, 13:05 ET) — **6th name added: BOUGHT WMT 1 sh @ $117.51 = 13.3% of sleeve** (INTEL §3
+  #2). Connector live first-attempt again. The morning's deliberate "defer WMT/ABBV to avoid 1-run over-
+  deployment" was the right call to stage; midday the tape held the +1.15% risk-on bounce and ~$321 of settled
+  sleeve cash (36% of sleeve) still sat idle — so I put one share to work into the **staples gap** the basket
+  lacked, deepening the low-beta tilt the higher-for-longer regime rewards. Sleeve now 6 names at **76.9%
+  deployed**, cash $203.68 kept as dry powder. **IBM tightened to −6.25%** (~0.8% above its $245.59 stop, from
+  −5.97% at open) — it's the position on the knife's edge; ABBV (§3 #3) is queued to redeploy if the mechanical
+  7% rule frees that slot. Learning: on a sharp risk-on day the right move with idle cash isn't to chase the
+  rally's leaders (tech) but to keep buying the regime-fit defensives at valid entries — participation without
+  abandoning the thesis. Sleeve −1.58% since inception vs S&P +0.75% (≈2.3% behind today), the expected low-beta
+  drag on an up day. Market-data snapshots still subscription-gated; used live position marks + WebSearch.
 - 2026-06-17 (Mid-1, 09:53 ET) — **Connector is LIVE today** (connected first attempt) — the operational
   positive we've been waiting for; if it persists past the 2:30pm presser we can actually *execute* the
   post-FOMC deployment instead of journaling another all-cash day. Live reconcile clean: Settled/Option BP
