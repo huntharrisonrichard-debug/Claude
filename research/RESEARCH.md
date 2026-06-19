@@ -10,31 +10,33 @@ the Learnings & Observations log each run. Keep it tight and decision-relevant.
 _One-paragraph read on the current environment: trend, rates/Fed, inflation, volatility,
 risk-on vs risk-off. Update when the picture shifts._
 
-- **As of:** 2026-06-18 (Research Agent)
-- **Regime:** **The hawkish binary resolved.** Warsh's first FOMC HELD 3.50–3.75% on 6/17 but the
-  new dot plot moved the **2026 year-end median to 3.8% (from 3.4%), with 9 officials dotting ≥1
-  hike** — on hot 4.2% May CPI, the Fed is signaling it may *raise*. The tape repriced hard:
-  **S&P −1.21% to 7,420.10, Nasdaq −1.34%, Dow −0.98%; all 11 sectors red, mega-cap tech worst.**
-  This confirms the 2026 regime: **long-duration growth de-rates; value/defensive/energy/industrials
-  lead — and now add FINANCIALS** (higher-for-longer restores the bank spread model; GS +3%, KBWB
-  +1.5% on 6/17). Crosscurrent: the **US–Iran peace MOU was SIGNED 6/17** (ahead of the rumored 6/19),
-  Hormuz reopening promptly → **oil sliding (WTI ~$76, Brent ~$78)**; energy stays YTD leader but the
-  momentum leg is cooling. **Posture: the 6/17 defensive deployment (IBM/JNJ/XOM/SPY) fits this regime
-  — keep it. The freshest unexploited edge is FINANCIALS (BAC), plus defensive healthcare (ABBV) and
-  staples (WMT). AVOID adding rate-sensitive AI-power (CEG ~$270/VST ~$160) at extended levels into a
-  higher-for-longer print.**
-- **Key dates ahead:** **Fri 6/19** US–Iran deal follow-through / Hormuz reopening (watch slippage →
-  re-bids oil/XOM); late-June **PCE** (hot print hardens the hike bias); **Mon 6/30 CEG Calpine-lockup
-  release** (a sub-$250 dip would finally arm the CEG entry); mid-July Q2 bank earnings (JPM/BAC/GS).
+- **As of:** 2026-06-19 (Research Agent — Juneteenth holiday, markets closed)
+- **Regime:** **The hawkish dip got bought — and the aggressive AI/power book is the right side of it.**
+  Warsh's FOMC (6/17) held 3.50–3.75% but moved the 2026 median dot to **3.8% (9 dot a hike)** →
+  higher-for-longer base case. The tape sold off −1.21% on 6/17, then **rebounded +1.08% on 6/18 led by
+  Nasdaq +1.91%** (S&P 7,500.58) — growth/AI was NOT permanently de-rated; the dip was bought and mega-cap
+  tech led. That validates the sleeve's **6/18 aggressive pivot** (owner removed the 15% cap + 7% stop):
+  out of the low-beta defensives (IBM/JNJ/XOM/SPY — all sold) and into an **AI complex (CEG 31% / NVDA 24%
+  / BAC 13% / WMT 13% / IONQ 6%)**. The most defensible secular driver is the **AI buildout + its power
+  bottleneck** (hyperscaler '26 capex $700B+, baseload scarce; KKR/Helix $10B AI venture with Vistra as
+  anchor/preferred power provider + NVDA design partner). Crosscurrent: the **US–Iran MOU (signed 6/17)**
+  keeps oil sliding (Brent ~$79, −10%/wk, Hormuz reopening, Kuwait +output) → energy de-risked (validates
+  the XOM cut). **Posture: hold the AI/power conviction book; the actionable add is VST (the AI-power 3rd
+  leg) on Monday when cash settles. Watch Quantinuum-IPO competitive pressure on the quantum sleeve.**
+- **Key dates ahead:** **Mon 6/22** market reopens + $567.46 settles → deploy VST; **Tue 6/24 FDX**,
+  **Wed 6/25 MU** (the AI-memory/HBM read-through for NVDA), **Thu 6/26 NKE** earnings; late-June **PCE**
+  (hot print hardens the hike bias); **Mon 6/30 CEG Calpine-lockup release** (a dip = add opportunity, not
+  a thesis break); mid-July Q2 bank earnings (JPM/BAC/GS) = the BAC catalyst.
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** **7,420.10 / 2026-06-17 close (−1.21% on the day; −0.39% since inception).**
-  ⚠️ **CORRECTION:** the prior entry logged ~7,519 (+0.94%) — that was WRONG. Multiple sources (TheStreet,
-  CNBC, 6/17) confirm the S&P **fell 1.21% to 7,420.10** on the hawkish dot plot (2026 median to 3.8%, 9
-  officials dot a hike; all 11 sectors red, mega-cap tech worst). **The index is now BELOW inception (−0.39%),
-  so the sleeve (≈$897.79, ~flat) is roughly +0.4% AHEAD of the S&P, not ~1% behind.** Trading agent: please
-  reconcile `benchmark/performance.csv` against 7,420.10.
+- **Latest level / date:** **7,500.58 / 2026-06-18 close (+1.08% on the day; +0.69% since inception).**
+  Risk-on rebound led by Nasdaq +1.91% (26,517.93). ⚠️ Minor note: the 6/18-close trading journal estimated
+  the S&P at ~7,510 (+0.82%); the **verified close is 7,500.58 (+0.69% since inception)** — reconcile
+  `benchmark/performance.csv`. With the sleeve at ~$882.66 (−1.69% since inception 6/18 close), the sleeve is
+  roughly **−2.4% relative to the S&P** — almost entirely the realized −$12.41 from the 6/18 aggressive
+  rotation; it earns back only if the AI/power book out-compounds over weeks. **6/19 is a market holiday
+  (Juneteenth) — no new index print today; reopens Mon 6/22.**
 
 ## Holdings theses
 _One short block per current holding: why we own it, the thesis, and what would break it._
@@ -58,7 +60,8 @@ _Names we're considering, with the condition that would make us buy._
 | **WMT** | ⭐NEW. Defensive staple evolving growth-y (ad +37%, GMV +50%, e-comm +25%); +9% YTD beats S&P. Low-beta ballast for a growth-punishing tape. PT ~$138–140. | Buy on a hold of ~$116–119 (1 whole share). Stop −7% (~$109.9). | M. Consumer-defensive rotation (sector +13% YTD). 1 sh ≈ $118.15. See INTEL §3. |
 | **ABBV** | ⭐NEW. Defensive pharma, 3.1% div, Skyrizi/Rinvoq immunology; diversifies the sleeve's JNJ healthcare exposure. Buy, PT ~$253 (Piper $298/OW). | Buy on a hold of ~$218–223 (~0.55 sh). Stop −7% (~$206.9). | M. Rate-scare hedge. ~0.55 sh ≈ $122. See INTEL §3. |
 | CEG | Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. Still the *value* AI-power name **on a dip only**. | **WATCH — entry NOT met (~$270).** Buy ~$240–250 on a hold; the 6/30 Calpine lockup could create the dip. Stop −7%. | M-H on a dip. Hawkish dots did NOT knock it down. ~0.50 sh ≈ $124. See INTEL §3. |
-| VST | AI data-center power + nuclear scarcity; **newly named preferred power provider for a $10B KKR AI-infra venture**; PPAs w/ Meta & AWS. Momentum (ran to ~$160), not a discount. MS PT $212/OW. | Wait: pullback to ~$140–145, OR a decisive hold above ~$160. Stop −7%. | M (momentum). ~0.80 sh ≈ $128. See INTEL §3. |
+| **VST** ⭐NEXT BUY | AI-power IPP; **anchor investor AND preferred power provider for the KKR/Helix $10B AI-infra venture** (NVDA = design partner). Strong Buy, median PT ~$230 (~38% up from ~$167). The AI-power 3rd leg (with CEG + NVDA). | **BUY Mon 6/22** once the $567.46 settles. ~1 sh ≈ $167 (~19%, conviction-weighted — no cap). Thesis-based exit: AI-power narrative cools / Helix-PPA cancellation. | H. The clear actionable add. See INTEL §3 #1. |
+| **MU** (Micron) | AI second-derivative of NVDA — HBM/DRAM is the AI-accelerator memory bottleneck; tight supply + data-center demand = pricing power. | **Earnings Wed 6/25.** Post-earnings drift play: enter on a beat + raised guide. Don't pre-position (gap risk). | M (event). See INTEL §3 #7. |
 | ~~PSX~~ | **DISCARDED 2026-06-18** — up-day-confirm trigger never met; Iran deal signed → crude lower (WTI ~$76). Re-examine only if crude stabilizes AND crack spreads widen on an up day. | — | Moved to INTEL §6 Discarded. |
 | VRT | Best-in-class AI data-center power/thermal; FY26 guide raised | **Don't chase (+84% YTD ~$312).** Entry on pullback to high-$270s/$280s or post-FOMC. Stop −7%. | M (quality, wait for price). Fractional sizing. |
 | GEV | Electrification/grid + gas + nuclear; data centers 25% of mix; guide raised | Entry on weakness / post-FOMC (~$941, fractional only). Stop −7%. | M. Theme strong, sizing awkward ($941/sh) for this sleeve — off active §3 list. |
@@ -297,6 +300,18 @@ didn't, and any hypothesis to test._
   account Settled Cash went negative (-$187.77) after using Option-BP basis for NVDA/CEG, so VST
   (the clear next add) waits for the $567.46 to settle 6/19 rather than forcing a buy into
   unsettled funds (§0.5 good-faith risk). Floor at 87.3%, so no pressure to force it.
+- 2026-06-19 (Research Agent, 08:18 ET) — **HOLIDAY RUN (Juneteenth — markets closed, reopen Mon 6/22).**
+  Forward-prep, no live tape; §0.9 floor suspended (market closed). Key work: (1) **Rewrote INTEL to the
+  aggressive mandate** — the prior file was still conservative (15%-cap/7%-stop framing) though the owner
+  pivoted 6/18 PM and rotated the sleeve into an AI complex (CEG 31%/NVDA 24%/BAC 13%/WMT 13%/IONQ 6%);
+  INTEL now sizes conviction-weighted, exits on thesis-break. (2) **6/18 was a tech-led rebound** (S&P
+  +1.08% to **7,500.58**, Nasdaq +1.91%) — the hawkish dip was bought, AI led; the right side for the new
+  book (sleeve rotated late, caught little). (3) **VST is the clear next buy** — KKR/Helix $10B AI venture
+  (Vistra anchor + preferred power provider, NVDA design partner), Strong Buy median PT ~$230 (~38% up);
+  deploys Mon when the $567.46 settles. (4) **New risk: Quantinuum IPO** pressuring IONQ/RGTI (competitive
+  reset) → keep quantum small. (5) **CEG showed a stale $246.71 quote** in one article vs the live 6/18
+  Webull close $274.59 — verify live; thesis intact (TMI-for-MSFT restart, $3.9B capex). Earnings next week:
+  **MU 6/25** = the AI-memory read-through for NVDA. RSS feeds still 403; WSJ_SESSION_COOKIE unset.
 - 2026-06-18 (Close, 16:05 ET) — **Day closed: sleeve $882.66, −1.69% since inception; S&P
   +1.21% to ~7,510 (+0.82% since inception) → relative −2.51%.** The whole gap is the realized
   −$12.41 from the aggressive rotation; the new book (CEG 31%/NVDA 24%/WMT 13%/BAC 13%/IONQ 6%)
