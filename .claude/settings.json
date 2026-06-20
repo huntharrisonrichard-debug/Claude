@@ -5,7 +5,8 @@
   "permissions": {
     "allow": [
       "mcp__webull",
-      "mcp__Zapier__execute_zapier_write_action"
+      "mcp__Zapier__execute_zapier_write_action",
+      "mcp__Zapier__list_enabled_zapier_actions"
     ]
   }
 }

@@ -29,8 +29,9 @@ that is at most 90 minutes old.
    to wsj.com and barrons.com. If absent or expired (fetch returns a login page or redirect),
    fall back to RSS + WebSearch silently. Never error out because a credential is missing —
    the RSS feeds work without any credentials and are the primary source.
-5. **Your output files are `research/INTEL.md` and `research/RESEARCH.md` only.** Commit
-   only those two files. Touch nothing else.
+5. **Your output files are `research/INTEL.md`, `research/RESEARCH.md`, and
+   `portfolio/calendar-events-log.csv`.** Commit only those three files. Touch nothing else.
+   (`calendar-events-log.csv` is append-only — never delete or overwrite existing rows.)
 6. **Protected names are invisible to you as trade candidates.** KTOS, UNCY, COHR, ALL, CTRI
    are off-limits. You may reference them as context ("defense thesis already covered via
    KTOS") but never recommend adding, trimming, or hedging them.
@@ -234,15 +235,93 @@ Selective updates only — never delete the trading agent's entries:
 3. **Learnings:** Append one line: date, what you hunted, key finding, anything that changed
    your view on a prior candidate.
 
+### Step 8 — Calendar Sync (Google Calendar via Zapier)
+
+After writing INTEL.md and updating RESEARCH.md, dispatch new catalyst dates to the
+owner's Google Calendar. Run every session; the dedup log prevents duplicate events.
+
+#### 8a — Bootstrap: verify Google Calendar action is enabled (runs every session, ~2s)
+
+Call `list_enabled_zapier_actions`. Scan the result for any action whose name or app
+contains "Google Calendar."
+
+If **not found:**
+1. Call `discover_zapier_actions` with search term `"Google Calendar create event"`
+2. Identify the single-event creation action (likely `google_calendar_create_detailed_event`
+   or similar — confirm from the result)
+3. Call `enable_zapier_action` with the found action ID
+4. Note the confirmed action name in §8 Learnings: "Calendar action enabled: [name]"
+
+If **already enabled:** note the action name and skip to 8b. Do not re-enable.
+
+#### 8b — Parse dated events from INTEL.md
+
+**From §7 — Earnings Radar (every individual ticker row in the table):**
+- `ticker` = ticker symbol (MU, FDX, NKE, etc.)
+- `event_date` = earnings date as YYYY-MM-DD
+- `event_type` = `earnings`
+- `event_title` = `[Agent] {TICKER}: Earnings {Mon DD} — {Setup note from §7 row}`
+- For after-close reports append: `(report after close; action window = next-day open)`
+- `description` = full "Setup" + "Action" text from the §7 row
+
+**From §2 — Key Upcoming Dates (each dated bullet):**
+- `ticker` = `MACRO`, or the specific ticker if it's a single-name event (e.g., a lockup)
+- `event_date` = specific date as YYYY-MM-DD
+- `event_type` = `earnings` | `lockup` | `macro` | `settlement` | `window`
+- `event_title` = `[Agent] {TICKER or MACRO}: {Event name} {Mon DD} — {one-line note}`
+- `description` = full bullet text from §2
+- **Skip** bullets with no parseable specific date (e.g., "TBD," "mid-August")
+- **Skip** operational cash-management notes (e.g., "$567.46 settles Mon 6/22")
+- For vague date ranges ("mid-July bank earnings"): use the first Monday of that window
+  as `event_date` and `event_type=window`
+
+#### 8c — Dedup check against `portfolio/calendar-events-log.csv`
+
+Read the log. If the file doesn't exist or is header-only, treat as empty (all events new).
+
+For each parsed event: check if a row already exists in the log where both `ticker` AND
+`event_date` match. If yes → skip (already dispatched). If no → this is a new event.
+
+#### 8d — Dispatch new events to Google Calendar
+
+For each new event, call `execute_zapier_write_action` with:
+- Action name: confirmed name from 8a
+- `summary` (or `title`, per the action schema): the `event_title` from 8b
+- `start_date`: `YYYY-MM-DD` (all-day event)
+- `end_date`: same as `start_date`
+- `description`: the `description` from 8b
+- `all_day`: `true` (if the action supports this field)
+
+After each **successful** call, append one row to `portfolio/calendar-events-log.csv`:
+```
+{ticker},{event_date},{event_type},{event_title},{today_YYYY-MM-DD}
+```
+
+If a Zapier call fails: note the error in §8 Learnings and continue to the next event.
+Never let a calendar failure abort the research run or the commit step.
+
+#### 8e — Log dispatch in §8 Learnings
+
+Before moving to the commit step, append one line to §8 of INTEL.md:
+```
+[{date}] Calendar Sync: {N} new event(s) dispatched ({tickers/labels}),
+{M} skipped (already logged). Google Calendar action: {action_name}.
+```
+If Google Calendar needed bootstrapping this run, also note:
+`Bootstrapped Google Calendar action via discover_zapier_actions.`
+
+---
+
 ### Step 7 — Commit and push
 
 ```
-git add research/INTEL.md research/RESEARCH.md
+git add research/INTEL.md research/RESEARCH.md portfolio/calendar-events-log.csv
 git commit -m "research-agent: intel $(date +%F) — [X candidates, key theme]"
 git push origin claude/youthful-bardeen-cw6cs1
 ```
 
-Commit ONLY `research/INTEL.md` and `research/RESEARCH.md`. Nothing else.
+Commit ONLY `research/INTEL.md`, `research/RESEARCH.md`, and
+`portfolio/calendar-events-log.csv`. Nothing else.
 
 ---
 
@@ -298,4 +377,5 @@ confident when the data is thin.
 | `portfolio/holdings.csv` | READ ONLY | Understand what's held; never modify |
 | `portfolio/sleeve-ledger.csv` | READ ONLY | Understand sleeve value and cash |
 | `journal/YYYY/MM/YYYY-MM-DD.md` | READ ONLY | Learn from what the trading agent did |
+| `portfolio/calendar-events-log.csv` | READ + APPEND | Calendar dedup log — one row per dispatched event; never delete existing rows |
 | All other files | NO TOUCH | Never modify journal files, ledger, transactions log |

@@ -297,12 +297,39 @@ The **close** check additionally writes the end-of-day roll-up and appends a row
   replies yes**, default ≤15% while waiting). Everything else waits for the EOD recap.
 - Don't send mid-day "nothing to do" emails — those roll into the recap.
 
-## 8. Voice & discipline
+## 8. Voice & discipline (Trading Agent)
 
 - Be concise, specific, and numeric. A good journal entry lets the owner reconstruct your
   reasoning — and verify every mandate limit was respected — in 30 seconds.
 - Be honest about uncertainty and data gaps. Flag what you couldn't verify.
 - Consistency beats cleverness: do the full workflow **every** run, even quiet ones.
+
+## 9. Google Calendar integration (Research Agent only)
+
+At the end of each morning research run (Step 8 of `routines/research-agent.md`), the
+Research Agent dispatches Google Calendar events for newly discovered catalyst dates.
+Events appear in the owner's primary calendar with an `[Agent]` prefix.
+
+**What gets calendared:** every earnings date from INTEL.md §7 (Earnings Radar); macro
+key dates from §2 (Key Upcoming Dates) with a specific parseable date — PCE, FOMC,
+lockup releases, earnings windows, settlement windows.
+
+**What does NOT get calendared:** events without a specific date (e.g., "TBD,"
+"mid-August"), operational cash-management notes (e.g., "$567.46 settles Mon"),
+intraday checks, paper/live mode switches.
+
+**Event format:** `[Agent] {TICKER}: {EVENT_TYPE} — {SHORT_NOTE}` — all-day event;
+description = full §7/§2 source text.
+
+**Dedup:** `portfolio/calendar-events-log.csv` tracks every dispatched event. Before
+creating any event, the Research Agent checks if `ticker` + `event_date` already exists
+in the log — if so, it skips. This makes the step idempotent across daily runs.
+
+**Infrastructure:** `execute_zapier_write_action` (same Zapier tool used for Gmail
+recaps). First run bootstraps via `list_enabled_zapier_actions` →
+`discover_zapier_actions` → `enable_zapier_action`. The confirmed action name is
+recorded in INTEL.md §8 Learnings. The Trading Agent never creates calendar events —
+calendar sync is the Research Agent's responsibility only.
 
 ---
 
@@ -317,3 +344,4 @@ The **close** check additionally writes the end-of-day roll-up and appends a row
 | `journal/YYYY/MM/YYYY-MM-DD.md` | Daily journal, one entry per check |
 | `reviews/YYYY-Www.md` | Weekly review vs S&P 500 |
 | `benchmark/performance.csv` | Daily **sleeve** value vs S&P 500 |
+| `portfolio/calendar-events-log.csv` | Research Agent calendar dedup log — one row per dispatched Google Calendar event |
