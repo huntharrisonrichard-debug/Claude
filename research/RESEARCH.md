@@ -10,7 +10,7 @@ the Learnings & Observations log each run. Keep it tight and decision-relevant.
 _One-paragraph read on the current environment: trend, rates/Fed, inflation, volatility,
 risk-on vs risk-off. Update when the picture shifts._
 
-- **As of:** 2026-06-19 (Research Agent — Juneteenth holiday, markets closed)
+- **As of:** 2026-06-20 (Research Agent — weekend; markets reopen Mon 6/22)
 - **Regime:** **The hawkish dip got bought — and the aggressive AI/power book is the right side of it.**
   Warsh's FOMC (6/17) held 3.50–3.75% but moved the 2026 median dot to **3.8% (9 dot a hike)** →
   higher-for-longer base case. The tape sold off −1.21% on 6/17, then **rebounded +1.08% on 6/18 led by
@@ -21,12 +21,15 @@ risk-on vs risk-off. Update when the picture shifts._
   bottleneck** (hyperscaler '26 capex $700B+, baseload scarce; KKR/Helix $10B AI venture with Vistra as
   anchor/preferred power provider + NVDA design partner). Crosscurrent: the **US–Iran MOU (signed 6/17)**
   keeps oil sliding (Brent ~$79, −10%/wk, Hormuz reopening, Kuwait +output) → energy de-risked (validates
-  the XOM cut). **Posture: hold the AI/power conviction book; the actionable add is VST (the AI-power 3rd
-  leg) on Monday when cash settles. Watch Quantinuum-IPO competitive pressure on the quantum sleeve.**
-- **Key dates ahead:** **Mon 6/22** market reopens + $567.46 settles → deploy VST; **Tue 6/24 FDX**,
-  **Wed 6/25 MU** (the AI-memory/HBM read-through for NVDA), **Thu 6/26 NKE** earnings; late-June **PCE**
-  (hot print hardens the hike bias); **Mon 6/30 CEG Calpine-lockup release** (a dip = add opportunity, not
-  a thesis break); mid-July Q2 bank earnings (JPM/BAC/GS) = the BAC catalyst.
+  the XOM cut). **Iran MOU stable over the weekend (6/20-6/21) — no re-escalation signals.** Posture: hold
+  the AI/power conviction book; the actionable add is VST (the AI-power 3rd leg) on Monday when cash settles.
+  Watch Quantinuum-IPO competitive pressure on the quantum sleeve.
+- **Key dates ahead:** **Mon 6/22** market reopens + $567.46 settles → deploy **VST** (~1 sh @~$167);
+  **Tue 6/24 FDX** earnings; **Tue 6/24 MU** earnings after close (~4:30 PM ET) — the AI-memory/HBM
+  read-through for NVDA (beat + raise = drift play); **Wed 6/25 MU post-earnings action window** (open) —
+  enter MU on confirmed beat; **Thu 6/26 NKE** earnings; late-June **PCE** (date TBD — hot print hardens
+  hike bias); **Mon 6/30 CEG Calpine-lockup release** (a dip = add opportunity, not a thesis break);
+  mid-July (~Jul 13–18) Q2 bank earnings (JPM/BAC/GS) = the BAC catalyst window.
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
@@ -61,7 +64,7 @@ _Names we're considering, with the condition that would make us buy._
 | **ABBV** | ⭐NEW. Defensive pharma, 3.1% div, Skyrizi/Rinvoq immunology; diversifies the sleeve's JNJ healthcare exposure. Buy, PT ~$253 (Piper $298/OW). | Buy on a hold of ~$218–223 (~0.55 sh). Stop −7% (~$206.9). | M. Rate-scare hedge. ~0.55 sh ≈ $122. See INTEL §3. |
 | CEG | Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. Still the *value* AI-power name **on a dip only**. | **WATCH — entry NOT met (~$270).** Buy ~$240–250 on a hold; the 6/30 Calpine lockup could create the dip. Stop −7%. | M-H on a dip. Hawkish dots did NOT knock it down. ~0.50 sh ≈ $124. See INTEL §3. |
 | **VST** ⭐NEXT BUY | AI-power IPP; **anchor investor AND preferred power provider for the KKR/Helix $10B AI-infra venture** (NVDA = design partner). Strong Buy, median PT ~$230 (~38% up from ~$167). The AI-power 3rd leg (with CEG + NVDA). | **BUY Mon 6/22** once the $567.46 settles. ~1 sh ≈ $167 (~19%, conviction-weighted — no cap). Thesis-based exit: AI-power narrative cools / Helix-PPA cancellation. | H. The clear actionable add. See INTEL §3 #1. |
-| **MU** (Micron) | AI second-derivative of NVDA — HBM/DRAM is the AI-accelerator memory bottleneck; tight supply + data-center demand = pricing power. | **Earnings Wed 6/25.** Post-earnings drift play: enter on a beat + raised guide. Don't pre-position (gap risk). | M (event). See INTEL §3 #7. |
+| **MU** (Micron) | AI second-derivative of NVDA — HBM/DRAM is the AI-accelerator memory bottleneck; tight supply + data-center demand = pricing power. | **Earnings Tue 6/24 after close (~4:30 PM ET). Action window: Wed 6/25 open.** Post-earnings drift play: enter on a confirmed beat + raised data-center guide. Don't pre-position (binary gap risk). | M (event). See INTEL §3 #7. |
 | ~~PSX~~ | **DISCARDED 2026-06-18** — up-day-confirm trigger never met; Iran deal signed → crude lower (WTI ~$76). Re-examine only if crude stabilizes AND crack spreads widen on an up day. | — | Moved to INTEL §6 Discarded. |
 | VRT | Best-in-class AI data-center power/thermal; FY26 guide raised | **Don't chase (+84% YTD ~$312).** Entry on pullback to high-$270s/$280s or post-FOMC. Stop −7%. | M (quality, wait for price). Fractional sizing. |
 | GEV | Electrification/grid + gas + nuclear; data centers 25% of mix; guide raised | Entry on weakness / post-FOMC (~$941, fractional only). Stop −7%. | M. Theme strong, sizing awkward ($941/sh) for this sleeve — off active §3 list. |
@@ -311,7 +314,8 @@ didn't, and any hypothesis to test._
   deploys Mon when the $567.46 settles. (4) **New risk: Quantinuum IPO** pressuring IONQ/RGTI (competitive
   reset) → keep quantum small. (5) **CEG showed a stale $246.71 quote** in one article vs the live 6/18
   Webull close $274.59 — verify live; thesis intact (TMI-for-MSFT restart, $3.9B capex). Earnings next week:
-  **MU 6/25** = the AI-memory read-through for NVDA. RSS feeds still 403; WSJ_SESSION_COOKIE unset.
+  **MU 6/24 after close** = the AI-memory read-through for NVDA (action window 6/25 open). RSS feeds still 403; WSJ_SESSION_COOKIE unset.
+- 2026-06-20 (Research Agent, weekend test standing in for Mon 6/22 ~08:00 ET) — **MANUAL WEEKEND TEST RUN — forward-prep.** WebSearch unavailable + RSS 403-blocked (same as all prior runs since inception). Framework unchanged: AI/power book positioned correctly for Mon 6/22. Key findings: (1) **MU earnings Tue 6/24 after close** is the week's central catalyst — AI-memory/HBM read-through for NVDA; action window Wed 6/25 open; fixed MU watchlist entry (was mislabeled "Earnings Wed 6/25"). (2) **VST deploy pending Mon 6/22** once $567.46 settles (buying power ~$679.36). (3) **CEG Calpine-lockup 6/30** = technical supply event → potential add (not exit). (4) **IONQ stays small** — Quantinuum IPO caps the multiple; sizing discipline unchanged. (5) **Calendar Sync test: 6 events dispatched to Google Calendar** (MU 6/24, FDX 6/24, MU action window 6/25, NKE 6/26, CEG lockup 6/30, MACRO bank window 7/13) — 0 skipped (log was empty). Action confirmed: `google_calendar_create_detailed_event`. For future runs: use `calendarid: "hunt.harrisonrichard@gmail.com"` explicitly to avoid ambiguity (the "primary" alias worked on 4 of 6 calls, needed explicit email on 2).
 - 2026-06-18 (Close, 16:05 ET) — **Day closed: sleeve $882.66, −1.69% since inception; S&P
   +1.21% to ~7,510 (+0.82% since inception) → relative −2.51%.** The whole gap is the realized
   −$12.41 from the aggressive rotation; the new book (CEG 31%/NVDA 24%/WMT 13%/BAC 13%/IONQ 6%)

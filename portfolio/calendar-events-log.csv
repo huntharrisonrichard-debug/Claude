@@ -1,1 +1,7 @@
 ticker,event_date,event_type,event_title,dispatched_on
+MU,2026-06-24,earnings,[Agent] MU: Earnings Jun 24 — HBM/DRAM read-through for NVDA (report after close; action window = Wed 6/25 open),2026-06-20
+FDX,2026-06-24,earnings,[Agent] FDX: Earnings Jun 24 — Global-freight / consumer-demand read,2026-06-20
+MU,2026-06-25,window,[Agent] MU: Post-Earnings Action Window Jun 25 — enter on 6/24 beat + raised guide at open,2026-06-20
+NKE,2026-06-26,earnings,[Agent] NKE: Earnings Jun 26 — Consumer-discretionary read,2026-06-20
+CEG,2026-06-30,lockup,[Agent] CEG: Calpine Lockup Release Jun 30 — technical supply overhang; dip = add opportunity,2026-06-20
+MACRO,2026-07-13,window,[Agent] MACRO: Q2 Bank Earnings Window Jul 13 — JPM/BAC/GS Q2 results; BAC NII thesis catalyst,2026-06-20
