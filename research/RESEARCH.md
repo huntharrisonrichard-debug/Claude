@@ -351,3 +351,17 @@ didn't, and any hypothesis to test._
   from live Webull every run, not just the sleeve; the account-cash delta ($379.69→$176.38) was
   100% explained by it, not sleeve drift. (c) **Tomorrow (Fri 6/19): $567.46 settles → deploy VST
   (~$167) as the AI-power 3rd leg + re-scan ABBV (~$204); it's also the weekly-review day.**
+- 2026-06-22 (Open, ~11:36 ET) — **VST 3rd AI-power leg established, but at a fraction of plan size
+  due to a buying-power correction.** Bought **VST 0.66 sh @ $167.13 = $110.31** (~12.4% of sleeve;
+  order TPJOM8KIU0LM1VE39N7A6BILHA). Sleeve now $888.80 (cash $1.59, **99.8% deployed**); book =
+  CEG 31%/NVDA 24%/WMT 13%/BAC 13%/VST 12%/IONQ 7%. **🔑 Key learning — INTEL's buying-power
+  projection was a double-count.** INTEL forecast ~$679.36 BP for today (= $111.90 sleeve cash +
+  $567.46 "settling"). But the $111.90 was already the *net* Option-BP attributable to the sleeve —
+  it already embedded those settling proceeds. Live Webull confirmed: Option BP $176.38 (all settled,
+  unsettled $0.00), minus owner's ~$64.48 non-sleeve COHR cash = **sleeve BP $111.90 only.** Lesson:
+  **never add "settling" cash to a sleeve-cash figure that's already net of Option BP — Option BP IS
+  the spendable number, settlement just moves unsettled→settled without raising the total.** This
+  made a whole VST share unaffordable; took a fractional position. (b) Iran/Hormuz re-escalation
+  re-bids XOM (§3 #4) but it's unaffordable (~$138) at real BP — energy re-bid noted, not actioned.
+  (c) Event week: MU 6/24 AC (NVDA read-through; drift play 6/25 open), PCE 6/25, CEG lockup 6/30
+  (add-on-dip watch). With cash at $1.59, funding any of these requires recycling WMT (lowest conviction).
