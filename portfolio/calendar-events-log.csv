@@ -5,3 +5,6 @@ MU,2026-06-25,window,[Agent] MU: Post-Earnings Action Window Jun 25 — enter on
 NKE,2026-06-26,earnings,[Agent] NKE: Earnings Jun 26 — Consumer-discretionary read,2026-06-20
 CEG,2026-06-30,lockup,[Agent] CEG: Calpine Lockup Release Jun 30 — technical supply overhang; dip = add opportunity,2026-06-20
 MACRO,2026-07-13,window,[Agent] MACRO: Q2 Bank Earnings Window Jul 13 — JPM/BAC/GS Q2 results; BAC NII thesis catalyst,2026-06-20
+FDX,2026-06-23,earnings,[Agent] FDX: Earnings Jun 23 — Global-freight / consumer-demand read (after close),2026-06-22
+NKE,2026-06-25,earnings,[Agent] NKE: Earnings Jun 25 — Consumer-discretionary read (after close),2026-06-22
+MACRO,2026-06-25,macro,[Agent] MACRO: PCE (May) Jun 25 — core inflation print; hot = hawkish-regime confirm,2026-06-22
