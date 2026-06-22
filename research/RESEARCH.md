@@ -365,3 +365,12 @@ didn't, and any hypothesis to test._
   re-bids XOM (§3 #4) but it's unaffordable (~$138) at real BP — energy re-bid noted, not actioned.
   (c) Event week: MU 6/24 AC (NVDA read-through; drift play 6/25 open), PCE 6/25, CEG lockup 6/30
   (add-on-dip watch). With cash at $1.59, funding any of these requires recycling WMT (lowest conviction).
+- 2026-06-22 (Midday, 12:05 ET) — Quiet pulse check, no trades. Sleeve $884.71 (−1.46% since
+  inception) vs S&P ~7,474 (+0.34%) → −1.80% relative. All 6 theses intact; CEG softest (−1.58%,
+  noise), IONQ best (+7.85%). **Key structural read: the −1.80% gap is almost entirely the realized
+  −$12.41 from the 6/18 rotation, NOT the current book (≈flat unrealized −$0.66).** The aggressive
+  AI/power book is the bet to close it, but with $1.59 idle cash there's zero dry powder for an
+  intraday opportunity — the sleeve is locked ~99.8% deployed until a thesis-break frees capital,
+  WMT is recycled, or the owner adds cash. Hypothesis to watch: MU 6/24 beat+raise → NVDA drift is
+  the nearest catalyst to start closing the benchmark gap, but funding an MU add (§3 #7) at 6/25 open
+  would require selling WMT first. Webull connected first attempt again — connector reliable today.
