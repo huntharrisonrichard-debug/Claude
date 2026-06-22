@@ -374,3 +374,11 @@ didn't, and any hypothesis to test._
   WMT is recycled, or the owner adds cash. Hypothesis to watch: MU 6/24 beat+raise → NVDA drift is
   the nearest catalyst to start closing the benchmark gap, but funding an MU add (§3 #7) at 6/25 open
   would require selling WMT first. Webull connected first attempt again — connector reliable today.
+- 2026-06-22 (Mid-2, 15:16 ET) — Quiet, constructive afternoon. The AI/power book recovered the
+  midday dip: sleeve unrealized flipped −$0.66 → **+$1.31** (IONQ +9.6%, VST green same-day +0.9%,
+  BAC green, CEG back to −0.4%). Sleeve −1.02% vs S&P +0.35% → −1.37% rel (narrowed from −1.80% at
+  midday). Learning: the relative gap is now ~entirely the realized −$12.41 rotation drag, not the
+  live book — closing it is a function of *catalysts landing* (MU 6/24, CEG 6/30 lockup, BAC mid-July),
+  not of trimming the current intact positions. With $1.59 idle cash and 99.8% deployed, there's no
+  dry powder for an intraday add until a thesis-break frees capital or the owner adds cash; no forced
+  action and none warranted. PDT held at 2/3 — preserve the budget for a real catalyst (e.g. a 6/25 MU drift entry).
