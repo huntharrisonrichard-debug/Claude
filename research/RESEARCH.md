@@ -382,3 +382,18 @@ didn't, and any hypothesis to test._
   not of trimming the current intact positions. With $1.59 idle cash and 99.8% deployed, there's no
   dry powder for an intraday add until a thesis-break frees capital or the owner adds cash; no forced
   action and none warranted. PDT held at 2/3 — preserve the budget for a real catalyst (e.g. a 6/25 MU drift entry).
+- 2026-06-22 (Close, 16:10 ET) — **Day closed: sleeve $886.88, −1.22% since inception; S&P −0.37%
+  to 7,472.79 (+0.32% since inception) → relative −1.54%** (narrowed from −2.51% at the 6/18 close).
+  Day move +$4.22 (+0.48%): the AI/power book firmed into the close — unrealized swung from −$2.71
+  (6/18 close) to **+$1.51**; IONQ the day's standout (+10.0%, first double-digit gainer), CEG softest
+  (−0.55%, noise). 1 trade all day (the 11:36 VST 0.66sh deploy of idle cash); no sells. All 6 theses
+  reviewed **intact** at the close — no thesis-break, no mechanical stop (removed 6/18). Deployment
+  99.8% (floor met); sleeve cash $1.59 = zero buying power for adds. **Learnings:** (a) **The relative
+  gap is closing through the live book firming, not through trades** — it narrowed ~1pp (−2.51% → −1.54%)
+  on a quiet hold day purely because the index slipped −0.37% while the AI/power book ticked green;
+  reinforces that the bet is *time + catalysts*, not churn. (b) The realized −$12.41 rotation drag is
+  still ~the entire remaining gap — the live book is now *ahead* on unrealized (+$1.51). (c) Webull
+  connected first attempt for the 4th run today — connector fully reliable this session. (d) **On deck:
+  FDX 6/23 AC, MU 6/24 AC** (the nearest catalyst to start closing the gap — NVDA HBM read-through, act
+  6/25 open on beat+raise; funding an MU add requires recycling WMT first, sleeve is fully invested),
+  NKE + PCE 6/25, CEG Calpine lockup 6/30 (add-on-dip watch).
