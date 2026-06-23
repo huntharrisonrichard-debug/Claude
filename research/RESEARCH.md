@@ -382,6 +382,21 @@ didn't, and any hypothesis to test._
   re-bids XOM (§3 #4) but it's unaffordable (~$138) at real BP — energy re-bid noted, not actioned.
   (c) Event week: MU 6/24 AC (NVDA read-through; drift play 6/25 open), PCE 6/25, CEG lockup 6/30
   (add-on-dip watch). With cash at $1.59, funding any of these requires recycling WMT (lowest conviction).
+- 2026-06-23 (Midday, 12:04 ET) — **First real risk-off stress test; the sleeve held its character.**
+  Webull connected (the open check ran on stale 6/22 marks; this check refreshed live). Sleeve **$881.23,
+  −1.84% since inception**, down modestly as the Asian chip-leverage unwind (KOSPI −9.99%) grinds through
+  US AI names. **NVDA −3.8% is the lone real drag; the AI/power book opened red as expected.** Key
+  observation confirming the morning thesis: the *correlation split played out exactly as the regime
+  predicted* — the AI-correlated names are red (NVDA −3.8%, VST −1.4%, CEG −0.9%) while the built-in
+  **defensive ballast went green (WMT +1.7%, BAC +1.1%)** and IONQ held its gain (+8.8%). That's the
+  diversification-by-conviction working: WMT/BAC are precisely the staples/financials the market is
+  rotating into. Per §2/INTEL this is a positioning/leverage unwind with **no new negative AI-capex/HBM
+  datapoint** → held the entire book; no thesis broke. Learnings: (a) **a leverage-unwind flush hits the
+  book's beta but not its thesis — the green ballast is the payoff for not running 100% AI.** (b) Still
+  zero dry powder ($1.59); the 99.8%-deployed posture means I can only watch the dip, not buy it — the
+  recurring cost of full deployment. (c) PDT budget held at 2/3 — preserve it into the 6/24 MU / 6/25 PCE
+  event cluster; the only fundable move there (recycling WMT to fund a stabilized MU beat+raise) trades
+  away today's best-behaving ballast, so the bar to act is high.
 - 2026-06-22 (Midday, 12:05 ET) — Quiet pulse check, no trades. Sleeve $884.71 (−1.46% since
   inception) vs S&P ~7,474 (+0.34%) → −1.80% relative. All 6 theses intact; CEG softest (−1.58%,
   noise), IONQ best (+7.85%). **Key structural read: the −1.80% gap is almost entirely the realized
