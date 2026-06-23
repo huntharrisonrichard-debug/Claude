@@ -10,35 +10,37 @@ the Learnings & Observations log each run. Keep it tight and decision-relevant.
 _One-paragraph read on the current environment: trend, rates/Fed, inflation, volatility,
 risk-on vs risk-off. Update when the picture shifts._
 
-- **As of:** 2026-06-22 (Research Agent — Mon pre-market, LIVE web data)
-- **Regime:** **AI/power book still the right side of higher-for-longer — but a fresh Iran/Hormuz
-  re-escalation has reopened the energy trade and added a risk-off tail.** Warsh's FOMC (6/17) left the
-  higher-for-longer base case (2026 median dot **3.8%, 9 dot a hike**). The tape bought the dip (+1.08% on
-  6/18 to S&P **7,500.58**, Nasdaq +1.91%) — AI/growth not structurally de-rated. That validates the
-  **6/18 aggressive pivot** (owner removed the 15% cap + 7% stop): out of low-beta defensives (IBM/JNJ/XOM/
-  SPY) into an **AI complex (CEG 31% / NVDA 24% / BAC 13% / WMT 13% / IONQ 6%)**. The most defensible
-  secular driver remains the **AI buildout + its power bottleneck** (hyperscaler '26 capex $700B+, baseload
-  scarce; KKR/Helix $10B venture with Vistra as anchor/preferred provider + NVDA design partner). **🚨 NEW
-  6/22 — the weekend "energy de-risked" call is OBSOLETE: Iran has RE-ESCALATED.** US/Iran exchanged fresh
-  military strikes; **Iran announced a Strait of Hormuz closure 6/20** (US denied); oil re-bid (WTI ~$78.70
-  +~3%, Brent ~$81.70); Trump threatening more strikes — even as a **60-day US–Iran talk sprint** runs in
-  parallel (two-sided/volatile). This **re-bids the contrarian energy long** the prior playbook reserved for
-  re-escalation (→ small XOM, INTEL §3 #4) and is a broad risk-off vector for the high-beta AI book. Posture:
-  hold the AI/power conviction book; clean adds are **VST** (AI-power 3rd leg, ~$165) once cash settles Monday,
-  plus optionally a small **XOM** (~$138) on the Hormuz re-bid. Watch Quantinuum-IPO pressure on the quantum
-  sleeve and the **PCE print Thu 6/25** (hot core = hawkish-regime confirm).
-- **Key dates ahead (CORRECTED 6/22):** **Mon 6/22** market open + $567.46 settles → deploy **VST** (~1 sh
-  @~$165) ± small **XOM** (~$138); **Tue 6/23 (after close) FDX** earnings _(was mis-dated 6/24)_; **Wed 6/24
-  (after close) MU** earnings — AI-memory/HBM read-through for NVDA (beat+raise = drift play, action window
-  **Thu 6/25 open**); **Thu 6/25 PCE (May)** print + **NKE** earnings same day _(NKE was mis-dated 6/26)_;
-  **Mon 6/30 CEG Calpine-lockup release** (a dip = add, not a thesis break); mid-July (~Jul 13–18) Q2 bank
-  earnings (JPM/BAC/GS) = the BAC catalyst window.
+- **As of:** 2026-06-23 (Research Agent — Tue pre-market, LIVE web data)
+- **Regime:** **AI-buildout thesis intact, but the market is taking its first real risk-off stress test —
+  a chip/leverage unwind out of Asia, NOT a demand break.** Overnight 6/22→6/23, South Korea's **KOSPI
+  crashed −9.99% ("Black Tuesday")** after its regulator warned leveraged chip-ETFs were approved "too
+  hastily" + flagged record margin debt → foreign dump of an overheated semi rally (+94% YTD); Samsung/SK
+  Hynix **−12%+** (HBM = MU comps). It spilled to US: **pre-mkt S&P −1.4%, Nasdaq-100 −2.3/−2.7%, Amazon
+  −5%, Alphabet −5% (worst day in a year), MU −9%**, SpaceX −$600B/3 sessions. **KEY READ: a POSITIONING/
+  LEVERAGE unwind, not an AI-demand thesis break** — no new negative capex/HBM datapoint — so per §2 this is
+  **hold-the-AI/power-core-through-the-flush**, not panic-sell at the lows (and a quality-AI dip = add, but
+  the sleeve has $1.59 cash → no dry powder). The 6/18 aggressive pivot stands: **AI complex (CEG 31% /
+  NVDA 24% / WMT 13% / BAC 13% / VST 12% / IONQ 7%)**; the most defensible secular driver remains the AI
+  buildout + its power bottleneck (KKR/Helix $10B venture, Vistra anchor/NVDA design partner). The sleeve is
+  ~60% AI-correlated + 7% quantum → opens red; its **built-in ballast is WMT (staples) + BAC (financials)** —
+  the sectors leadership is rotating to (defensive rotation now a "core Q2 question"). **❌ The 6/22 Iran/
+  Hormuz "energy re-bid" REVERSED within 24h — Iran de-escalating:** US granted Iran a 60-day oil-sale
+  license, Hormuz traffic recovering, **WTI ~$73.67 (−21% MoM)**. XOM whipsawed twice in 5 days → **off the
+  board** (the energy/Hormuz trade is headline-noise both ways; stop chasing it). Watch **MU 6/24** (now far
+  more binary into a −9% pre-drop; act only Thu 6/25 open on a confirmed beat+raise) and **core PCE Thu 6/25**
+  (hot = hawkish-regime confirm = BAC tailwind).
+- **Key dates ahead:** **Tue 6/23 (after close) FDX** Q4 FY26 (first post-Freight-spin print, FY27 guide);
+  **Wed 6/24 (after close) MU** earnings — HBM read-through for NVDA, into a −9% pre-drop (beat+raise =
+  drift/relief snap, action window **Thu 6/25 open**, no pre-position); **Thu 6/25 core PCE (May)** print +
+  **NKE** earnings same day; **Mon 6/30 CEG Calpine-lockup release** (a dip = add, not a thesis break);
+  mid-July (~Jul 13–18) Q2 bank earnings (JPM/BAC/GS) = the BAC catalyst window.
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** **7,500.58 / 2026-06-18 close (+0.69% since inception).** (6/19 Juneteenth holiday
-  — no print; 6/20-6/21 weekend.) Mon 6/22 pre-market futures roughly flat-to-soft (S&P −0.05%) — watch the
-  Iran/Hormuz re-escalation as a risk-off vector at the open.
+- **Latest level / date:** **7,472.79 / 2026-06-22 close (+0.32% since inception; −0.37% on the day).**
+  ⚠️ **Tue 6/23 pre-market is sharply risk-off: S&P futures −1.4%, Nasdaq-100 −2.3/−2.7%** on a chip/AI-led
+  global unwind (KOSPI −9.99%). Expect a red open; the sleeve's AI book will be tested. Sleeve at 6/22 close
+  $886.88 = −1.22% since inception → −1.54% rel.
 - **(historical context line, 6/18):** **7,500.58 / 2026-06-18 close (+1.08% on the day; +0.69% since inception).**
   Risk-on rebound led by Nasdaq +1.91% (26,517.93). ⚠️ Minor note: the 6/18-close trading journal estimated
   the S&P at ~7,510 (+0.82%); the **verified close is 7,500.58 (+0.69% since inception)** — reconcile
@@ -71,12 +73,12 @@ _Names we're considering, with the condition that would make us buy._
 | CEG | Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. Still the *value* AI-power name **on a dip only**. | **WATCH — entry NOT met (~$270).** Buy ~$240–250 on a hold; the 6/30 Calpine lockup could create the dip. Stop −7%. | M-H on a dip. Hawkish dots did NOT knock it down. ~0.50 sh ≈ $124. See INTEL §3. |
 | **VST** ⭐NEXT BUY | AI-power IPP; **anchor investor AND preferred power provider for the KKR/Helix $10B AI-infra venture** (NVDA = design partner). Strong Buy, median PT ~$230 (~38% up from ~$167). The AI-power 3rd leg (with CEG + NVDA). | **BUY Mon 6/22** once the $567.46 settles. ~1 sh ≈ $167 (~19%, conviction-weighted — no cap). Thesis-based exit: AI-power narrative cools / Helix-PPA cancellation. | H. The clear actionable add. See INTEL §3 #1. |
 | **MU** (Micron) | AI second-derivative of NVDA — HBM/DRAM is the AI-accelerator memory bottleneck; HBM sold out through 2026, ~81% GM expected. | **Earnings Wed 6/24 after close (~4:30 PM ET). Action window: Thu 6/25 open.** Post-earnings drift play: enter on a confirmed beat + raised data-center guide. Don't pre-position (binary gap risk). | M (event). See INTEL §3 #7. _(date day-label corrected: 6/24 is a Wed)_ |
-| **XOM** ⭐NEW 6/22 | **Iran/Hormuz RE-ESCALATION re-bids energy** — the contrarian long the playbook reserved for re-escalation. Integrated major, dividend cushion, direct oil-spike beneficiary. Live ~$138. | **BUY small 1-sh starter (~$138)** on confirmed Hormuz-disruption follow-through. Trade, not core. ⚠️ **Wash-sale flag:** XOM sold 6/18 @$136.73 at a loss — re-buy within 30d disallows that loss. | M (event/headline-driven). De-escalation = exit. See INTEL §3 #4 / §5. |
+| ~~XOM~~ | **DISCARDED 2026-06-23** — the 6/22 energy re-bid REVERSED within 24h. Iran de-escalating (US gave a 60-day oil-sale license), Hormuz traffic recovering, WTI ~$73.67 (−21% MoM). Whipsawed twice in 5 days = headline-noise; also wash-sale flagged. | — | Moved to INTEL §6. Re-examine only on a fresh, **confirmed**, durable Hormuz disruption (not a headline). |
 | ~~PSX~~ | **DISCARDED 2026-06-18** — up-day-confirm trigger never met; Iran deal signed → crude lower (WTI ~$76). Re-examine only if crude stabilizes AND crack spreads widen on an up day. | — | Moved to INTEL §6 Discarded. |
 | VRT | Best-in-class AI data-center power/thermal; FY26 guide raised | **Don't chase (+84% YTD ~$312).** Entry on pullback to high-$270s/$280s or post-FOMC. Stop −7%. | M (quality, wait for price). Fractional sizing. |
 | GEV | Electrification/grid + gas + nuclear; data centers 25% of mix; guide raised | Entry on weakness / post-FOMC (~$941, fractional only). Stop −7%. | M. Theme strong, sizing awkward ($941/sh) for this sleeve — off active §3 list. |
 | **IBM** | ⭐ OWNER-REQUESTED. Enterprise AI/hybrid cloud; $6.4B Red Hat + watsonx portfolio; consistent dividend (~4.5% yield); defensive cash-flow floor. Beats on AI-infra tailwind without high-multiple risk. | Evaluate entry on any pullback; confirm price + analyst setup before buying. Stop −7%. | Research: check current price, EPS, PT, analyst ratings next run. |
-| **IONQ** | ⭐ OWNER-REQUESTED. Pure-play quantum computing (trapped-ion); contracts w/ US Air Force + commercial cloud partners; only publicly traded quantum hardware co. High-risk / high-reward; speculative. | Small sizing only (≤8% of sleeve given volatility). Entry on dips; confirm momentum/catalyst. Stop −7%. | Research: volatile name — check recent price action, short interest, and any contract news next run. |
+| **IONQ** | ⭐ OWNER-REQUESTED / HELD (~7%). Pure-play trapped-ion quantum; Q1 rev +755% YoY, $470M backlog; the sleeve's best mark (+7.7%). **Northland raised PT to $70 (from $55), Outperform (6/23)**, ahead of a **Sep 8 investor day**. | Hold small (~7%); binary/high-beta → don't upsize, don't panic-sell a positioning dip. | Held ~7%; new $70 Northland PT supports the thesis through volatility. Quantinuum-IPO pressure persists. |
 | **RGTI** | ⭐ OWNER-REQUESTED. Rigetti Computing; superconducting quantum processor; AWS/Microsoft cloud partnerships. Earlier-stage than IONQ, higher volatility, lower liquidity. | Small sizing only (≤8% of sleeve). Entry only with a clear catalyst or sector momentum. Stop −7%. | Research: check price, float, dilution risk next run. Pair with IONQ for quantum basket sizing. |
 
 ## Defensive Deployment Candidates
@@ -337,6 +339,21 @@ didn't, and any hypothesis to test._
   add once $567.46 settles (BP ~$679.36). MU 6/24 stays a 6/25-open drift play (no pre-position; "no raise
   = sharp selloff"). GNRC (Jefferies Hold→Buy, PT $302) + GEV guide-raise confirm AI-power breadth (both
   too pricey for the sleeve).
+- 2026-06-23 (Research Agent, 08:05 ET) — **LIVE Tue pre-market — the sleeve's first real risk-off test +
+  the energy trade whipsawed back.** (1) **🚨 Chip/AI-led global risk-off:** KOSPI −9.99% ("Black Tuesday")
+  after Korea's regulator warned on leveraged chip-ETFs + record margin debt → foreign dump of an overheated
+  semi rally; Samsung/SK Hynix −12%+; spilled to US pre-mkt (S&P −1.4%, Nasdaq-100 −2.3/−2.7%, Amazon/Alphabet
+  −5%, MU −9%). **Read it as a POSITIONING/LEVERAGE unwind, not an AI-demand break** (no new negative
+  capex/HBM datapoint) → per §2, hold the AI/power core through the flush; don't sell the core at the lows; a
+  quality-AI dip = add IF capital frees (sleeve has $1.59 → none). Ballast = WMT/BAC. (2) **❌ The 6/22 Iran
+  "energy re-bid" reversed in 24h** — Iran de-escalating (60-day oil-sale license, Hormuz recovering), WTI
+  ~$73.67 (−21% MoM); **XOM whipsawed twice in 5 days → discarded.** Lesson: the Hormuz/energy trade is
+  headline-noise both ways — stop chasing it without a confirmed durable disruption. (3) **MU 6/24 now far
+  more binary** (−9% into its own print) — keep no-pre-position, act only Thu 6/25 open on a confirmed
+  beat+raise. (4) Prices: NVDA ~$207.78 (held −1.3%), IONQ ~$58.32 (held +7.7%; **Northland PT→$70**, Sep 8
+  investor day), IBM ~$268.71 (**+8% since the 6/18 sale @$249** — the rotation-out has lagged so far),
+  CEG ~$275, VST ~$167, BAC ~$57.40. (5) Calendar Sync: 0 new (all 7 dated catalysts already logged). RSS
+  403; WebSearch worked; Cowork feed empty.
 - 2026-06-18 (Close, 16:05 ET) — **Day closed: sleeve $882.66, −1.69% since inception; S&P
   +1.21% to ~7,510 (+0.82% since inception) → relative −2.51%.** The whole gap is the realized
   −$12.41 from the aggressive rotation; the new book (CEG 31%/NVDA 24%/WMT 13%/BAC 13%/IONQ 6%)
