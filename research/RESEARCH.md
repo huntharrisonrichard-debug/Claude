@@ -414,3 +414,17 @@ didn't, and any hypothesis to test._
   FDX 6/23 AC, MU 6/24 AC** (the nearest catalyst to start closing the gap — NVDA HBM read-through, act
   6/25 open on beat+raise; funding an MU add requires recycling WMT first, sleeve is fully invested),
   NKE + PCE 6/25, CEG Calpine lockup 6/30 (add-on-dip watch).
+- 2026-06-23 (Open, ~09:45 ET) — **Webull MCP did NOT connect** (server unavailable the full ~90s
+  window; the connector's per-run unreliability bit again — opposite of yesterday's 4-for-4). Ran
+  paper/advisory: **no orders, deployment floor suspended (§0.9b)**, protected names not live-confirmed
+  but no action taken on any. WebSearch returned only 6/22-close/predicted prices (no reliable live
+  intraday), so the sleeve is marked STALE at 6/22 close ($886.88, −1.22% vs S&P +0.32% = −1.54% rel).
+  **Macro:** a **chip/AI-led global risk-off** is underway (KOSPI −9.99% "Black Tuesday" on a leveraged
+  chip-ETF regulator warning; US AI mega-caps −5%, MU −9% pre-mkt). **Learnings:** (a) Per §2/INTEL the
+  trigger is a **positioning/leverage unwind, NOT an AI-demand/HBM thesis break** — no new negative
+  fundamental datapoint — so the held AI/power book (~67%) is **hold-through-the-flush**, not panic-sell;
+  the discipline test is resisting the urge to react to a red tape. (b) The cost of being **99.8%
+  deployed** shows up exactly here: a quality-AI dip is the textbook moment to *add*, and the sleeve has
+  $1.59 → zero dry powder; a small permanent cash reserve (or a pre-identified recycle of lowest-conviction
+  WMT) would let the book exploit, not just endure, leverage-flush days. (c) Catalysts unchanged: FDX
+  tonight, MU 6/24 AC (act 6/25 open on beat+raise only), PCE+NKE 6/25, CEG lockup 6/30.
