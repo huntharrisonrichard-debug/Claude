@@ -502,3 +502,16 @@ didn't, and any hypothesis to test._
   Webull has failed to register at 4 of the last ~6 attempts (6/23 open+close, this run); the standing fix is
   to reconnect early and often, but with $1.59 cash and intact theses the cost of a missed connection on a
   closed-market overnight run is ~zero. Catalysts unchanged (MU 6/24, PCE+NKE 6/25, CEG lockup 6/30, banks mid-July).
+- 2026-06-24 (Market-Open, 09:35 ET) — **Webull connected first attempt** (good after the 6/23 no-connect run).
+  Live sleeve **$871.51** (cash $1.59 + positions $869.92), realized −$12.41 / unrealized −$13.86; **−2.93% since
+  inception vs S&P −0.93% (7449→~7380) = −2.00% rel.** All 6 theses intact → HOLD, no trades. **Learnings:**
+  (a) **The rebound is real but partial at the open** — index ticked green (+0.35%) yet the sleeve's AI names
+  (NVDA −4.6%, CEG −2.2%, VST −3.3%) are still red intraday; the chip flush hasn't fully cleared and the book's
+  beta to it shows. The rel gap *widened* to −2.00% from the 6/23 web-marked −0.53% — that −0.53% was a generous
+  web close; the live open marks are the truth, and the gap is ~the locked-in 6/18 rotation cost plus today's
+  AI softness. (b) **The whole book is positioned for one event: MU tonight.** No-pre-position discipline holds —
+  the only actionable window is Thu 6/25 open on a confirmed beat+raise (WMT-recycle funded). (c) **WMT (+2.1%) +
+  BAC (+1.2%) ballast green again** — the diversification design still cushioning the AI core. (d) Owner coverage:
+  IBM ~$264 (still rallying post the 6/18 $249 sale; no re-add per owner, no capital), RGTI ~$21 (watch-no-chase,
+  no capital), IONQ held +2.9%. (e) **Webull quote/snapshot endpoints now require a paid subscription** (blocked
+  this run) — position last-prices still come through `get_account_positions`, but S&P/non-held names need WebSearch.
