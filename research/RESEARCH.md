@@ -443,3 +443,20 @@ didn't, and any hypothesis to test._
   $1.59 → zero dry powder; a small permanent cash reserve (or a pre-identified recycle of lowest-conviction
   WMT) would let the book exploit, not just endure, leverage-flush days. (c) Catalysts unchanged: FDX
   tonight, MU 6/24 AC (act 6/25 open on beat+raise only), PCE+NKE 6/25, CEG lockup 6/30.
+- 2026-06-23 (Close, ~20:10 ET) — **The ballast paid off: a good RELATIVE day inside a bad tape.** S&P
+  **closed 7,365.46, −1.44%** (Nasdaq −2.21%) as the chip/AI risk-off picked up steam; real estate/energy/
+  healthcare led up, comm-services/disc led down — textbook risk-off rotation. The index is now **−1.12%
+  since inception**, having given back its whole post-inception gain in two sessions. The sleeve held to
+  ≈ −1.65% since inception, so the **relative gap NARROWED to ≈ −0.53%** (from −1.54% on 6/22) — the best
+  since the 6/18 rotation. **Learnings:** (a) **This is the diversification design working as intended:** on
+  a −1.44% index day, green WMT (+1.4%) and BAC (+0.9%) ballast cushioned the −4% NVDA drag, so a ~60%
+  AI-correlated book *outperformed* the tape. Concentration into AI/power is the offense; the staples/
+  financials sleeve is the defense — keeping both is what produced a relative win on a down day. (b)
+  **Connector reliability is the session's recurring operational risk** — Webull failed to register tools
+  at BOTH the open and the close today (only midday connected), forcing web-sourced close marks and a
+  second no-live-confirm day on protected names. Reconnect early next session; don't rely on one check's
+  connection. (c) **MU tonight is the first real fundamental test** of the AI thesis (HBM read-through for
+  NVDA) — hold discipline: no pre-position, act only Thu 6/25 open on a confirmed beat+raise, and any add
+  requires recycling WMT (fully invested, $1.59 cash). (d) Path to closing the remaining ~−0.53% gap = the
+  realized −$12.41 rotation cost being earned back as the AI book works through its catalysts (MU 6/24, CEG
+  lockup-dip 6/30, BAC bank earnings mid-July) — not churn.
