@@ -10,37 +10,37 @@ the Learnings & Observations log each run. Keep it tight and decision-relevant.
 _One-paragraph read on the current environment: trend, rates/Fed, inflation, volatility,
 risk-on vs risk-off. Update when the picture shifts._
 
-- **As of:** 2026-06-23 (Research Agent — Tue pre-market, LIVE web data)
-- **Regime:** **AI-buildout thesis intact, but the market is taking its first real risk-off stress test —
-  a chip/leverage unwind out of Asia, NOT a demand break.** Overnight 6/22→6/23, South Korea's **KOSPI
-  crashed −9.99% ("Black Tuesday")** after its regulator warned leveraged chip-ETFs were approved "too
-  hastily" + flagged record margin debt → foreign dump of an overheated semi rally (+94% YTD); Samsung/SK
-  Hynix **−12%+** (HBM = MU comps). It spilled to US: **pre-mkt S&P −1.4%, Nasdaq-100 −2.3/−2.7%, Amazon
-  −5%, Alphabet −5% (worst day in a year), MU −9%**, SpaceX −$600B/3 sessions. **KEY READ: a POSITIONING/
-  LEVERAGE unwind, not an AI-demand thesis break** — no new negative capex/HBM datapoint — so per §2 this is
-  **hold-the-AI/power-core-through-the-flush**, not panic-sell at the lows (and a quality-AI dip = add, but
-  the sleeve has $1.59 cash → no dry powder). The 6/18 aggressive pivot stands: **AI complex (CEG 31% /
-  NVDA 24% / WMT 13% / BAC 13% / VST 12% / IONQ 7%)**; the most defensible secular driver remains the AI
-  buildout + its power bottleneck (KKR/Helix $10B venture, Vistra anchor/NVDA design partner). The sleeve is
-  ~60% AI-correlated + 7% quantum → opens red; its **built-in ballast is WMT (staples) + BAC (financials)** —
-  the sectors leadership is rotating to (defensive rotation now a "core Q2 question"). **❌ The 6/22 Iran/
-  Hormuz "energy re-bid" REVERSED within 24h — Iran de-escalating:** US granted Iran a 60-day oil-sale
-  license, Hormuz traffic recovering, **WTI ~$73.67 (−21% MoM)**. XOM whipsawed twice in 5 days → **off the
-  board** (the energy/Hormuz trade is headline-noise both ways; stop chasing it). Watch **MU 6/24** (now far
-  more binary into a −9% pre-drop; act only Thu 6/25 open on a confirmed beat+raise) and **core PCE Thu 6/25**
-  (hot = hawkish-regime confirm = BAC tailwind).
-- **Key dates ahead:** **Tue 6/23 (after close) FDX** Q4 FY26 (first post-Freight-spin print, FY27 guide);
-  **Wed 6/24 (after close) MU** earnings — HBM read-through for NVDA, into a −9% pre-drop (beat+raise =
-  drift/relief snap, action window **Thu 6/25 open**, no pre-position); **Thu 6/25 core PCE (May)** print +
-  **NKE** earnings same day; **Mon 6/30 CEG Calpine-lockup release** (a dip = add, not a thesis break);
+- **As of:** 2026-06-24 (Research Agent — Wed pre-market, LIVE web data)
+- **Regime:** **AI-buildout thesis just passed its first stress test on the tape — the 2-session chip flush
+  is STABILIZING (pre-mkt green) — but tonight's MU print is the real referee.** After KOSPI's −9.99% "Black
+  Tuesday" and a US −1.44% on 6/23 (S&P close **7,365.46**), S&P futures are **+0.43%, Nasdaq-100 +0.71%** into
+  the 6/24 open — the first vote the leverage unwind is finding a floor, vindicating the 6/23 hold-through-the-
+  flush call. **Honest reframe of the cause:** the selloff was **NOT purely positioning** — its root was
+  **Broadcom's June AI-networking miss (−14% vs est) + a maintained-not-raised 2027 outlook**, layered with
+  **anxiety over hyperscalers' debt-funded AI capex**, i.e. a real *sustainability* question. It is still **not
+  a demand break** (HBM sold out through 2026, no cancelled orders), so HOLD stays right — **but condition the
+  AI core on tonight's MU result, don't assume it.** **MU after close 6/24** (consensus ~$34.66B rev / ~$19.95
+  EPS / ~81% GM; HBM4 in volume for NVDA Rubin): beat+raise refutes the worry (act 6/25 open), miss/no-raise
+  confirms it (AVGO-style selloff) — no pre-position. The 6/18 aggressive pivot stands: **AI complex (CEG 31% /
+  NVDA 23% / WMT 14% / BAC 13% / VST 12% / IONQ 7%)**; defensible secular driver = the AI buildout + its power
+  bottleneck (KKR/Helix $10B venture). **Built-in ballast WMT (staples) + BAC (financials)** are leading the
+  rotation (energy/RE/healthcare/industrials/defensive leading as tech wobbles; WMT/BAC both green on 6/23).
+  **❌ Energy stays OFF** — Iran de-escalating, **WTI ~$72.02 / Brent ~$75.81 (multi-month lows)**; XOM
+  discarded. **💵 Fed higher-for-longer hardening** — held 3.50–3.75%, **raised 2026 inflation outlook to
+  3.6%/3.3%**, market prices a possible hike → BAC NII tailwind; **core PCE Thu 6/25** the test. **🆕 ABBV**
+  added as the regime-fit defensive healthcare diversifier (Apogee ~$10.9B deal).
+- **Key dates ahead:** **Wed 6/24 (after close) MU** earnings — the AI-capex referee / HBM read-through for
+  NVDA (beat+raise = drift, action window **Thu 6/25 open**, no pre-position); **Thu 6/25 core PCE (May)** print
+  + **NKE** earnings same day; **Mon 6/30 CEG Calpine-lockup release** (a dip = add, not a thesis break);
   mid-July (~Jul 13–18) Q2 bank earnings (JPM/BAC/GS) = the BAC catalyst window.
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** **7,472.79 / 2026-06-22 close (+0.32% since inception; −0.37% on the day).**
-  ⚠️ **Tue 6/23 pre-market is sharply risk-off: S&P futures −1.4%, Nasdaq-100 −2.3/−2.7%** on a chip/AI-led
-  global unwind (KOSPI −9.99%). Expect a red open; the sleeve's AI book will be tested. Sleeve at 6/22 close
-  $886.88 = −1.22% since inception → −1.54% rel.
+- **Latest level / date:** **7,365.46 / 2026-06-23 close (−1.12% since inception; −1.44% on the day)** as the
+  chip/AI flush deepened (Nasdaq −2.21%). ⚠️ **Wed 6/24 pre-market is GREEN — a rebound: S&P futures +0.43%,
+  Nasdaq-100 +0.71%** (the flush stabilizing). Sleeve held to ≈ −1.65% since inception on 6/23 → **rel gap
+  narrowed to ≈ −0.53%** (best since the 6/18 rotation) as WMT/BAC ballast cushioned the −4% NVDA drag. The
+  next decision point is **tonight's MU print** (act 6/25 open on beat+raise only).
 - **(historical context line, 6/18):** **7,500.58 / 2026-06-18 close (+1.08% on the day; +0.69% since inception).**
   Risk-on rebound led by Nasdaq +1.91% (26,517.93). ⚠️ Minor note: the 6/18-close trading journal estimated
   the S&P at ~7,510 (+0.82%); the **verified close is 7,500.58 (+0.69% since inception)** — reconcile
@@ -69,7 +69,7 @@ _Names we're considering, with the condition that would make us buy._
 |---|---|---|---|
 | ~~BAC~~ | **✅ BOUGHT 6/18 — 2 sh @ $57.17 (12.9% of sleeve).** Now in the holdings-theses table above; stop $53.17. Was the cleanest sleeve-fit on higher-for-longer = bank NII; Strong Buy, PT ~$63. | — held — | Moved from watchlist to holding. Q2 earnings 7/14 is the next catalyst. |
 | **WMT** | ⭐NEW. Defensive staple evolving growth-y (ad +37%, GMV +50%, e-comm +25%); +9% YTD beats S&P. Low-beta ballast for a growth-punishing tape. PT ~$138–140. | Buy on a hold of ~$116–119 (1 whole share). Stop −7% (~$109.9). | M. Consumer-defensive rotation (sector +13% YTD). 1 sh ≈ $118.15. See INTEL §3. |
-| **ABBV** | ⭐NEW. Defensive pharma, 3.1% div, Skyrizi/Rinvoq immunology; diversifies the sleeve's JNJ healthcare exposure. Buy, PT ~$253 (Piper $298/OW). | Buy on a hold of ~$218–223 (~0.55 sh). Stop −7% (~$206.9). | M. Rate-scare hedge. ~0.55 sh ≈ $122. See INTEL §3. |
+| **ABBV** | ⭐NEW / REFRESHED 6/24. Defensive pharma, ~3% div, Skyrizi/Rinvoq immunology; **just agreed to buy Apogee Therapeutics ~$10.9B** to deepen the I&I pipeline. The regime-fit healthcare diversifier vs the AI-heavy book (HC led the 6/23 rotation). Buy consensus, PT ~$253 (~9% up). | Buy on a hold of ~$228–233 (~0.55 sh ≈ $128). Live ~$232.08. Thesis-based exit (pipeline setback / deal-integration stumble). | M. Recycle-funded (WMT) only. See INTEL §3 #8. |
 | CEG | Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. Still the *value* AI-power name **on a dip only**. | **WATCH — entry NOT met (~$270).** Buy ~$240–250 on a hold; the 6/30 Calpine lockup could create the dip. Stop −7%. | M-H on a dip. Hawkish dots did NOT knock it down. ~0.50 sh ≈ $124. See INTEL §3. |
 | **VST** ⭐NEXT BUY | AI-power IPP; **anchor investor AND preferred power provider for the KKR/Helix $10B AI-infra venture** (NVDA = design partner). Strong Buy, median PT ~$230 (~38% up from ~$167). The AI-power 3rd leg (with CEG + NVDA). | **BUY Mon 6/22** once the $567.46 settles. ~1 sh ≈ $167 (~19%, conviction-weighted — no cap). Thesis-based exit: AI-power narrative cools / Helix-PPA cancellation. | H. The clear actionable add. See INTEL §3 #1. |
 | **MU** (Micron) | AI second-derivative of NVDA — HBM/DRAM is the AI-accelerator memory bottleneck; HBM sold out through 2026, ~81% GM expected. | **Earnings Wed 6/24 after close (~4:30 PM ET). Action window: Thu 6/25 open.** Post-earnings drift play: enter on a confirmed beat + raised data-center guide. Don't pre-position (binary gap risk). | M (event). See INTEL §3 #7. _(date day-label corrected: 6/24 is a Wed)_ |
@@ -354,6 +354,23 @@ didn't, and any hypothesis to test._
   investor day), IBM ~$268.71 (**+8% since the 6/18 sale @$249** — the rotation-out has lagged so far),
   CEG ~$275, VST ~$167, BAC ~$57.40. (5) Calendar Sync: 0 new (all 7 dated catalysts already logged). RSS
   403; WebSearch worked; Cowork feed empty.
+- 2026-06-24 (Research Agent, 08:08 ET) — **LIVE Wed pre-market — the flush is stabilizing + an honest reframe
+  of its cause.** (1) **🟢 Rebound setting up:** S&P futures +0.43%, Nasdaq-100 +0.71% after the 2-session chip
+  flush (S&P −1.44% to 7,365.46 on 6/23) → vindicates the hold-through-the-flush call; WMT/BAC ballast turned
+  6/23 into a *relative win* (rel gap ≈ −0.53%, best since 6/18). (2) **🔎 Reframe:** the selloff was NOT purely
+  positioning — root = **Broadcom's June AI-networking miss (−14%) + maintained-not-raised 2027 outlook +
+  debt-funded-capex anxiety** = a real *sustainability* question; still not a demand break (HBM sold out through
+  2026), so HOLD stays right but **condition the AI core on tonight's MU print.** (3) **🎯 MU after close 6/24 =
+  the referee** — beat+raise refutes the worry (act 6/25 open), miss/no-raise confirms it; no pre-position.
+  (4) **⚠️ Data-quality flag:** WebSearch returned **contaminated/future-dated MU content** (bogus $1,000+
+  prices; a hallucinated "PT $1,500" and "earnings already arrived June 24" before MU reported) → treated all MU
+  web prices as UNVERIFIED; trading agent must size off a live Webull quote. Lesson: same-day-catalyst names draw
+  AI-generated junk in search — cross-check or label unverified. (5) **🆕 ABBV** added §3 #8 (Apogee ~$10.9B
+  deal; live ~$232.08, Buy PT ~$253) = regime-fit healthcare diversifier. (6) **Energy off** (WTI ~$72 / Brent
+  ~$75.81, multi-month lows). (7) **Fed** raised 2026 inflation outlook to 3.6%/3.3% → BAC NII hardening; PCE 6/25
+  the test. (8) Owner-req: IONQ held (+7.7%, Northland PT $70); IBM rallying since the 6/18 sale @$249 (JPM→OW PT
+  $291 + OpenAI tie-up; ~$260–320 unverified — rotation-out lagged, no re-add per owner); RGTI ~$24 watch-no-chase.
+  RSS 403; Cowork feed empty.
 - 2026-06-18 (Close, 16:05 ET) — **Day closed: sleeve $882.66, −1.69% since inception; S&P
   +1.21% to ~7,510 (+0.82% since inception) → relative −2.51%.** The whole gap is the realized
   −$12.41 from the aggressive rotation; the new book (CEG 31%/NVDA 24%/WMT 13%/BAC 13%/IONQ 6%)
