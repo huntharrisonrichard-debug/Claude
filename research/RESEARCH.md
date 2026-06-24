@@ -527,3 +527,15 @@ didn't, and any hypothesis to test._
   waiting on MU tonight just like the book is. NVDA −4.6% still the drag; WMT +1.9% / BAC +0.7% green ballast.
   (c) No-pre-position discipline intact; the only actionable window is Thu 6/25 open on a confirmed MU beat+raise
   (WMT-recycle funded). PDT preserved at 2/3 into the 6/24→6/25 MU/PCE event cluster.
+- 2026-06-24 (Mid-2, 15:17 ET) — **Webull connected first attempt (3/3 today).** Live sleeve **$859.98**
+  (cash $1.59 + positions $858.39), realized −$12.41 / unrealized −$25.38; **−4.21% since inception vs S&P
+  −0.93% (7449→~7380) = −3.28% rel — the widest gap yet.** All 6 theses intact → HOLD, no trades (no buying power).
+  **Learnings:** (a) **The morning rebound faded to flat and the AI core re-softened into the close** — NVDA
+  −6.4% (vs −4.6% midday), CEG −3.6%, VST −3.2%, IONQ −3.1% all deepening; this is **event-driven de-risking
+  ahead of a binary catalyst (MU tonight), not new fundamental information** — the §2 read still holds (positioning +
+  capex-sustainability worry, not a demand break). (b) **The rel gap is now almost entirely beta to the MU event**:
+  the whole book is short one print, and the disciplined posture is to hold rather than sell the AI core at the lows
+  the day the referee reports — selling here is the exact §2 mistake. (c) WMT (+1.8%) / BAC (+1.0%) ballast still
+  green, the only thing keeping the gap from being wider. (d) The real decision is Thu 6/25 open: beat+raise → AI core
+  snaps back, may justify a WMT-recycle add (MU drift or NVDA add); miss/no-raise → tilt to a defensive (ABBV) recycle.
+  PDT held at 2/3 into the event cluster.
