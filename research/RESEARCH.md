@@ -539,3 +539,17 @@ didn't, and any hypothesis to test._
   green, the only thing keeping the gap from being wider. (d) The real decision is Thu 6/25 open: beat+raise → AI core
   snaps back, may justify a WMT-recycle add (MU drift or NVDA add); miss/no-raise → tilt to a defensive (ABBV) recycle.
   PDT held at 2/3 into the event cluster.
+- 2026-06-24 (Close, 16:50 ET) — ⚠️ **Webull did NOT connect at the close** (flaky connector failed across the full
+  §3 ~90s retry window — INTEL §3 had flagged it failing ~4 of last 6 attempts). Per §3: **no orders on stale data**,
+  and the close roll-up is anchored on the **last verified live marks (15:17 ET)** — **web stock quotes were heavily
+  contaminated** this run (NVDA quoted $154 / $200 / $208; "MU $1,051"), so they were explicitly NOT used to mark the book.
+  S&P **closed 7,358.22 (−0.10% day; −1.22% since inception)** — web-sourced, reliable. Sleeve **$859.98** → **−4.21%
+  since inception vs index −1.22% = −2.99% rel** (the widest gap since the 6/18 rotation). No trades (4th straight quiet
+  day; all 6 theses intact). **Learnings:** (a) **The contaminated-web-quote failure mode is now recurrent on MU days** —
+  when a name has a same-day catalyst, WebSearch returns AI-generated/future-dated junk; without a live Webull quote the
+  only honest move is to anchor on the last verified marks and label the close non-verifiable, NOT to fabricate a number.
+  (b) **Connector reliability is the binding operational risk** — Webull connected at open/midday/mid-2 but failed at the
+  close, exactly when the close roll-up needs it; reconnect EARLY on 6/25 to have live marks + order capability for the
+  post-MU open (the real decision). (c) The book's entire near-term path is one print: beat+raise → AI/power snaps back
+  (possible WMT-recycle add); miss/no-raise → defensive (ABBV) recycle. (d) WMT/BAC ballast green again kept the down day
+  shallower than the AI-core drawdown alone — the diversification design still earning its keep. PDT preserved at 2/3.
