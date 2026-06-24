@@ -443,6 +443,19 @@ didn't, and any hypothesis to test._
   $1.59 → zero dry powder; a small permanent cash reserve (or a pre-identified recycle of lowest-conviction
   WMT) would let the book exploit, not just endure, leverage-flush days. (c) Catalysts unchanged: FDX
   tonight, MU 6/24 AC (act 6/25 open on beat+raise only), PCE+NKE 6/25, CEG lockup 6/30.
+- 2026-06-23 (Mid-2, 15:16 ET) — **Webull connected first attempt** (live). Sleeve **$873.62**
+  (cash $1.59 + positions $872.03), realized −$12.41 / unrealized −$11.75, **≈ −2.71% since inception**
+  vs S&P ≈ −1.0% → **≈ −1.7% rel** — wider underperformance as the chip-led risk-off **deepened into
+  the afternoon** (S&P −1.32%, Tech −4.13%; an afternoon BofA rate-hike note added pressure). NVDA
+  −4.5% the drag; WMT +1.4% / BAC +1.1% green. **Learnings:** (a) The thesis call held all day — a
+  leverage/positioning unwind with no new AI/HBM datapoint = **hold-through-the-flush**, and the
+  discipline of not selling the AI core at the lows is the entire job on a day like this. (b) The
+  concentrated ~60%-AI posture **mechanically widens relative drawdown** in a chip-specific rout —
+  this is the accepted cost of conviction-weighting, not a thesis error; the test is whether the
+  rebound (e.g. an MU beat+raise) recoups it. (c) The afternoon BofA **rate-hike** note is a quiet
+  *positive* for the BAC NII thesis — higher-for-longer hardens the catalyst. (d) Still $1.59 dry
+  powder → can only endure, not exploit, the dip; pre-identifying the WMT recycle remains the lever
+  if a markedly better setup (stabilized MU 6/25) appears. Catalysts unchanged.
 - 2026-06-23 (Close, ~20:10 ET) — **The ballast paid off: a good RELATIVE day inside a bad tape.** S&P
   **closed 7,365.46, −1.44%** (Nasdaq −2.21%) as the chip/AI risk-off picked up steam; real estate/energy/
   healthcare led up, comm-services/disc led down — textbook risk-off rotation. The index is now **−1.12%
