@@ -473,3 +473,15 @@ didn't, and any hypothesis to test._
   requires recycling WMT (fully invested, $1.59 cash). (d) Path to closing the remaining ~−0.53% gap = the
   realized −$12.41 rotation cost being earned back as the AI book works through its catalysts (MU 6/24, CEG
   lockup-dip 6/30, BAC bank earnings mid-July) — not churn.
+- 2026-06-24 (Overnight/after-hours, 22:46 ET 6/23 / 02:46 UTC 6/24) — **No-trade overnight check; market
+  CLOSED + Webull not connected.** Routine fired in the gap after the 6/23 ET close and before the 6/24 ET
+  open. No live connection (tools didn't register) → no orders on stale data (§3); deployment floor suspended
+  (§0.9 b+c). Web-marked sleeve ≈ $882.62 (cash $1.59), all 6 theses intact, posture = HOLD. **Learnings:**
+  (a) **FDX (Tue 6/23 AH) beat but guided FY EPS $16.90–18.10 below ~$19.86 est on spin-off/stranded costs →
+  −6% AH** — a mild transports/consumer-demand caution that compounds the risk-off tone going into 6/24; no
+  sleeve position, macro read only. (b) **MU prints Wed 6/24 after close = the binary event** into a ~−9%
+  pre-drop; hold the no-pre-position discipline, the only actionable window is Thu 6/25 open on a confirmed
+  beat+raise (WMT-recycle funded). (c) **Connector unreliability is now the dominant operational drag** —
+  Webull has failed to register at 4 of the last ~6 attempts (6/23 open+close, this run); the standing fix is
+  to reconnect early and often, but with $1.59 cash and intact theses the cost of a missed connection on a
+  closed-market overnight run is ~zero. Catalysts unchanged (MU 6/24, PCE+NKE 6/25, CEG lockup 6/30, banks mid-July).
