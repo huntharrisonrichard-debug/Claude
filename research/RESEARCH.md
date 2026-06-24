@@ -515,3 +515,15 @@ didn't, and any hypothesis to test._
   IBM ~$264 (still rallying post the 6/18 $249 sale; no re-add per owner, no capital), RGTI ~$21 (watch-no-chase,
   no capital), IONQ held +2.9%. (e) **Webull quote/snapshot endpoints now require a paid subscription** (blocked
   this run) — position last-prices still come through `get_account_positions`, but S&P/non-held names need WebSearch.
+- 2026-06-24 (Midday, 12:05 ET) — **Webull connected first attempt again** (2/2 today). Live sleeve **$872.19**
+  (cash $1.59 + positions $870.60), realized −$12.41 / unrealized −$13.17; **−2.85% since inception vs S&P
+  −0.93% (7449→~7380) = −1.92% rel.** Book unchanged, all 6 theses intact → HOLD, no trades. **Learnings:**
+  (a) **⚠️ Account total cash dropped to $14.47** (from ~$66.07 at prior runs, −$51.60). Diagnosed as an
+  **owner non-sleeve drawdown** of the COHR-proceeds pool (now ~$12.88 vs ~$64.48), **NOT a sleeve event**: no
+  sleeve trade since the 6/22 VST buy, all sleeve positions present, so sleeve cash stays $1.59 (still fully
+  inside the $14.47). Lesson: reconcile the sleeve off *sleeve activity*, not the raw account-cash total —
+  owner moves in/out of the non-sleeve pool are outside the mandate and must not be mistaken for sleeve P/L.
+  (b) **Tape range-bound midday** (S&P +0.20%, holding the rebound open but not extending) — the market is
+  waiting on MU tonight just like the book is. NVDA −4.6% still the drag; WMT +1.9% / BAC +0.7% green ballast.
+  (c) No-pre-position discipline intact; the only actionable window is Thu 6/25 open on a confirmed MU beat+raise
+  (WMT-recycle funded). PDT preserved at 2/3 into the 6/24→6/25 MU/PCE event cluster.
