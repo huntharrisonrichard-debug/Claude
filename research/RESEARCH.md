@@ -601,3 +601,17 @@ didn't, and any hypothesis to test._
   (WMT→NVDA recycle) was always a marginal judgment call (+PDT cost, chasing a partial gap). Nothing lost.
   (c) Watch the core PCE actual for the BAC read and the 6/30 CEG Calpine lockup for an add-on-dip — both
   gated on the connector coming back.
+- **2026-06-25 Mid-2 (~15:15 ET):** ✅ **Webull CONNECTED first attempt** (connector back after a 3-run
+  streak of misses). S&P ~7400–7430 (web; +~1% on MU relief, trimmed by Apple −4% on price-hike news).
+  All 6 sleeve theses intact + MU-vindicated → HOLD all; no trades (sleeve cash $1.59 ≈ zero BP; the
+  $81.47 account cash is owner non-sleeve money, §0.1). Sleeve $860.26 (Webull marks; −4.18% since
+  inception). **Learnings:** (a) **Live reconcile corrected an over-rosy web-based midday picture** — midday
+  web had IONQ ~$58–60 / NVDA ~$200–202; the *delayed* Webull marks are lower (IONQ $50.60, NVDA $194.12).
+  Truth is between: relief rally real but choppy, and **Webull's quote feed is delayed (subscription gated)
+  so its position `Last` prices lag the live tape** — a NEW data-quality caveat to carry: shares/cash/cost
+  from Webull are authoritative, but mark prices need a web cross-check. (b) **Operational risk is now
+  two-pronged** — connector *reliability* (intermittent) AND quote-feed *latency* (no live quote
+  subscription). Escalate both. (c) Action unchanged regardless of which marks: HOLD the vindicated core on
+  $1.59 cash; the book re-rates on its own. (d) Owner account cash jumped ~$67 (to $81.47) — owner
+  deposit/dividend/activity, not sleeve; sleeve BP stays $1.59. Still no dry powder for the 6/30 CEG-lockup
+  add-on-dip unless capital frees.
