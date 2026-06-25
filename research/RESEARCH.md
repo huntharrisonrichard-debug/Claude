@@ -572,3 +572,21 @@ didn't, and any hypothesis to test._
   held — I labeled the exact rev/EPS figures *unverified* but leaned on the multiply-sourced *direction* (beat +
   raise + +18% gap), which is what the thesis turns on. Connector failed at the 6/24 close → flagged "reconnect
   EARLY 6/25" for the trading agent's post-MU open. RSS still 403; Cowork feed empty.
+- 2026-06-25 (Market-Open, ~09:35 ET) — **MU vindication day, but a no-trade run: Webull MCP did NOT
+  connect** (server never surfaced any tools across the full §3 retry window — the connector failed at
+  the 6/24 close too, so the "reconnect EARLY" flag couldn't be honored). Ran paper/advisory: **no orders,
+  deployment floor suspended (§0.9b)**, protected names not live-confirmed (no Webull) but untouched
+  regardless. Sleeve anchored on last VERIFIED live marks (6/24 15:17 close, $859.98); web quotes
+  directional only. **Macro/thesis:** MU's 6/24 AH print was a **blowout beat + RAISED** (tightness "locked
+  in beyond 2027," 2026 HBM sold out & contracted) → the AI-capex-sustainability worry that drove the
+  6/23–24 chip flush is **REFUTED**; NVDA +Barclays Buy, QCOM +10%, S&P futures up. All 6 sleeve theses
+  reviewed **intact + re-validated** → HOLD all. **Learnings:** (a) **The hold-through-the-flush discipline
+  paid off** — not selling the ~60% AI-correlated core into the 6/24 lows the day before the catalyst (the
+  §2 mistake) was exactly right; the print rewarded it. (b) **The one high-value action (recycle WMT → add
+  NVDA on the read-through) was blocked by the dead connector, not by mandate** — and even live it's a
+  judgment call (burns PDT to 3/3, chases a +1% one-day relief gap), so HOLD-and-re-rate loses nothing.
+  Don't chase MU's +18% gap (§6). (c) **Connector reliability is now the recurring operational risk** —
+  failed at both the 6/24 close and the 6/25 open; the sleeve has been unable to act for two consecutive
+  decision points. Flagging for the owner. (d) Core PCE (May) prints 8:30 ET (hot = BAC NII tailwind);
+  6/30 CEG Calpine lockup dip = add-on-dip watch (if capital + connection ever align). RGTI (owner-req)
+  now has its named catalyst ($100M quantum-EO grant) but no capital + no Webull → watch-not-chase.
