@@ -590,3 +590,14 @@ didn't, and any hypothesis to test._
   decision points. Flagging for the owner. (d) Core PCE (May) prints 8:30 ET (hot = BAC NII tailwind);
   6/30 CEG Calpine lockup dip = add-on-dip watch (if capital + connection ever align). RGTI (owner-req)
   now has its named catalyst ($100M quantum-EO grant) but no capital + no Webull → watch-not-chase.
+- **2026-06-25 Mid-1 (Midday, ~12:30 ET):** S&P ≈ 7396 (+0.5% on day) — MU-led AI relief rally holding
+  into midday. **Webull STILL not connected** (3rd consecutive run after 6/24 close + 6/25 open) → no
+  trades, deployment floor suspended (§0.9b). All 6 sleeve theses intact + MU-vindicated → HOLD; NVDA
+  ~−4% vs cost (partial snap-back, not a full round-trip), IONQ +8–11% on quantum-EO tailwind. **Learnings:**
+  (a) **The connector outage is now a 3-run streak** — the sleeve is riding the vindication on autopilot,
+  which is fine for a HOLD posture but means no recycle/add is possible even if judged worthwhile. This is
+  the standing operational risk to escalate. (b) **A no-trade run on a confirming tape is the right
+  outcome anyway** — the relief rally re-rates the held core without intervention; the only foregone action
+  (WMT→NVDA recycle) was always a marginal judgment call (+PDT cost, chasing a partial gap). Nothing lost.
+  (c) Watch the core PCE actual for the BAC read and the 6/30 CEG Calpine lockup for an add-on-dip — both
+  gated on the connector coming back.
