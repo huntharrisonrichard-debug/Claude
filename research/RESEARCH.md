@@ -615,3 +615,21 @@ didn't, and any hypothesis to test._
   $1.59 cash; the book re-rates on its own. (d) Owner account cash jumped ~$67 (to $81.47) — owner
   deposit/dividend/activity, not sleeve; sleeve BP stays $1.59. Still no dry powder for the 6/30 CEG-lockup
   add-on-dip unless capital frees.
+- **2026-06-25 Close (~16:05 ET):** ⚠️ **Webull DOWN at the close** (connector UP only 1/4 runs today —
+  Mid-2 only; same pattern as the 6/24 close). Per §3, roll-up anchored on the last-verified live marks
+  (Mid-2 $860.26); no orders on stale data. **S&P CLOSED 7,357.49, −0.01% (flat); −1.23% since inception.**
+  Sleeve $860.26 (−4.18% since inception) → **−2.95% relative** (~flat day, narrowed slightly from −2.99%).
+  No trades; all 6 theses intact → HOLD. **Learnings:** (a) **The MU-led AI relief rally FADED into the
+  close** — the index finished flat not because AI rolled over but because an **Apple-specific** shock
+  (−6% on MacBook/iPad price hikes) dragged the Mag-7 (Nasdaq −0.46%, 4th straight down). **MU held +17%.**
+  The honest read: the AI/memory thesis was *confirmed* (MU), the AI/power core's thesis is intact, but the
+  tape's relief was choppy and Apple-led-down — so the snap-back the held book was positioned for was
+  partial/delayed, not a clean V. (b) **The Apple/Microsoft hardware price hikes actually *reinforce* the
+  AI thesis** — they're raising prices *because* AI-driven memory costs are up (MU's tightness "locked in
+  beyond 2027"); the same force that pressures consumer-hardware margins is the bullish driver for the
+  memory/power complex the sleeve owns. A useful frame: AI-memory scarcity is now showing up in *end-product
+  pricing*, a second-order confirmation. (c) **Connector reliability remains the standing operational risk**
+  — failed at the close for the 2nd day running; on a live-mode sleeve a dead connector = zero ability to
+  act on thesis or floor even when warranted. Escalated to the owner in the EOD recap. (d) Carry into Fri
+  6/26 (weekly-review day): if Webull reconnects, weigh WMT→NVDA recycle vs HOLD; watch 6/30 CEG Calpine
+  lockup for an add-on-dip; sleeve still $1.59 cash → no dry powder.
