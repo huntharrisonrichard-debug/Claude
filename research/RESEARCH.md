@@ -668,3 +668,15 @@ didn't, and any hypothesis to test._
   cushions the AI/power drawdown — exactly the §0.4 conviction-spread rationale. (c) PDT preserved at 2/3 — a
   no-trade run on a renewed-selloff day also protects the day-trade budget into next week's catalysts (6/30 CEG
   lockup, mid-July bank earnings).
+- 2026-06-26 (Midday, 14:25 ET) — **The AI flush faded intraday — and the ballast inverted.** The OpenAI-IPO-delay
+  gap-down at the open (S&P −0.44%) clawed all the way back to green by midday (S&P ~+0.23%, ~7,375), confirming the
+  open-check read that this is a sentiment wobble the tape won't follow through on, not a demand break. Learnings:
+  (a) **The "ballast" is not a fixed roster — it's whichever low-correlation leg the day rewards, and today it flipped.**
+  On 6/23 and at this morning's open WMT/BAC were the green cushion; by midday 6/26 **WMT is the day's *laggard* (−2.9%
+  on a BofA note) while the AI/power core (NVDA bounced off 192→201, CEG only −0.85%) firmed.** Same diversified book,
+  opposite contributors — which is exactly why the §0.4 conviction-spread holds up across regimes: you don't know in
+  advance which leg cushions, so you carry both. (b) **A red day on a staple ≠ a thesis break** — WMT's secular ad/e-comm
+  story is unchanged; flag it to re-test first at the close, but don't reflexively sell the laggard (that's the §2
+  anchoring mistake in reverse). (c) **Webull connector now dead 5 of the last ~6 runs (6/25–6/26)** — on a $1.59-cash
+  HOLD book it costs nothing, but it's a genuine standing risk for a live sleeve that would need to *act* on a real
+  thesis break; the connector reliability is now the top operational issue, above any single-name thesis.
