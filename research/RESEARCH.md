@@ -653,3 +653,18 @@ didn't, and any hypothesis to test._
   -durability debate is a *recurring* sentiment overhang, not a one-print binary. The correct durable posture
   is the diversified-by-conviction book (AI core + WMT/BAC ballast), not pressing AI on every bounce. Cowork
   feed empty; RSS 403; WebSearch clean.
+- 2026-06-26 (Trading Agent, Market-Open ~09:40 ET) — **Webull connector down again** (no tools surfaced
+  across the full §3 retry window: 2 timed waits + 6 searches over ~90s+) → no orders (§3 stale-data
+  discipline); §0.9 floor suspended (reason b). Market OPEN, **S&P ≈ 7,325 (−0.44%** on the day; opened
+  7,404.91) on the AI-led selloff — confirms INTEL's read: the OpenAI-IPO-delay headline (NYT/Bloomberg)
+  reignited the AI-capex/valuation worry, **3rd flush in ~3 weeks.** Sleeve anchored on last verified Webull
+  marks ($860.26, 6/25 Mid-2); web-directional NVDA ~$195 (−7% vs cost), CEG ~−3%, VST ~−1 to −2%, IONQ ~−6%,
+  vs BAC ~+1.5% / WMT ~flat (the ballast on the right side again). **All 6 theses PASS** — sentiment/valuation
+  wobble, not a demand break (HBM sold out through 2026) → HOLD; no AI add into the 3rd flush; WMT→NVDA recycle
+  stays off the table. **Learnings:** (a) **The connector's intermittency is now the dominant operational
+  constraint** — UP only 1/4 runs 6/25, down at this open; on a HOLD posture with $1.59 cash nothing is lost,
+  but it's a real risk if a thesis ever breaks and an exit is needed. (b) The diversified-by-conviction design
+  keeps paying its insurance premium: on every AI-flush day (6/23, today) the BAC/WMT ballast is the green that
+  cushions the AI/power drawdown — exactly the §0.4 conviction-spread rationale. (c) PDT preserved at 2/3 — a
+  no-trade run on a renewed-selloff day also protects the day-trade budget into next week's catalysts (6/30 CEG
+  lockup, mid-July bank earnings).
