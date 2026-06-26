@@ -680,3 +680,15 @@ didn't, and any hypothesis to test._
   anchoring mistake in reverse). (c) **Webull connector now dead 5 of the last ~6 runs (6/25–6/26)** — on a $1.59-cash
   HOLD book it costs nothing, but it's a genuine standing risk for a live sleeve that would need to *act* on a real
   thesis break; the connector reliability is now the top operational issue, above any single-name thesis.
+- 2026-06-26 (Mid-2, 15:20 ET) — **The midday green faded; the session is closing back toward the morning's risk-off
+  lean.** The OpenAI-IPO-delay flush → midday defensive-rotation bounce (S&P ~+0.23%) → afternoon give-back (≈flat to
+  −0.5%) is the same two-sided sentiment chop, not a directional demand break — sleeve ≈ $855–857, all 6 theses still
+  intact, no trades possible (Webull down 3/3 today + $1.59 cash). Learnings: (a) **Three straight no-Webull checks on
+  one day, ~5 of 6 across 6/25–6/26 — the connector is now reliably *unreliable*; the trading plan should assume
+  paper/advisory mode by default on intraday checks and treat a live connect as the exception, not the base case.**
+  The one run that matters is the **Close** (EOD roll-up + benchmark row + Friday weekly review) — if the connector is
+  still down then, the day's benchmark mark will be web-anchored/unconfirmed, so flag it clearly. (b) **Intraday
+  reversals don't change a HOLD calculus when there's no dry powder** — green-at-midday vs red-at-close is noise for a
+  99.8%-deployed book with no buying power; the only decisions available are thesis-break sells (none today), so the
+  honest output is the same HOLD three checks running. (c) Carry into the Close: re-test WMT first (midday laggard), and
+  if Webull connects, that's the run to get a *verified* benchmark mark for the weekly review.
