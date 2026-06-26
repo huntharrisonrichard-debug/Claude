@@ -692,3 +692,20 @@ didn't, and any hypothesis to test._
   99.8%-deployed book with no buying power; the only decisions available are thesis-break sells (none today), so the
   honest output is the same HOLD three checks running. (c) Carry into the Close: re-test WMT first (midday laggard), and
   if Webull connects, that's the run to get a *verified* benchmark mark for the weekly review.
+- 2026-06-26 (Close, 16:10 ET — WEEK W26 close + Friday weekly review) — **Webull stayed down all 4 checks today (0/4);
+  the close mark is web-anchored/unconfirmed as flagged.** S&P closed **7,354.02 (−0.05% day; −1.27% since inception)**;
+  Nasdaq −0.24% (5th straight down) on AI-datacenter-cost worry; choppy two-sided session (gap-down → midday green →
+  flat). Sleeve anchored at last verified live **$860.26** (cash $1.59), all 6 theses intact → **5th straight no-trade
+  day**, no sells. **Since inception: sleeve −4.18% vs S&P −1.27% = −2.91% relative.** **Weekly (W26, 6/18→6/26 close):
+  sleeve −2.54% vs S&P −2.08% = −0.46% relative** — the gap widened ~0.4% on the week (narrowed to its best −0.53% on
+  6/23 as the ballast cushioned the −1.44% tape, then back to ~−3% as the AI core de-risked 6/24–26). **Weekly-review
+  learnings (durable):** (a) **We are NOT beating the S&P (−2.91% since inception), and the deficit is still ≈ the
+  6/18 rotation's locked-in realized −$12.41** — i.e., mostly transaction cost from the low-beta→AI pivot, not this
+  week's holds; the book has to *earn back* that gap, which argues for patience on the AI/power core, not more churn.
+  (b) **The ballast design is empirically working** — BAC/WMT cushioned every down-AI tape this week (clearest on 6/23);
+  keep the ~40% non-AI ballast as the structural hedge for a ~60%-AI book. (c) **The week's standing operational risk is
+  the Webull connector** (down most of 6/24–6/26); the trading plan should assume paper/advisory by default on intraday
+  checks and treat a live connect as the exception. (d) **Zero dry powder (99.8% deployed / $1.59) cost optionality** —
+  CEG/NVDA dipped with no ability to add; next week consider freeing a small WMT recycle for dry powder, but only on
+  real strength (not into an AI flush) and within PDT. (e) Next catalysts: **Mon 6/30 CEG Calpine lockup** (sub-$260 dip
+  = add iff capital + Webull), **mid-July Q2 bank earnings** (BAC), **Tue 6/30 NKE** (consumer read, no sleeve play).
