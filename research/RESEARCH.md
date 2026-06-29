@@ -765,3 +765,21 @@ didn't, and any hypothesis to test._
   carry into 6/30: if the lockup pushes CEG into the $250s AND any capital appears, CEG whole-share is the
   #1 add; absent capital, the book simply rides the lockup overhang (thesis intact) and waits for the
   mid-July bank-earnings (BAC) and Sep-8 IONQ catalysts.
+- 2026-06-29 (Close, ~16:05 ET) — **Webull flaked back out → no live read at the close**; per §3 the
+  roll-up is anchored on today's 12:45 ET live marks (**$848.04**), with the web close (S&P **7,436.08**
+  +1.12%; CEG ~$259, VST ~$163.5, NVDA ~$194–195) as directional confirmation only (consistent). **EOD
+  scorecard: sleeve −5.54% since inception vs S&P −0.17% = −5.37% relative** — the gap *widened* from
+  −2.95% (6/25) because the index rallied +1.1% on the risk-on tape while CEG fell on its idiosyncratic
+  6/30 lockup overhang. NO TRADES (BP $0.18; all 6 theses intact). **Learnings:** (a) **the cruelest tape
+  for a relative-return scorecard is a risk-on index day where your biggest name has an idiosyncratic
+  technical overhang** — being "positioned right" for the AI bounce (NVDA/VST flat-to-up) still *lost*
+  ground vs the S&P because the 31%-weight CEG sank on a calendar-known lockup, not a thesis crack; the
+  headline number got worse for a reason that is the *opposite* of a sell signal. (b) **The connector is
+  now reliably intermittent within a single day** — live at 12:45, gone by the close — so the §3
+  "anchor on last verified live marks" rule is the routine close path now, not the exception; the
+  benchmark stays honest as long as that anchoring is disciplined and the web close only confirms
+  direction. (c) **The drawdown decomposes cleanly:** ~$12.41 realized (the 6/18 low-beta→AI rotation
+  cost, fixed) + ~$37 unrealized (CEG −$17 lockup overhang + NVDA −$16 chop, both thesis-intact) — none
+  of it is a broken thesis, all of it is timing/technical. Carry into 6/30: CEG lockup *clears* 6/30
+  (overhang should lift); if it dips into the $250s AND capital appears, it's the #1 add — otherwise HOLD
+  and let the lockup release, mid-July bank earnings, and Sep-8 IONQ day work.
