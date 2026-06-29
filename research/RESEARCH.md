@@ -736,3 +736,18 @@ didn't, and any hypothesis to test._
   was DOWN all of 6/26 (0/4 runs); reconcile live this run. Hypothesis: after a brutal week on the wrong side of the
   AI chop, the book is finally positioned right — but with no dry powder, the relief bounce only helps the existing
   marks, it can't be pressed. RSS 403; WebSearch operational & clean; Cowork feed empty.
+
+- 2026-06-29 (Midday, 12:08 ET — Trading Agent) — **Webull MCP DOWN again** (no `mcp__webull__*`
+  tools surfaced across the full ~90s §3 window; Zapier + GitHub connected fine). Per §3 → no orders
+  on stale data; deployment floor SUSPENDED §0.9b (also moot at $1.59 cash). Tape is **risk-on**: S&P
+  ≈7,410 (+0.76% day, −0.52% since inception 7,449); tech leading (AMZN +5.3%/TSLA +4.7%/GOOGL +3.9%);
+  AI relief rally resuming (NVDA ~$192 web, bank upgrade cycle on H2 Blackwell supply unlock). All 6
+  sleeve theses intact and on the *favorable* side of the AI-durability swing today — the ~66% AI/power
+  core (CEG/NVDA/VST) catches the bounce; WMT/BAC ballast lags an up day (expected). NO trades.
+  Learnings: (a) the Webull connector has now failed 2 of the last ~6 sessions (all 6/26 + this run) —
+  connection remains the dominant operational constraint, not idea generation; (b) even a perfectly
+  positioned book is inert without dry powder ($1.59) AND a live connection — the relief bounce only
+  marks-up existing positions, can't be pressed; (c) the §4.6 "keep searching until you buy" rule is
+  correctly gated on Webull-connected + BP>0, so a down-connector run legitimately ends with no buy.
+  Hypothesis to test: if Webull reconnects with the owner having freed any cash (the 6/25 account showed
+  ~$80 non-sleeve owner cash), the cleanest single add is CEG on a 6/30 Calpine-lockup dip into the $250s.
