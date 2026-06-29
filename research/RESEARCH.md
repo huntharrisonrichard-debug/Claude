@@ -751,3 +751,17 @@ didn't, and any hypothesis to test._
   correctly gated on Webull-connected + BP>0, so a down-connector run legitimately ends with no buy.
   Hypothesis to test: if Webull reconnects with the owner having freed any cash (the 6/25 account showed
   ~$80 non-sleeve owner cash), the cleanest single add is CEG on a 6/30 Calpine-lockup dip into the $250s.
+- 2026-06-29 (Mid-2, ~12:45 ET) — **Webull RECONNECTED first attempt** (after the 12:08 Midday web-only
+  run) → first live reconcile in 4 days. Sleeve **$848.04** (cash $1.59 / positions $846.45), realized
+  −$12.41, unrealized −$37.32, 99.8% deployed; **−5.54% since inception vs S&P −0.47% = −5.07% rel** (gap
+  widened from −2.95% on 6/25). All 6 theses intact → HOLD, no trades. Learnings: (a) **the wider relative
+  gap is one idiosyncratic name, not a thesis crack** — CEG slid to $259.98 (−6.2%) on the **6/30 Calpine
+  lockup supply overhang hitting early**; that's a *technical* event INTEL flagged as an ADD zone, the
+  opposite of a sell signal; (b) **the add is doubly blocked** — buying power is now **$0.18** (the owner
+  drew the shared account cash down from $81.47 to ~zero, and sold 20 protected UNCY 145→125; both
+  non-sleeve), AND even a WMT recycle can't fund a same-session CEG buy because the proceeds settle T+1 in
+  a cash account; (c) the hypothesis from 6/29 Midday is now half-answered — Webull reconnected, but the
+  owner did the *opposite* of freeing cash (withdrew it), so the CEG-lockup add stays inert. Hypothesis to
+  carry into 6/30: if the lockup pushes CEG into the $250s AND any capital appears, CEG whole-share is the
+  #1 add; absent capital, the book simply rides the lockup overhang (thesis intact) and waits for the
+  mid-July bank-earnings (BAC) and Sep-8 IONQ catalysts.

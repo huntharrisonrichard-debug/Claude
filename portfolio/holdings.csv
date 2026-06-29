@@ -7,7 +7,7 @@ bucket,ticker,shares,cost_basis,purchase_date,notes
 # COHR removed 2026-06-17: OWNER sold 0.7sh @ $382.56 (~10:02 ET, order M5IO2K87…). Agent did NOT touch it (protected). No longer held.
 protected,ALL,0.05,215.76,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12
 protected,KTOS,9.5,58.17,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12
-protected,UNCY,145,7.43,,OFF-LIMITS pre-existing; OWNER added 30 sh @ ~$6.78 on 2026-06-18 (115@7.60 -> 145@7.43; ~$203 from owner cash, NOT sleeve) — agent did NOT touch, snapshot-reconciled from live Webull
+protected,UNCY,125,7.43,,OFF-LIMITS pre-existing; OWNER added 30 sh @ ~$6.78 on 2026-06-18 (115@7.60 -> 145@7.43); OWNER then SOLD 20 sh (145 -> 125) by 2026-06-29 (owner non-sleeve action) — agent did NOT touch, snapshot-reconciled from live Webull 6/29 ~12:45 ET (cost still 7.43, last 7.65)
 protected,CTRI,5,34.54,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12 (down ~12% but PROTECTED — agent will NOT sell)
 # sleeve rows are appended by the agent as it opens positions, e.g.:
 # sleeve,ABCD,8,12.40,2026-06-15,opened at 12% of sleeve
