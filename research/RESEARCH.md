@@ -804,3 +804,19 @@ didn't, and any hypothesis to test._
   **HOLD** — 99.8% deployed, zero BP. Calendar Sync: 1 new (June jobs 7/2). RSS 403; WebSearch clean; Cowork feed
   empty. Carry into the trading run: reconnect Webull early (it flaked out at the 6/29 close); CEG-in-the-$250s is
   the standing #1 add if capital frees, else HOLD.
+- 2026-06-30 (Trading Agent, Market-Open ~09:45 ET) — **Webull DID NOT connect — 7+ attempts over >90s (the §3
+  window), zero tools surfaced; the connector's 6/29-close flake persisted into the open.** Per §3 → **paper/
+  advisory, NO orders**; deployment floor **suspended (no-Webull, §0.9 b)**. Journaled against last-verified live
+  marks (6/29 12:45 ET: sleeve **$848.04**, realized −$12.41) with INTEL's 6/30 pre-market web reads as unconfirmed
+  context only — no trading on stale data, no invented prices. Thesis review: **all 6 sleeve theses intact** (CEG
+  −6% = calendar-known 6/30 Calpine-lockup technical, Street LOW PT $296 > spot → ADD zone not a sell; NVDA −7.6% =
+  Blackwell supply unlock not demand) → **HOLD the whole book.** **Learnings:** (a) **the connector is now the
+  dominant operational risk for a third time in a week** (down 6/26 all day, flaked at 6/29 close, down again this
+  open) — the book itself is quiet and correctly positioned, so every "no-trade" run is a connectivity story, not a
+  conviction one; (b) even a successful connect would change nothing today — **~$0.18 physical buying power = zero
+  dry powder**, so the one live idea (CEG into the $250s lockup dip) stays doubly blocked (no cash + WMT-recycle
+  proceeds settle T+1); (c) the selective AI tape (shovels rewarded, MSFT-style spenders punished) keeps validating
+  the held posture, so the −5.4% relative gap remains a single-name CEG-lockup timing artifact, not a thesis crack —
+  the disciplined move is to ride the lockup *release* (clears 6/30) and let the 7/2 jobs print, mid-July BAC
+  earnings, and Sep-8 IONQ day work. Carry to Mid-1: retry Webull early; if it connects, reconcile + re-confirm
+  protected (ALL/KTOS/UNCY 125/CTRI); still HOLD absent capital.
