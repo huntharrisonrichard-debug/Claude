@@ -10,44 +10,44 @@ the Learnings & Observations log each run. Keep it tight and decision-relevant.
 _One-paragraph read on the current environment: trend, rates/Fed, inflation, volatility,
 risk-on vs risk-off. Update when the picture shifts._
 
-- **As of:** 2026-06-29 (Research Agent — Mon pre-market, LIVE web data)
-- **Regime:** **THE WEEKEND FLIPPED THE TAPE RISK-ON — the AI relief rally is RESUMING and the Iran risk-off tail
-  is GONE.** Two of Friday's worries reversed at once: (1) **AI sentiment turned back up** — 6/29 pre-mkt **S&P
-  +1.12%, Nasdaq-100 +1.31%, Dow +0.56%** (Russell −0.19%); SOXX rebounding from its ~10% flush on **renewed
-  AI-capex confidence** ($750B hyperscaler 2026 capex intact) + a fresh **NVDA upgrade cycle** (banks lifting PTs
-  on **H2 Blackwell shipment expansion = a supply unlock, not a demand question**); NVDA Fri close $192.53 →
-  ~$195.15 pre-mkt (+1.36%), Strong Buy avg PT ~$298.9. (2) **The U.S.–Iran CEASEFIRE was confirmed Sunday 6/28**
-  — both sides stood down, Hormuz vessels move freely, Doha talks Tue 6/30; oil sliding to ~$70 WTI → removes the
-  risk-off geopolitical tail over the AI book **and confirms energy stays OFF (XOM discarded).** **The honest
-  signal: this is the FOURTH turn in ~3 weeks of the AI-durability tug-of-war** (AVGO miss → KOSPI 6/23 → MU beat
-  6/24 → OpenAI-IPO-delay 6/26 → risk-on bounce 6/29); demand never broke, so per §2 the consistent call —
-  **HOLD the AI/power core through the chop** — is right, and today the book (CEG/NVDA/VST ~66% of sleeve) is on
-  the *favorable* side of the swing. The 6/18 aggressive book stands: **CEG 31% / NVDA 23% / WMT 14% / BAC 13% /
-  VST 12% / IONQ 6%**; defensible secular driver = the AI buildout + its power bottleneck (KKR/Helix $10B venture),
-  reaffirmed by today's tape. **🟢 BAC (the book's best gainer, +6.7%)** stays the higher-for-longer NII anchor —
-  hot core PCE (3.4% YoY) hardens it — but the analyst picture is now **mixed (Citi $66 / Truist $64 raised; JPM
-  cut to $57.50, UBS to $62; avg ~$61.4)**; Q2 bank earnings mid-July the catalyst. On a risk-on tape the WMT/BAC
-  ballast **lags** (expected cost of low beta on an up day — it earns its keep on red days). **⚛️ Quantum:** the
-  IBM-concentration headwind may **ease** on risk-on (last week's flight-to-the-funded-incumbent was partly a
-  risk-off move); hold IONQ small, structural story intact via Sep 8 investor day. **🟣 Comcast (CMCSA) +25%** on a
-  tax-free NBCUniversal/Sky spin-off — a real break-up catalyst but it already ran 25% → watch-not-chase. **❌
-  Energy stays OFF** — Iran ceasefire confirmed; oil ~$70 falling; XOM discarded. **ABBV de-prioritized L** — the
-  risk-on turn fades the defensive case.
+- **As of:** 2026-06-30 (Research Agent — Tue pre-market, LIVE web data; quarter/month-end)
+- **Regime:** **THE AI RALLY HELD INTO A RECORD CLOSE (S&P 7,440.43, +1.2% on 6/29) — BUT THE TAPE TURNED
+  SELECTIVE IN A WAY THAT VALIDATES THE HELD BOOK.** The crucial 6/30 read: the market is **rewarding AI-capex
+  *beneficiaries* (NVDA/CEG/VST — the picks-and-shovels) and punishing the *spenders* — MICROSOFT just had its
+  worst month since Dec 2000 (−17% in June, a $570B rout)** on AI-capex/AI-disruption fear + a Copilot/Azure
+  securities-fraud suit (Yahoo/Barchart, 6/30). The sleeve owns the *sellers into* AI capex, not the
+  capex-burdened platforms — so the selectivity is a thesis *confirmation*. This is the ~5th turn of the
+  month-long AI-durability tug-of-war (AVGO miss → KOSPI 6/23 → MU 6/24 → OpenAI 6/26 → risk-on 6/29) and it
+  keeps resolving the same way: demand never broke ($750B hyperscaler capex, HBM sold out through 2026), so per §2
+  the consistent call — **HOLD the AI/power shovels through the chop** — is right. 6/30 pre-mkt modestly green
+  (S&P +0.25%, Nasdaq-100 +0.42%). The 6/18 aggressive book stands: **CEG 31% / NVDA 23% / WMT 14% / BAC 14% /
+  VST 13% / IONQ 6%**. **⚖️ Fed independence preserved** — SCOTUS ruled Trump CANNOT fire Fed Gov. Cook (6/29),
+  removing the politicized-Fed tail risk (mildly risk-supportive). **🟢 CEG (closed $259) is the #1 add idea** —
+  the 6/30 Calpine lockup (25M sh) is a *technical* overhang; analysts 20 Buy/0 Sell, avg PT $360, **LOW PT $296
+  (~+14% above spot)** → a dip into the $250s = ADD, not a thesis break (capital-blocked). **🟢 BAC ($58, +1.5%)**
+  stays the higher-for-longer NII anchor into **Thu 7/2 June jobs** + Q2 bank earnings mid-July (targets mixed:
+  Citi $66/Truist $64 vs JPM $57.50/UBS $62, avg ~$61.4). **👟 NKE beat-and-faded ~13–15% to a 2014 low** (beat
+  Q4 EPS but cut guidance + pulled 2027 targets, China −20%) — a weak-consumer read that mildly favors the WMT
+  staples ballast; NOT a sleeve buy (falling knife). **⚛️ Quantum:** range-bound; pure-plays (IONQ/RGTI) haven't
+  yet sprung from the IBM-concentration squeeze; hold IONQ small, structural story intact via Sep 8 investor day.
+  **❌ Energy stays OFF** — Iran ceasefire holds (Doha talks *disputed*); Brent ~$72.4 falling; XOM discarded.
 - **Key dates ahead:** **Tue 6/30 CEG Calpine-lockup release** (a dip into the $250s = add, not a thesis break);
-  **Tue 6/30 NKE earnings** (fiscal Q4 — consumer read, no sleeve play); **Tue 6/30 U.S.–Iran Doha talks**
-  (finalize the war-ending deal); **~Thu 7/2 June jobs report** (date unconfirmed); **Mon 7/7 SPCX joins the
-  Nasdaq-100**; mid-July (~Jul 13–18) **Q2 bank earnings** (JPM/BAC/GS) = the BAC catalyst window; **late July**
-  big-tech earnings (TSLA 7/22, META 7/29, AAPL/AMZN 7/30 = AI-capex read-through); **Tue Sep 8 IONQ investor
-  day** (forward quantum catalyst — calendared).
+  **Tue 6/30 U.S.–Iran Doha talks** (disputed — Iran denies scheduling; ceasefire holds); **Wed 7/1 ADP private
+  payrolls** (leading tell); **Thu 7/2 8:30 ET June jobs report** (CONFIRMED — informs BAC; last full session before
+  the holiday); **Fri 7/3 market CLOSED** (July 4 observed); **Mon 7/7 SPCX joins the Nasdaq-100**; mid-July
+  (~Jul 13–18) **Q2 bank earnings** (JPM/BAC/GS) = the BAC catalyst window; **late July** big-tech earnings (TSLA
+  7/22, META 7/29, AAPL/AMZN 7/30 = AI-capex read-through); **Tue Sep 8 IONQ investor day** (forward quantum
+  catalyst — calendared).
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** **7,354.02 / 2026-06-26 close (−1.27% since inception; −0.05% on the day — flat)** —
-  the Nasdaq posted its 5th straight losing session Friday on the OpenAI-IPO-delay AI worry. ⚠️ **Mon 6/29
-  pre-market FLIPPED RISK-ON: S&P +1.12%, Nasdaq-100 +1.31%, Dow +0.56%** as the AI relief rally resumes (renewed
-  AI-capex confidence + NVDA upgrade cycle on H2 Blackwell supply unlock) and the U.S.–Iran ceasefire (confirmed
-  6/28) removes the geopolitical tail. The held AI/power core (CEG/NVDA/VST ~66%) is on the right side of today's
-  bounce; the WMT/BAC ballast lags (expected on an up day). Posture: **HOLD; no capital to add ($1.59 cash).**
+- **Latest level / date:** **7,440.43 / 2026-06-29 close (−0.11% since inception; +1.2% on the day — a record
+  close)** — the AI relief rally carried the index to a record as tech led (Alphabet +5% Dow debut, TSLA +8.5%).
+  ⚠️ **Tue 6/30 pre-market modestly green (S&P +0.25%, Nasdaq-100 +0.42%)** but the tape is now SELECTIVE: it
+  rewards AI-capex *beneficiaries* (NVDA/CEG/VST — the held shovels) and punishes the *spenders* (MSFT −17% in
+  June, worst month since 2000). SCOTUS preserved Fed independence (Cook ruling). The held AI/power core is on the
+  validated side; CEG ($259) is soft on its 6/30 lockup overhang (a technical event, ADD signal not a sell).
+  Posture: **HOLD; no capital to add (~$0.18 physical cash).** Next macro: **June jobs Thu 7/2 8:30 ET.**
 - **(historical context line, 6/18):** **7,500.58 / 2026-06-18 close (+1.08% on the day; +0.69% since inception).**
   Risk-on rebound led by Nasdaq +1.91% (26,517.93). ⚠️ Minor note: the 6/18-close trading journal estimated
   the S&P at ~7,510 (+0.82%); the **verified close is 7,500.58 (+0.69% since inception)** — reconcile
@@ -77,7 +77,9 @@ _Names we're considering, with the condition that would make us buy._
 | ~~BAC~~ | **✅ BOUGHT 6/18 — 2 sh @ $57.17 (12.9% of sleeve).** Now in the holdings-theses table above; stop $53.17. Was the cleanest sleeve-fit on higher-for-longer = bank NII; Strong Buy, PT ~$63. | — held — | Moved from watchlist to holding. Q2 earnings 7/14 is the next catalyst. |
 | **WMT** | ⭐NEW. Defensive staple evolving growth-y (ad +37%, GMV +50%, e-comm +25%); +9% YTD beats S&P. Low-beta ballast for a growth-punishing tape. PT ~$138–140. | Buy on a hold of ~$116–119 (1 whole share). Stop −7% (~$109.9). | M. Consumer-defensive rotation (sector +13% YTD). 1 sh ≈ $118.15. See INTEL §3. |
 | **ABBV** | ⭐DE-PRIORITIZED 6/29. Defensive pharma (Skyrizi/Rinvoq; Apogee ~$10.9B deal). **The 6/29 risk-on turn fades the defensive bid again** (was briefly re-elevated 6/26 on the risk-off tape). | WATCH only. Re-elevate only if the tape rolls back to risk-off. Live ~$232. | L (deprioritized). The risk-on AI tape outranks a defensive add. See INTEL §3 #8. |
-| **CMCSA** | ⭐NEW 6/29. Tax-free spin-off of NBCUniversal + Sky into a separate public company; ~12-mo timeline; unlocks a media-vs-broadband valuation gap. **Gapped +25% on 6/29 (best day in 11 years).** | WATCH-not-chase — do NOT buy the +25% gap. Whole-share affordable (~$40s) only on a meaningful pullback that holds. | L (already ran). See INTEL §3 #7 / §6. No capital regardless. |
+| **CMCSA** | ⭐6/29. Tax-free spin-off of NBCUniversal + Sky; ~12-mo timeline; unlocks a media-vs-broadband valuation gap. **Gapped +25% on 6/29 (best day in 11 years).** | WATCH-not-chase — do NOT buy the +25% gap. Whole-share affordable (~$40s) only on a meaningful pullback that holds. | L (already ran). See INTEL §6. No capital regardless. |
+| **NKE** | ⭐NEW 6/30. **Beat-and-fade:** beat Q4 EPS ($0.35, 4th straight beat) but **cut guidance + pulled 2027 targets, China −20%** → −13–15% to a 2014 low. A turnaround with no near catalyst. | WATCH — do NOT catch the knife. Re-examine only on stabilization + a guide *raise* (not a single beat). ~$58–62 post-drop. | L (avoid). Weak-consumer read; mildly pro-WMT. See INTEL §3 #7 / §6. |
+| **MSFT** | ⭐NEW 6/30. −17% in June (worst month since 2000) on AI-capex/disruption fear + a Copilot/Azure suit; some call it a contrarian "screaming buy" (FY sales still +17%). | WATCH only — fractional-only for the sleeve; the book deliberately owns AI *shovels*, not capex-burdened *spenders*. | L (de-prioritized). No clean sleeve fit. See INTEL §3 #8. |
 | CEG | Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. Still the *value* AI-power name **on a dip only**. | **WATCH — entry NOT met (~$270).** Buy ~$240–250 on a hold; the 6/30 Calpine lockup could create the dip. Stop −7%. | M-H on a dip. Hawkish dots did NOT knock it down. ~0.50 sh ≈ $124. See INTEL §3. |
 | **VST** ⭐NEXT BUY | AI-power IPP; **anchor investor AND preferred power provider for the KKR/Helix $10B AI-infra venture** (NVDA = design partner). Strong Buy, median PT ~$230 (~38% up from ~$167). The AI-power 3rd leg (with CEG + NVDA). | **BUY Mon 6/22** once the $567.46 settles. ~1 sh ≈ $167 (~19%, conviction-weighted — no cap). Thesis-based exit: AI-power narrative cools / Helix-PPA cancellation. | H. The clear actionable add. See INTEL §3 #1. |
 | **MU** (Micron) | ⭐RESOLVED 6/24 — **BLOWOUT BEAT + RAISED** (tightness "locked in beyond 2027," HBM sold out & contracted). The AI-capex worry is refuted. | **DON'T CHASE the +18% pre-mkt gap** ("already ran"). The cleaner expression of the same win is **NVDA** (held; only +1%, Barclays Buy upgrade). MU only on a gap-fill pullback that holds. | M → don't chase. See INTEL §3 #3. |
@@ -783,3 +785,22 @@ didn't, and any hypothesis to test._
   of it is a broken thesis, all of it is timing/technical. Carry into 6/30: CEG lockup *clears* 6/30
   (overhang should lift); if it dips into the $250s AND capital appears, it's the #1 add — otherwise HOLD
   and let the lockup release, mid-July bank earnings, and Sep-8 IONQ day work.
+- 2026-06-30 (Research Agent, 08:05 ET) — **LIVE Tue pre-market (quarter/month-end) — the AI rally held into a
+  RECORD close (S&P 7,440.43, +1.2% on 6/29) but turned SELECTIVE, and the selectivity VALIDATES the held book.**
+  Key new read: the tape is **rewarding AI-capex *beneficiaries* (NVDA/CEG/VST — the shovels we own) and punishing
+  the *spenders* — MSFT −17% in June, its worst month since Dec 2000, a $570B rout** on AI-capex/disruption fear +
+  a Copilot/Azure securities-fraud suit (Yahoo/Barchart). The book owns the sellers-into-capex, not the
+  capex-burdened platforms → thesis confirmation, not threat; ~5th turn of the month-long tug-of-war again says
+  HOLD the shovels. Other findings: **(1) ⚖️ SCOTUS preserved Fed independence** (Trump can't fire Gov. Cook) —
+  removes the politicized-Fed tail risk. **(2) 👟 NKE beat-and-faded ~13–15% to a 2014 low** — beat Q4 EPS but cut
+  guidance + pulled 2027 targets (China −20%); a clean weak-consumer read, mildly pro-WMT ballast; added §3 #7 (L,
+  watch-not-catch — a falling knife). **(3) 🟢 CEG closed $259** into its 6/30 Calpine lockup (25M sh) — 20 Buy/0
+  Sell, avg PT $360, **LOW PT $296 (~+14% above spot)**: the lockup is a technical overhang, the #1 add idea,
+  getting cheaper — but capital-blocked (~$0.18 physical BP). **(4) 📊 June jobs CONFIRMED Thu 7/2 8:30 ET** (last
+  full session before the 7/3 holiday; ADP 7/1) — the week's macro event, informs BAC; now calendared. **(5) 🛢️
+  Iran ceasefire holds but Doha talks DISPUTED** (Iran denies scheduling); Brent ~$72.4 falling → energy stays
+  OFF. **(6) 🧊 MSFT added §3 #8** (L, contrarian watch — fractional-only; we own shovels not spenders). **(7)
+  Owner-req:** IBM ~$320 (no re-add per owner), IONQ held ~$53.8 (~flat), RGTI ~$24 ($100M grant, watch). Action:
+  **HOLD** — 99.8% deployed, zero BP. Calendar Sync: 1 new (June jobs 7/2). RSS 403; WebSearch clean; Cowork feed
+  empty. Carry into the trading run: reconnect Webull early (it flaked out at the 6/29 close); CEG-in-the-$250s is
+  the standing #1 add if capital frees, else HOLD.
