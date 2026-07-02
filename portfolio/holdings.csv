@@ -5,15 +5,15 @@
 # the agent reconciles shares/cost from live Webull each run. cost_basis = avg price/share.
 bucket,ticker,shares,cost_basis,purchase_date,notes
 # COHR removed 2026-06-17: OWNER sold 0.7sh @ $382.56 (~10:02 ET, order M5IO2K87…). Agent did NOT touch it (protected). No longer held.
-protected,ALL,0.05,215.76,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12
+# ALL: OWNER SOLD 0.05 sh @ $241.55 (2026-06-30, MARKET, order 7TIS4SQALS…) — owner non-sleeve action on a protected name; agent did NOT touch. No longer held.
 protected,KTOS,9.5,58.17,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12
-protected,UNCY,125,7.43,,OFF-LIMITS pre-existing; OWNER added 30 sh @ ~$6.78 on 2026-06-18 (115@7.60 -> 145@7.43); OWNER then SOLD 20 sh (145 -> 125) by 2026-06-29 (owner non-sleeve action) — agent did NOT touch, snapshot-reconciled from live Webull 6/29 ~12:45 ET (cost still 7.43, last 7.65)
+# UNCY: OWNER SOLD ALL 125 sh @ $5.40 (2026-07-02 09:32 ET, LIMIT, order H3I2F87JMMJ…) — owner non-sleeve action on a protected name; agent did NOT touch. Proceeds ~$675 = the $674.99 UNSETTLED cash in the account (owner money, NOT sleeve). Prior history: pre-existing 115@7.60 -> owner added 30 @ ~6.78 (6/18) -> owner trimmed 20 (6/29) -> owner sold remaining 125 (7/2). No longer held.
 protected,CTRI,5,34.54,,OFF-LIMITS pre-existing; Webull snapshot 2026-06-12 (down ~12% but PROTECTED — agent will NOT sell)
 # sleeve rows are appended by the agent as it opens positions, e.g.:
 # sleeve,ABCD,8,12.40,2026-06-15,opened at 12% of sleeve
 # Morning SPY (0.15@750.01) was SOLD by owner same day @750.38 (execution test); position closed, realized +$0.06. Re-opened below as a held swing.
-sleeve,BAC,2,57.17,2026-06-18,LIVE BUY HHJ09J3FBN1O0J4ME6QI24S718; financials/higher-for-longer NII (INTEL §3 #1); thesis: Q2 bank earnings mid-July catalyst + NII expansion; exits on thesis break
-sleeve,WMT,1,117.52,2026-06-18,NET 1 sh after concurrency dup corrected; consumer-staples (INTEL §3 #2); thesis: ad-rev +37% / GMV +50% / e-comm +25% secular growth; exits on thesis break
+# BAC: OWNER SOLD the sleeve's 2 sh @ $58.35 (2026-07-01 17:12 ET place / filled 19:47 ET, LIMIT, order 3THCMBK3FCNV…) — OWNER-executed on a SLEEVE position (agent did NOT place this; agent's 7/1 close run at 15:55 ET placed no trades). Cost 57.17 -> realized +$2.36. Proceeds $116.70 returned to sleeve cash (settled 7/2). No longer held. ⚠️ Awaiting owner steer on redeploying freed cash (see 7/2 journal + email).
+# WMT: OWNER SOLD the sleeve's 1 sh @ $108.41 (2026-07-01 17:12 ET, LIMIT, order 25JKVDST8KBQ…) — OWNER-executed on a SLEEVE position (agent did NOT place this). Cost 117.52 -> realized -$9.11. Proceeds $108.41 returned to sleeve cash (settled 7/2). No longer held.
 # IBM SOLD 2026-06-18 @249.04 (order 4VIQNLRTUPEK8O9K7F434G4HK8) — rotation out of low-conviction defensive; realized -$7.07
 # JNJ SOLD 2026-06-18 @227.94 (order GBJEATP4KH52DAFE6IJFJINLFA) — rotation out of low-conviction defensive; realized -$2.41
 # XOM SOLD 2026-06-18 @136.73 (order BHJOT53OFDT59DB609CV2ENTB9) — rotation out of low-conviction defensive (Iran MOU = oil headwind); realized -$3.35
