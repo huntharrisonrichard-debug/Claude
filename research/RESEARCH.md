@@ -10,25 +10,26 @@ the Learnings & Observations log each run. Keep it tight and decision-relevant.
 _One-paragraph read on the current environment: trend, rates/Fed, inflation, volatility,
 risk-on vs risk-off. Update when the picture shifts._
 
-- **As of:** 2026-07-03 (Research Agent — Fri, MARKET CLOSED [July 4 observed], forward-prep off the 7/2 close)
-- **Regime:** **THE MACRO FLIPPED DOVISH-ER, AND THE TAPE ROTATED TECH→VALUE.** **June jobs = +57k** (7/2; vs ~115k
-  consensus), **May revised to +129k, April to +148k**, unemp 4.2% → the **rate-hike conversation is over: no path to
-  a July hike, the 2Y yield fell, and the July 28–29 FOMC is ~97% priced for a HOLD (no dot plot).** Net **tailwind**
-  for long-duration growth (NVDA) and rate-sensitive power (CEG/VST); the old higher-for-longer BAC-NII edge faded
-  (and BAC is now owner-sold). **BUT 7/2 was a VALUE-ROTATION day:** **Dow closed at an ALL-TIME HIGH 52,900 (+1.07%)**
-  while the **Nasdaq-100 fell −1.61%** (Tesla/mega-cap-tech drag) and the S&P finished ~flat **7,483**. With the owner's
-  BAC/WMT liquidation, the sleeve is now **pure AI-semi + AI-power + quantum beta (CEG ~30% / NVDA ~24% / VST ~12% /
-  IONQ ~6% + ~28% cash)** — a *persistent* tech→value rotation is the near-term risk to monitor (a one-day rotation ≠
-  a break). **🎯 CEG:** the name-specific offset is real — a fresh **15-yr ~176 MW Walmart nuclear PPA (6/23)**, 2026
-  EPS reaffirmed $11–12, 2027 guide *excludes* future data-center PPAs = embedded upside; $240 close as the 6/30
-  Calpine lockup digests (Street **20 Buy/0 Sell, low PT $296 ~+23% above spot**) → the #1 add idea, cheapest yet, now
-  **potentially fundable** by the freed ~$226 cash. **🏗️ VST thesis building:** $4B Cogentrix acquisition + KKR/Helix
-  $10B Nvidia-backed venture; Q1 rev +43%, EBITDA guide reaffirmed. **⚛️ Quantum cooled:** IONQ ~$49.65 (−22%/month),
-  valuations extreme (P/S IONQ 109 / RGTI 836 / QBTS 791); $2B federal program the standing tailwind, Sep 8 IONQ
-  investor day the next catalyst — hold IONQ small. **❌ Energy stays OFF** — Iran ceasefire holds, no fresh Hormuz
-  catalyst; XOM discarded. **💰 Open item:** owner sold BAC+WMT after the 7/1 close → ~$226 freed sleeve cash,
-  earmarked pending owner steer (no reply through 7/2 close) — the key Monday decision. **✅ Operational:** Webull
-  connector remains the standing risk (live only ~2 of the last ~12 runs) — reconnect early Monday.
+- **As of:** 2026-07-06 (Research Agent — Mon pre-market, MARKET REOPENS after July 4 holiday; live web data)
+- **Regime:** **DOVISH-JOBS REGIME INTACT, AND THE 7/2 TECH→VALUE ROTATION IS REVERSING INTO THE 7/6 REOPEN.**
+  **June jobs = +57k** (7/2; vs ~117k consensus), May revised to +129k, April to +148k → the **rate-hike conversation is
+  over: July hike off the table, July 28–29 FOMC priced for a HOLD (no dot plot), 2Y yield fell.** Net tailwind for
+  long-duration growth (NVDA) + rate-sensitive power (CEG/VST). **🟢 The key shift vs Friday:** the 7/2 value rotation
+  (Dow ATH 52,900 / Nasdaq-100 −1.61%) is **easing** — **pre-market 7/6 shows Nasdaq-100 futures +1.12%, SMH (semis ETF)
+  +2.4%, oil falling post-holiday** (Zacks/Yahoo). The sleeve's pure AI-semi + AI-power + quantum beta (CEG ~30% / NVDA
+  ~24% / VST ~12% / IONQ ~6% + ~28% cash) is back on the *right* side of the tape near-term (one session, not a regime
+  verdict). **🎯 CEG:** analyst-divergence read now honest — the 7/1 slide was **Citi cutting PT to $297 & keeping
+  NEUTRAL** (post-PJM model update; corrects the prior "20 Buy/0 Sell" framing), but **MS raised to $364 last week** and
+  even Citi's Neutral is ~+24% above the ~$239 spot; Walmart PPA (6/23) + data-center-PPA optionality intact into the
+  **July 30 earnings** → still the #1 add, fundable by the freed ~$226 cash. **🆕 PLTR:** DA Davidson upgraded
+  Neutral→**BUY, PT $175 (+39%)** on 7/2 (Q1 rev +85%, FY guide raised) → the genuine Buy-upgrade the prior discard
+  waited for; whole-share-affordable (~$126) AI-software breadth diversifier → new §3 candidate. **🏗️ VST:** Meta's
+  nuclear deals name **Vistra** (with TerraPower/Oklo) for the Prometheus supercluster — a reinforcing datapoint; plus
+  $4B Cogentrix + KKR/Helix $10B. **⚛️ Quantum concentrating into IBM:** RGTI ~$17.96 (from ~$22), IONQ ~$51 — hold
+  IONQ small into Sep 8. **❌ Energy stays OFF** — ceasefire holds, oil fell post-holiday; XOM discarded. **💰 Open
+  item:** owner sold BAC+WMT after the 7/1 close → ~$226 freed sleeve cash, earmarked pending owner steer — the key
+  Monday decision. **✅ Operational:** Webull connector remains the standing risk (live only ~2 of the last ~12 runs) —
+  reconnect early.
 - **Key dates ahead:** **Fri 7/3 market CLOSED** (July 4 observed; reopens Mon 7/6); **Mon 7/7 SPCX joins the
   Nasdaq-100**; **~Tue 7/7–8 PEP earnings** (staples read); **CEG lockup digestion (ongoing from 6/30 — a hold in the
   $230s–240s = add, not a thesis break)**; mid-July (~Jul 13–15) **Q2 bank earnings** (JPM/BAC/GS = read-only now,
@@ -38,13 +39,13 @@ risk-on vs risk-off. Update when the picture shifts._
 
 ## S&P 500 reference
 - **Inception baseline level:** 7,449 (close, 2026-06-12) — the line we must beat.
-- **Latest level / date:** **7,483.24 / 2026-07-02 close (+0.46% since inception; ~flat on the day)** — a value-rotation
-  session: the **Dow closed at an all-time high 52,900 (+1.07%)** while the **Nasdaq-100 fell −1.61%** (Tesla/mega-cap
-  tech drag) on the soft June jobs print (+57k). The sleeve (now pure AI/power/quantum beta after the owner's BAC/WMT
-  sale) is on the wrong short-term side of that rotation → sleeve **−9.74% since inception vs S&P +0.46% = −10.2% rel.**
-  CEG closed $240 (Calpine lockup digesting; Walmart PPA the fresh demand offset; Street low PT $296). Posture: **HOLD;
-  the ~$226 freed cash makes the CEG add near $240 fundable — pending owner steer.** Market CLOSED Fri 7/3 (July 4
-  observed); reopens Mon 7/6.
+- **Latest level / date:** **7,483.24 / 2026-07-02 close (+0.46% since inception)** — last verified close (7/3 was the
+  July 4 holiday). **7/6 reopen: pre-market Nasdaq-100 futures +1.12%, SMH +2.4%** — the 7/2 value rotation reversing;
+  the sleeve's AI/power/quantum beta is on the right side near-term. Sleeve **−9.74% since inception vs S&P +0.46% =
+  −10.2% rel** (as of 7/2 close; the 7/6 tech rebound is the first tailwind to start closing it). CEG ~$239 (Citi
+  Neutral PT $297 / MS $364; Walmart PPA the fresh demand offset; earnings 7/30). Posture: **HOLD; the ~$226 freed cash
+  makes the CEG add ~$239 (or a PLTR ~$126 breadth buy) fundable — pending owner steer.** **Re-verify the live S&P level
+  + sleeve marks at the 7/6 open.**
 - **(prior context line, 7/1):** **7,483.23 / 2026-07-01 close (+0.46% since inception; −0.22% on the day)** — Q3 opened
   soft as tech's 2-day post-quarter relief rally unwound. ⚠️ The 7/1 trading journal carried the S&P at ~7,495 (+0.62%);
   the verified close is 7,483.23 (+0.46%) — reconcile `benchmark/performance.csv`.
@@ -84,6 +85,7 @@ _Names we're considering, with the condition that would make us buy._
 | **MSFT** | ⭐NEW 6/30. −17% in June (worst month since 2000) on AI-capex/disruption fear + a Copilot/Azure suit; some call it a contrarian "screaming buy" (FY sales still +17%). | WATCH only — fractional-only for the sleeve; the book deliberately owns AI *shovels*, not capex-burdened *spenders*. | L (de-prioritized). No clean sleeve fit. See INTEL §3 #8. |
 | **RKLB** | ⭐DOWNGRADED 7/2. Rocket Lab — small-launch leader + Neutron medium-lift **now SLIPPED to Q4 2026** (stage-1 tank-test failure pushed the maiden launch); $2.2B backlog, Q1 rev +63.5% YoY. Last run's "pull-forward" read was WRONG. 14 Buy/4 Hold, avg PT ~$119.6 (~+15%). | WATCH — no urgency; the near catalyst is later & de-risked downward. High-beta, fractional. Invalidation: Neutron slips again / space-momentum bid fades. | L (downgraded; watch). ~$104. A breadth lead only; capital-blocked. See INTEL §3 #8. |
 | **GRAB** | ⭐NEW 7/2. Grab Holdings — SE-Asia super-app (ride-hail/delivery/fintech); **MS lifted PT to $6.25, Overweight** on Superbank-consolidation upside to the 2026 guide; **Q2 numbers the near catalyst**; avg PT ~$6.67 (~+70% from ~$3.90). Uniquely **whole-share-affordable** for the sleeve (~38 sh / $150). | WATCH — buy only on a hold of the recent uptrend; high-beta, EM-consumer/FX exposure → size small. Invalidation: Q2 disappoints / Superbank accretion slips / SE-Asia macro or FX turns. | M/L (new; watch). A fresh non-AI/non-defensive breadth lead; capital-blocked. See INTEL §3 #7. |
+| **PLTR** ⭐NEW 7/6 (§6→§3) | AI-software "orchestration layer"; Q1 rev **+85% YoY** ($1.63B), FY26 guide raised to ~$7.65B (+71%). **DA Davidson upgraded Neutral→BUY (7/2), PT $175 (+39%)** — the genuine Buy-upgrade the prior §6 discard required; NVDA partnership. A non-power/non-semi AI breadth diversifier. | **BUY candidate ~$126** (whole-share-affordable, ~15% at 1 sh). Buy on a hold of the post-upgrade level; high multiple → size ~1 share. Invalidation: AI-model commoditization erodes the platform edge / growth deceleration / multiple re-compression. | M (new; actionable). Diversifies the concentrated power/semi book. See INTEL §3 #5. |
 | CEG | Largest US nuclear operator (~55 GW post-Calpine); cleanest carbon-free baseload AI-power play; MSFT/Meta/CyrusOne PPAs; 2026 EPS $11–12, PT ~$404. Still the *value* AI-power name **on a dip only**. | **WATCH — entry NOT met (~$270).** Buy ~$240–250 on a hold; the 6/30 Calpine lockup could create the dip. Stop −7%. | M-H on a dip. Hawkish dots did NOT knock it down. ~0.50 sh ≈ $124. See INTEL §3. |
 | **VST** ⭐NEXT BUY | AI-power IPP; **anchor investor AND preferred power provider for the KKR/Helix $10B AI-infra venture** (NVDA = design partner). Strong Buy, median PT ~$230 (~38% up from ~$167). The AI-power 3rd leg (with CEG + NVDA). | **BUY Mon 6/22** once the $567.46 settles. ~1 sh ≈ $167 (~19%, conviction-weighted — no cap). Thesis-based exit: AI-power narrative cools / Helix-PPA cancellation. | H. The clear actionable add. See INTEL §3 #1. |
 | **MU** (Micron) | ⭐RESOLVED 6/24 — **BLOWOUT BEAT + RAISED** (tightness "locked in beyond 2027," HBM sold out & contracted). The AI-capex worry is refuted. | **DON'T CHASE the +18% pre-mkt gap** ("already ran"). The cleaner expression of the same win is **NVDA** (held; only +1%, Barclays Buy upgrade). MU only on a gap-fill pullback that holds. | M → don't chase. See INTEL §3 #3. |
@@ -842,3 +844,4 @@ didn't, and any hypothesis to test._
 
 - **[2026-07-03 Mid-2 (holiday) ~14:15 ET]** Third and final holiday pulse — **market closed all day** (Independence Day observed; re-confirmed via WebSearch), no live tape, no order path. State carried unchanged from the LIVE 7/2 close: sleeve **$810.38** (cash $226.70 + positions $583.68), realized −$19.16, ~−9.74% since inception vs S&P +0.46% (7,483.24) = ~−10.2% rel. All 4 sleeve theses (CEG/NVDA/VST/IONQ) re-tested **intact** — no break, no realized triggers, nothing to sell; deployment floor suspended (§0.9c). **Learnings:** (a) three no-action holiday runs in a row are the *correct* discipline on a closed market — the workflow still ran in full (state load, thesis review, mandate check) so nothing was skipped, just nothing was forced; (b) the entire substantive decision set (owner freed-cash steer + the pre-vetted CEG add near $240) survived the closed session undecayed and is cleanly queued for **Monday 7/6 open**; (c) weekend flow added no new datapoint — reopening focus is labor data / Fed minutes / whether the AI trade stabilizes after last week's semi wobble (Yahoo, 7/3), all consistent with the held book. Carry to Monday: reconnect Webull EARLY (connector is the standing operational risk), re-check Gmail for the owner's redeploy-vs-withdraw reply, then decide the CEG add.
 - **[2026-07-03 Close (holiday) ~16:50 ET]** Fourth and final pulse — **clean four-for-four no-action holiday** (market closed all day; no tape, no order path). All 4 sleeve theses (CEG/NVDA/VST/IONQ) re-tested one last time before the weekend, **all INTACT** → HOLD; sleeve carried at **$810.38** (72% deployed, floor met). No benchmark row (market-days only). W27 weekly review was already written at the 7/2 close (`reviews/2026-W27.md`) — 7/2 was the last real session; no re-run. No EOD email (holiday, not a market day). **Learnings:** (a) **a holiday close is a persist-and-prep run, not a decision run** — the whole day's substantive question (deploy the freed ~$226) is structurally deferred to Monday, so the discipline is simply to carry state cleanly and not manufacture activity; (b) **W27 books as the worst week of the run (−10.20% rel)** but the diagnosis is a *positioning shock, not a thesis break* — the owner's after-hours BAC/WMT liquidation stripped the only non-AI ballast right before an index-rally week, concentrating the sleeve into pure AI/power beta as CEG's Calpine lockup hit fresh lows; nothing I bought broke, which is why the exit discipline says hold; (c) **Monday's pre-decided plan is set** — reconnect Webull early (standing #1 op risk), re-check Gmail for the owner's freed-cash steer, then CEG add near $240 as the base case (with a diversifying breadth/defensive add as the alternative if the 7/2 tech→value rotation persists). PDT 2/3, protected KTOS/CTRI untouched.
+- **[2026-07-06 Research Agent, ~08:15 ET]** LIVE Mon pre-market — **the 7/2 value rotation is REVERSING into the reopen.** **(1) 🟢 TECH/SEMIS REBOUND pre-market: Nasdaq-100 futures +1.12%, SMH +2.4%, oil fell post-July-4** (Zacks/Yahoo) → Friday's flagged rotation risk is easing and the sleeve's AI/power/semi beta is back on the right side near-term (one session, not a regime verdict). **(2) 🎯 CEG analyst-divergence CORRECTION:** the 7/1 slide was **Citi cutting PT to $297 & keeping NEUTRAL** (post-PJM model update) — this corrects the prior "20 Buy/0 Sell, low PT $296" framing (the Street is *not* uniformly buy-rated); but **MS raised to $364 last week** and even Citi's Neutral is ~+24% above the ~$239 spot, so the divergence still cuts bullish. CEG earnings **July 30** (corrected from "early Aug"). **(3) 🆕 PLTR promoted §6→§3 #5:** DA Davidson upgraded Neutral→**BUY, PT $175 (+39%)** on 7/2 = the exact Buy-upgrade the prior discard waited for; whole-share-affordable (~$126), AI-software breadth diversifier (Q1 rev +85%, FY guide raised). **(4) 🏗️ VST reinforced:** Meta's nuclear deals name **Vistra** (with TerraPower/Oklo) for the Prometheus supercluster. **(5) ⚛️ Quantum concentrating into IBM:** RGTI ~$17.96 (from ~$22), IONQ ~$51 — hold IONQ small. **(6) Energy OFF** — oil fell post-holiday; discarded stale "Hormuz-closed/Iran-war" search artifacts that contradict the live falling-oil tape. **Learnings:** (a) **a single-session rotation is not a regime** — Friday's "value rotation is the risk" read reversed in one pre-market; the honest framing is "monitor for durability," not "the sleeve is mispositioned," which would have argued for a de-risking sell that today would look wrong. (b) **verify analyst framing to the source** — the "20 Buy/0 Sell, low PT $296" line I'd been carrying was too clean; Citi is actually Neutral (PT $297), and the accurate read (a bull/bear divergence where even the bear mark is +24% above spot) is *more* useful to the trading agent than an overstated consensus. (c) **PLTR is the first genuinely new actionable §3 idea in a week** — a whole-share-affordable AI-software name that diversifies a book with zero non-AI-power/semi ballast; if the owner clears the freed cash, it's the credible alternative to piling more into CEG/AI-power beta. Action for the open check: reconnect Webull early, verify owner steer, decide CEG add ~$239 or PLTR ~$126. Calendar: CEG earnings 7/30 the one new dated event. RSS 403; WebSearch clean; Cowork feed empty.
